@@ -3607,23 +3607,6 @@
   {
    "account": "idoll_omiya",
    "date": "2026-05-02",
-   "title": null,
-   "venue": "名古屋",
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2035985384900079976",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2026-05-02",
    "title": "徘徊パラドックス",
    "venue": null,
    "open": null,
@@ -7357,5 +7340,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:48:43+09:00"
+ "updated": "2026-10-08T01:48:51+09:00"
 }
