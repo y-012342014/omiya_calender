@@ -848,23 +848,6 @@
   {
    "account": "hymel_info",
    "date": "2026-04-03",
-   "title": null,
-   "venue": "新宿|1P+集合写メ券",
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2037539331301429592",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "hymel_info",
-   "date": "2026-04-03",
    "title": "GIRLS MUSIC SQUARE @新宿",
    "venue": "シアターマーキュリー新宿",
    "open": "17:30",
@@ -5026,5 +5009,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:26:45+09:00"
+ "updated": "2026-10-08T01:26:50+09:00"
 }
