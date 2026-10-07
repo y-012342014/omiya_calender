@@ -3607,23 +3607,6 @@
   {
    "account": "idoll_omiya",
    "date": "2026-05-02",
-   "title": "徘徊パラドックス",
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2047964988560797799",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2026-05-02",
    "title": "LiT FES",
    "venue": "大須TOYS",
    "open": "11:30",
@@ -7340,5 +7323,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:48:51+09:00"
+ "updated": "2026-10-08T01:48:56+09:00"
 }
