@@ -6810,23 +6810,6 @@
   {
    "account": "idoll_omiya",
    "date": "2026-10-04",
-   "title": "埼玉県",
-   "venue": "エメラルドステージ",
-   "open": null,
-   "start": null,
-   "stage": "12:35-12:50",
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2106551598126366765",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2026-10-04",
    "title": "#クロフェス2026 7年目 ラッキー7アイドルフィーバーだしん!",
    "venue": "稲毛海浜公園プール",
    "open": "08:00",
@@ -6840,9 +6823,9 @@
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-09-08",
-   "post": "https://x.com/idoll_omiya/status/2106527216842498141",
-   "thumb": "https://pbs.twimg.com/media/HTiN7XSaIAA4iX2?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTiN7XSaIAA4iX2?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2106551598126366765",
+   "thumb": null,
+   "image": null
   },
   {
    "account": "idoll_omiya",
@@ -7289,5 +7272,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:51:28+09:00"
+ "updated": "2026-10-08T01:54:30+09:00"
 }

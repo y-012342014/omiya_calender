@@ -58,6 +58,12 @@ a.ticket, a.btn { display: inline-block; font-size: 13px; padding: 4px 12px; bor
 a.btn.sub { background: var(--muted-bg); color: var(--text); font-weight: 400; }
 .card a.ticket { font-size: 12px; padding: 3px 10px; }
 .empty { text-align: center; color: var(--sub); padding: 40px 0; }
+.monthbar { display: flex; align-items: center; gap: 8px; margin: 4px 0 8px; }
+.monthbar button { border: 1px solid var(--line); background: var(--btn); color: var(--text); border-radius: 8px;
+  width: 38px; height: 34px; font-size: 16px; cursor: pointer; }
+.monthbar button:disabled { opacity: .35; cursor: default; }
+.monthbar select { flex: 1; min-width: 0; font: inherit; color: var(--text); background: var(--card);
+  border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
 .cals { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-top: 24px;
   font-size: 13px; }
 .cals h2 { font-size: 14px; margin: 0 0 6px; }
@@ -100,7 +106,7 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&
 const WD = ["日","月","火","水","木","金","土"];
 const store = { get(k) { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } },
                 set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
-let DATA = { accounts: [], shows: [] }, TAB = "upcoming", ACCT = store.get("acct");
+let DATA = { accounts: [], shows: [] }, TAB = "upcoming", ACCT = store.get("acct"), PAST_YM = "";
 
 const today = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; })();
 const labelOf = (id) => (DATA.accounts.find(a => a.id === id) || {}).label || id;
@@ -140,6 +146,20 @@ function render() {
   let list = DATA.shows.map((s, i) => ({ s, i })).filter(x => !ACCT || x.s.account === ACCT);
   list = TAB === "upcoming" ? list.filter(x => x.s.date >= today) : list.filter(x => x.s.date < today).reverse();
   let html = "", cur = "";
+  if (TAB === "past" && list.length) {
+    // 終了した公演は量が多いので、1か月ずつ表示する（新しい月から）
+    const months = [...new Set(list.map(x => x.s.date.slice(0, 7)))];
+    const counts = {};
+    list.forEach(x => { const k = x.s.date.slice(0, 7); counts[k] = (counts[k] || 0) + 1; });
+    if (!months.includes(PAST_YM)) PAST_YM = months[0];
+    const k = months.indexOf(PAST_YM);
+    const label = (ym) => { const [y, m] = ym.split("-"); return `${y}年${Number(m)}月（${counts[ym]}件）`; };
+    html += `<div class="monthbar">
+      <button data-ym="${months[k + 1] || ""}" ${months[k + 1] ? "" : "disabled"} aria-label="前の月">‹</button>
+      <select id="ymSel" aria-label="表示する月">${months.map(m => `<option value="${m}" ${m === PAST_YM ? "selected" : ""}>${label(m)}</option>`).join("")}</select>
+      <button data-ym="${months[k - 1] || ""}" ${k > 0 ? "" : "disabled"} aria-label="次の月">›</button></div>`;
+    list = list.filter(x => x.s.date.slice(0, 7) === PAST_YM);
+  }
   for (const { s, i } of list) {
     const ym = s.date.slice(0, 7);
     if (ym !== cur) { cur = ym; const [y, m] = ym.split("-"); html += `<div class="month">${y}年${Number(m)}月</div>`; }
@@ -172,11 +192,16 @@ function openShow(i) {
 }
 
 document.addEventListener("click", (ev) => {
+  const ym = ev.target.closest("[data-ym]");
+  if (ym && ym.dataset.ym) { PAST_YM = ym.dataset.ym; render(); window.scrollTo(0, 0); return; }
   const t = ev.target.closest("[data-tab],[data-acct],[data-i]");
   if (!t) return;
   if (t.dataset.tab) { TAB = t.dataset.tab; render(); window.scrollTo(0, 0); }
   else if (t.dataset.acct !== undefined) { ACCT = t.dataset.acct; store.set("acct", ACCT); render(); }
   else if (t.dataset.i !== undefined) openShow(Number(t.dataset.i));
+});
+document.addEventListener("change", (ev) => {
+  if (ev.target.id === "ymSel") { PAST_YM = ev.target.value; render(); window.scrollTo(0, 0); }
 });
 $("dlgClose").onclick = () => $("dlg").close();
 $("dlg").addEventListener("click", (ev) => { if (ev.target === $("dlg")) $("dlg").close(); });
