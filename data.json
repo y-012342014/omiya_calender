@@ -22,6 +22,401 @@
  "shows": [
   {
    "account": "hymel_info",
+   "date": "2025-12-06",
+   "title": null,
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/hypermelty0th"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": "on",
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/1997063433192460447",
+   "thumb": null,
+   "image": null
+  },
+  {
+   "account": "hymel_info",
+   "date": "2025-12-27",
+   "title": "# カワイイ化計画",
+   "venue": "S.U.B TOKYO",
+   "open": "18:00",
+   "start": "18:30",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/hypermelty0th"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": "on",
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2004916068243169546",
+   "thumb": null,
+   "image": null
+  },
+  {
+   "account": "hymel_info",
+   "date": "2025-12-28",
+   "title": "SHIBUYA KAWAII SUPER LIVE 2025",
+   "venue": "渋谷音楽堂",
+   "open": "09:00",
+   "start": "09:20",
+   "stage": "13:25-13:40",
+   "tickets": [
+    "https://ticketdive.com/event/hypermelty0th",
+    "https://tiget.net/events/453981",
+    "https://tiget.net/events/454162"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2005035968018219124",
+   "thumb": "https://pbs.twimg.com/media/G9Efa9lbsAAzvS-?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G9Efa9lbsAAzvS-?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2025-12-29",
+   "title": "早割りキャッシュバックあり❕",
+   "venue": "WITH HARAJUKUホール",
+   "open": "10:40",
+   "start": "11:00",
+   "stage": "11:35-11:50",
+   "tickets": [
+    "https://tiget.net/events/450662"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2005398355401199916",
+   "thumb": "https://pbs.twimg.com/media/G9MSBq8aUAAS14b?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G9MSBq8aUAAS14b?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-01",
+   "title": null,
+   "venue": "SHIBUYA VIDENT",
+   "open": null,
+   "start": null,
+   "stage": "18:30-09:00",
+   "tickets": [
+    "https://tiget.net/events/454975"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2006455319816204794",
+   "thumb": "https://pbs.twimg.com/media/G9gR_e-aIAANJtm?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G9gR_e-aIAANJtm?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-02",
+   "title": "IDOL CONTENT EXPO @ SHIBUYA VIDENT 新春!朝活LIVE!!!2",
+   "venue": "SHIBUYA VIDENT",
+   "open": "06:00",
+   "start": "06:30",
+   "stage": "06:30-06:50",
+   "tickets": [
+    "https://tiget.net/events/455157"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2006817705287156008",
+   "thumb": "https://pbs.twimg.com/media/G9jn9jFbMAAdZ7j?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G9jn9jFbMAAdZ7j?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-04",
+   "title": null,
+   "venue": "武蔵一宮 氷川神社/大宮公園",
+   "open": null,
+   "start": "11:30",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/dmw260104"
+   ],
+   "type": "event",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2002182172208480261",
+   "thumb": "https://pbs.twimg.com/media/G8kuAjHbsAA6jOu?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G8kuAjHbsAA6jOu?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-05",
+   "title": "ういみみ姉妹はじめのいっぽ♡",
+   "venue": "アイドル育成型ライブカフェI DOLL",
+   "open": "19:00",
+   "start": "19:20",
+   "stage": "19:20-20:20",
+   "tickets": [
+    "https://ticketdive.com/event/uimimi2026"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": "on",
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2007935072805281805",
+   "thumb": "https://pbs.twimg.com/media/G91F01_aAAAUHMj?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G91F01_aAAAUHMj?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-07",
+   "title": "GIRLS MUSIC SQUARE @ GOTANDA",
+   "venue": "五反田G7",
+   "open": "17:00",
+   "start": "17:20",
+   "stage": "17:40-18:00",
+   "tickets": [
+    "https://tiget.net/events/455167"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2008659975225364552",
+   "thumb": "https://pbs.twimg.com/media/G9-uv51bcAAsvUk?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G9-uv51bcAAsvUk?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-08",
+   "title": "無銭ぷろじぇくと!! vol.41",
+   "venue": "GOTANDA G4",
+   "open": "16:05",
+   "start": "16:15",
+   "stage": "19:20-19:35",
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2009022240625700936",
+   "thumb": "https://pbs.twimg.com/media/G91GmC4aMAAkEsV?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G91GmC4aMAAkEsV?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-10",
+   "title": "JAPAN IDOL SUPER LIVE 2025",
+   "venue": "ダンスホール新世紀",
+   "open": "11:00",
+   "start": "11:20",
+   "stage": "21:00-21:20",
+   "tickets": [
+    "https://ticketdive.com/event/JAPANIDOL2025DanceShinseikiJan10"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2009747006810681452",
+   "thumb": "https://pbs.twimg.com/media/G-HVM8pa0AIT5-v?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G-HVM8pa0AIT5-v?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-17",
+   "title": "ABC IDOL",
+   "venue": "YOKOHAMA COAST garage+",
+   "open": "10:30",
+   "start": "11:00",
+   "stage": "14:40-15:00",
+   "tickets": [
+    "https://yum-e.zaiko.io/en/e/abc260117"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2012283727041413418",
+   "thumb": "https://pbs.twimg.com/media/G-xQjgFbQAAjJ_r?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G-xQjgFbQAAjJ_r?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-22",
+   "title": "Idol Rush SUPER LIVE",
+   "venue": "CROSS STAGE SHIBUYA",
+   "open": "17:25",
+   "start": "17:40",
+   "stage": "19:20-19:35",
+   "tickets": [
+    "https://tiget.net/events/458037"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2014095660631441791",
+   "thumb": "https://pbs.twimg.com/media/G_LUWtoaoAAk6aR?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G_LUWtoaoAAk6aR?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-24",
+   "title": "GIRLS MUSIC SQUARE @新宿 2部",
+   "venue": "シアターマーキュリー新宿",
+   "open": "16:45",
+   "start": "17:05",
+   "stage": "18:05-18:25",
+   "tickets": [
+    "https://tiget.net/events/458242"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2014820437910552645",
+   "thumb": "https://pbs.twimg.com/media/G_WHcrIbIAA8GI9?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G_WHcrIbIAA8GI9?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-25",
+   "title": "無銭大好きマン",
+   "venue": "池袋 SOUND PEACE",
+   "open": "08:50",
+   "start": "09:00",
+   "stage": "11:10-11:25",
+   "tickets": [
+    "https://tiget.net/events/461562"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2015182833183064144",
+   "thumb": "https://pbs.twimg.com/media/G_WHoDHagAAUjC5?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G_WHoDHagAAUjC5?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-26",
+   "title": "✔初回実施日は",
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "event",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2015409324320035185",
+   "thumb": null,
+   "image": null
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-31",
+   "title": "IDOL SPIRITS 1月増刊号スペシャルライブ",
+   "venue": "WITH HARAJUKU ホール",
+   "open": "10:30",
+   "start": "10:50",
+   "stage": "11:50-12:10",
+   "tickets": [
+    "https://ticketdive.com/event/UHxXV7rNULX56FppSyud"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2017357153435062541",
+   "thumb": "https://pbs.twimg.com/media/G_4ZJ79bUAAfMVw?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G_4ZJ79bUAAfMVw?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-02-01",
+   "title": null,
+   "venue": "グリーンガーデン 池袋2-64-11 1F",
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2017780079372427683",
+   "thumb": null,
+   "image": null
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-02-01",
+   "title": "Nage Summit",
+   "venue": "池袋 SOUND PEACE",
+   "open": "09:20",
+   "start": "09:35",
+   "stage": "11:30-11:50",
+   "tickets": [
+    "https://tiget.net/events/462232"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2017704446051160516",
+   "thumb": "https://pbs.twimg.com/media/G__Xx5QbQAAd2vR?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G__Xx5QbQAAd2vR?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-02-07",
+   "title": "IDOL CONTENT EXPO @秋葉原ZEST~コスパ抜群LIVE~前編・後編",
+   "venue": "秋葉原ZEST",
+   "open": "10:30",
+   "start": "10:50",
+   "stage": "10:50-11:15",
+   "tickets": [
+    "https://tiget.net/events/464943"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2019893869794717997",
+   "thumb": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-02-08",
+   "title": "ぴゅあ無銭 vol.6",
+   "venue": "四谷LOTUS",
+   "open": "10:15",
+   "start": "10:35",
+   "stage": "10:55-11:15",
+   "tickets": [
+    "https://tiget.net/events/459627"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2020256256859021698",
+   "thumb": "https://pbs.twimg.com/media/HAeSRDcaAAA24Rz?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HAeSRDcaAAA24Rz?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
    "date": "2026-02-11",
    "title": "KINEMA SUPER LIVE 2026",
    "venue": "東京キネマ倶楽部",
@@ -76,6 +471,23 @@
    "post": "https://x.com/hymel_info/status/2022430582886797569",
    "thumb": "https://pbs.twimg.com/media/HBC2MthagAErwhd?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HBC2MthagAErwhd?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-02-20",
+   "title": "~23(祝月)",
+   "venue": "東大宮中央公園",
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/1997433369098113379",
+   "thumb": "https://pbs.twimg.com/media/G7fiuDKbkAAflZl?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G7fiuDKbkAAflZl?format=jpg&name=medium"
   },
   {
    "account": "hymel_info",
@@ -191,11 +603,13 @@
    "account": "hymel_info",
    "date": "2026-03-08",
    "title": "あつまれ ゆなちゃんの国",
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
+   "venue": "アイドル育成型ライブカフェI DOLL",
+   "open": "12:30",
+   "start": "13:00",
+   "stage": "13:00-14:00",
+   "tickets": [
+    "https://ticketdive.com/event/sumihayuna2026"
+   ],
    "type": "live",
    "status": "scheduled",
    "sale": null,
@@ -900,26 +1314,6 @@
    "image": "https://pbs.twimg.com/media/HGp36bxbQAEIjPa?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-04-26",
-   "title": "Be my side...",
-   "venue": "西川口 Live House Hearts",
-   "open": "15:00",
-   "start": "15:20",
-   "stage": "15:20-19:40",
-   "tickets": [
-    "https://ticketdive.com/event/ichinoseritsu2026",
-    "https://ticketdive.com/event/pachipachi0426"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": "on",
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2048190326339441126",
-   "thumb": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=medium"
-  },
-  {
    "account": "hymel_info",
    "date": "2026-04-26",
    "title": "超パチパチ",
@@ -940,6 +1334,26 @@
   },
   {
    "account": "idoll_omiya",
+   "date": "2026-04-26",
+   "title": "Be my side...",
+   "venue": "西川口 Live House Hearts",
+   "open": "15:00",
+   "start": "15:20",
+   "stage": "15:20-19:40",
+   "tickets": [
+    "https://ticketdive.com/event/ichinoseritsu2026",
+    "https://ticketdive.com/event/pachipachi0426"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": "on",
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2048190326339441126",
+   "thumb": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
    "date": "2026-04-27",
    "title": null,
    "venue": "渋谷に出演予定しておりましたDreamiaですが、出演キャンセルとなりました。",
@@ -954,25 +1368,6 @@
    "post": "https://x.com/idoll_omiya/status/2045035549787131974",
    "thumb": null,
    "image": null
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2026-04-27",
-   "title": "ILJ mini",
-   "venue": "MsmileBOX渋谷",
-   "open": "18:40",
-   "start": "19:00",
-   "stage": "19:25-19:50",
-   "tickets": [
-    "https://tiget.net/events/483528"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2048552711239639485",
-   "thumb": "https://pbs.twimg.com/media/HGPL-nobMAAenSJ?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGPL-nobMAAenSJ?format=jpg&name=medium"
   },
   {
    "account": "hymel_info",
@@ -992,6 +1387,25 @@
    "post": "https://x.com/hymel_info/status/2048552712178995264",
    "thumb": "https://pbs.twimg.com/media/HG1mvO1agAAWjDE?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HG1mvO1agAAWjDE?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-04-27",
+   "title": "ILJ mini",
+   "venue": "MsmileBOX渋谷",
+   "open": "18:40",
+   "start": "19:00",
+   "stage": "19:25-19:50",
+   "tickets": [
+    "https://tiget.net/events/483528"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2048552711239639485",
+   "thumb": "https://pbs.twimg.com/media/HGPL-nobMAAenSJ?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HGPL-nobMAAenSJ?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -1032,23 +1446,21 @@
    "image": "https://pbs.twimg.com/media/HG_s_yHbgAAO4Sv?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
+   "account": "hymel_info",
    "date": "2026-05-02",
-   "title": "LiT FES",
-   "venue": "大須TOYS",
-   "open": "11:30",
-   "start": "12:00",
-   "stage": "19:00-19:25",
-   "tickets": [
-    "https://ticketdive.com/event/7gz3Fj5x7PWVbbmq5OWg"
-   ],
+   "title": "愛知遠征決定❕",
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
    "type": "live",
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2050379754885243108",
-   "thumb": "https://pbs.twimg.com/media/HHDErDSa4AAnerl?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHDErDSa4AAnerl?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2018882338349019551",
+   "thumb": null,
+   "image": null
   },
   {
    "account": "hymel_info",
@@ -1068,6 +1480,25 @@
    "post": "https://x.com/hymel_info/status/2050364653054603532",
    "thumb": "https://pbs.twimg.com/media/HHRKs1abwAA17rz?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HHRKs1abwAA17rz?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-05-02",
+   "title": "LiT FES",
+   "venue": "大須TOYS",
+   "open": "11:30",
+   "start": "12:00",
+   "stage": "19:00-19:25",
+   "tickets": [
+    "https://ticketdive.com/event/7gz3Fj5x7PWVbbmq5OWg"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2050379754885243108",
+   "thumb": "https://pbs.twimg.com/media/HHDErDSa4AAnerl?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HHDErDSa4AAnerl?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -1144,25 +1575,6 @@
    "image": "https://pbs.twimg.com/media/HG-msGoa0AAhLee?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-05-03",
-   "title": "SHIZUOKA MUSIC GENIC 2026",
-   "venue": "LIVE ROXY SHIZUOKA",
-   "open": "09:30",
-   "start": "10:00",
-   "stage": "12:25-12:45 / 18:40-19:00",
-   "tickets": [
-    "https://ticketdive.com/event/GmqYSNIReafc5IUrEUMa"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2050727035031482409",
-   "thumb": "https://pbs.twimg.com/media/HHDFMwnbYAA38EN?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHDFMwnbYAA38EN?format=jpg&name=medium"
-  },
-  {
    "account": "hymel_info",
    "date": "2026-05-03",
    "title": "SHIZUOKA MUSIC GENIC 2026",
@@ -1180,6 +1592,25 @@
    "post": "https://x.com/hymel_info/status/2050727034612035819",
    "thumb": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-05-03",
+   "title": "SHIZUOKA MUSIC GENIC 2026",
+   "venue": "LIVE ROXY SHIZUOKA",
+   "open": "09:30",
+   "start": "10:00",
+   "stage": "12:25-12:45 / 18:40-19:00",
+   "tickets": [
+    "https://ticketdive.com/event/GmqYSNIReafc5IUrEUMa"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2050727035031482409",
+   "thumb": "https://pbs.twimg.com/media/HHDFMwnbYAA38EN?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HHDFMwnbYAA38EN?format=jpg&name=medium"
   },
   {
    "account": "hymel_info",
@@ -1560,25 +1991,6 @@
    "image": "https://pbs.twimg.com/media/HI6vk9kbwAAd98X?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-05-24",
-   "title": "DREAMING IDOL FES!! Vol.20",
-   "venue": "SHIBUYA DAIA",
-   "open": "11:00",
-   "start": "11:15",
-   "stage": null,
-   "tickets": [
-    "https://ticketdive.com/event/dmwfes_vol20"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": "on",
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2058337179001028894",
-   "thumb": "https://pbs.twimg.com/media/HHymfIhbYAAp4_o?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHymfIhbYAAp4_o?format=jpg&name=medium"
-  },
-  {
    "account": "hymel_info",
    "date": "2026-05-24",
    "title": "DREAMING IDOL FES!! Vol.20",
@@ -1596,6 +2008,25 @@
    "post": "https://x.com/hymel_info/status/2058337185049333996",
    "thumb": "https://pbs.twimg.com/media/HI_vdkebQAAvutT?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HI_vdkebQAAvutT?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-05-24",
+   "title": "DREAMING IDOL FES!! Vol.20",
+   "venue": "SHIBUYA DAIA",
+   "open": "11:00",
+   "start": "11:15",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/dmwfes_vol20"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": "on",
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2058337179001028894",
+   "thumb": "https://pbs.twimg.com/media/HHymfIhbYAAp4_o?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HHymfIhbYAAp4_o?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -1732,25 +2163,6 @@
    "image": "https://pbs.twimg.com/media/HJketvHaEAATlB3?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-05-31",
-   "title": "踊祭-circuit!!",
-   "venue": "GOTANDA G7",
-   "open": "12:00",
-   "start": "12:15",
-   "stage": "14:55-15:15",
-   "tickets": [
-    "https://ticketdive.com/event/odokami_0531"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2060873894060310606",
-   "thumb": "https://pbs.twimg.com/media/HJYgiunaYAAjVSC?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HJYgiunaYAAjVSC?format=jpg&name=medium"
-  },
-  {
    "account": "hymel_info",
    "date": "2026-05-31",
    "title": "踊祭-circuit!!︎",
@@ -1768,6 +2180,25 @@
    "post": "https://x.com/hymel_info/status/2060873898149707783",
    "thumb": "https://pbs.twimg.com/media/HJkeWEjbMAAZ4XX?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HJkeWEjbMAAZ4XX?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-05-31",
+   "title": "踊祭-circuit!!",
+   "venue": "GOTANDA G7",
+   "open": "12:00",
+   "start": "12:15",
+   "stage": "14:55-15:15",
+   "tickets": [
+    "https://ticketdive.com/event/odokami_0531"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2060873894060310606",
+   "thumb": "https://pbs.twimg.com/media/HJYgiunaYAAjVSC?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HJYgiunaYAAjVSC?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -2184,25 +2615,6 @@
    "image": "https://pbs.twimg.com/media/HLqyTPcaAAEObTR?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-06-27",
-   "title": "Idol PiT GirlsRush",
-   "venue": "代々木ミューズホール",
-   "open": "11:25",
-   "start": "11:45",
-   "stage": "14:50-15:15",
-   "tickets": [
-    "https://tiget.net/events/498431"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2070658370676384253",
-   "thumb": "https://pbs.twimg.com/media/HLxxrBtbgAANqvk?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HLxxrBtbgAANqvk?format=jpg&name=medium"
-  },
-  {
    "account": "hymel_info",
    "date": "2026-06-27",
    "title": "Idol PiT GirlsRush 1部",
@@ -2220,6 +2632,25 @@
    "post": "https://x.com/hymel_info/status/2070658371947217097",
    "thumb": "https://pbs.twimg.com/media/HLxxj35bMAAhGVc?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HLxxj35bMAAhGVc?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-06-27",
+   "title": "Idol PiT GirlsRush",
+   "venue": "代々木ミューズホール",
+   "open": "11:25",
+   "start": "11:45",
+   "stage": "14:50-15:15",
+   "tickets": [
+    "https://tiget.net/events/498431"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2070658370676384253",
+   "thumb": "https://pbs.twimg.com/media/HLxxrBtbgAANqvk?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HLxxrBtbgAANqvk?format=jpg&name=medium"
   },
   {
    "account": "hymel_info",
@@ -2495,8 +2926,8 @@
    "start": "11:00",
    "stage": "14:30-14:50",
    "tickets": [
-    "https://ticketdive.com/event/JAPANIDOL2026ShinjukuReNYComeNext_0716",
-    "https://t-dv.com/JAPANIDOL2026ShinjukuReNYComeNext_0716"
+    "https://t-dv.com/JAPANIDOL2026ShinjukuReNYComeNext_0716",
+    "https://ticketdive.com/event/JAPANIDOL2026ShinjukuReNYComeNext_0716"
    ],
    "type": "live",
    "status": "scheduled",
@@ -2564,25 +2995,6 @@
    "image": "https://pbs.twimg.com/media/HKiTvH8boAAdJFg?format=jpg&name=medium"
   },
   {
-   "account": "hymel_info",
-   "date": "2026-07-19",
-   "title": "ネクストカルチャーズSPECIAL",
-   "venue": "club asia",
-   "open": "11:00",
-   "start": "11:20",
-   "stage": "11:20-11:40",
-   "tickets": [
-    "https://tiget.net/events/499303"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2078630906714013993",
-   "thumb": "https://pbs.twimg.com/media/HNat-_uawAABhr_?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNat-_uawAABhr_?format=jpg&name=medium"
-  },
-  {
    "account": "idoll_omiya",
    "date": "2026-07-19",
    "title": "ネクストカルチャーズSPECIAL",
@@ -2600,6 +3012,25 @@
    "post": "https://x.com/idoll_omiya/status/2078645999900254717",
    "thumb": "https://pbs.twimg.com/media/HMM7V3BaQAAPUnT?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HMM7V3BaQAAPUnT?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-07-19",
+   "title": "ネクストカルチャーズSPECIAL",
+   "venue": "club asia",
+   "open": "11:00",
+   "start": "11:20",
+   "stage": "11:20-11:40",
+   "tickets": [
+    "https://tiget.net/events/499303"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2078630906714013993",
+   "thumb": "https://pbs.twimg.com/media/HNat-_uawAABhr_?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HNat-_uawAABhr_?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -2919,9 +3350,9 @@
    "status": "scheduled",
    "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2084112037333041391",
-   "thumb": "https://pbs.twimg.com/media/HOxA2aNaIAAa-5s?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HOxA2aNaIAAa-5s?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2084066720919240997",
+   "thumb": "https://pbs.twimg.com/media/HOv2zOabwAAzXrq?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HOv2zOabwAAzXrq?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -3000,25 +3431,6 @@
    "image": "https://pbs.twimg.com/media/HPNoi-qb0AAetB7?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-08-11",
-   "title": "チケット発売開始!!️",
-   "venue": "横浜1000CLUB",
-   "open": "11:10",
-   "start": "11:30",
-   "stage": "20:15-20:35",
-   "tickets": [
-    "https://tiget.net/events/498597"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": "on",
-   "sale_start": "2026-06-19",
-   "post": "https://x.com/idoll_omiya/status/2086965827585310960",
-   "thumb": "https://pbs.twimg.com/media/HPZRpmNbQAAThsD?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HPZRpmNbQAAThsD?format=jpg&name=medium"
-  },
-  {
    "account": "hymel_info",
    "date": "2026-08-11",
    "title": "IDOL LIVE JAPAN 6th ANNIVERSARY SPECIAL",
@@ -3036,6 +3448,25 @@
    "post": "https://x.com/hymel_info/status/2086950728048799775",
    "thumb": "https://pbs.twimg.com/media/HPYNhNZacAEXNOA?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HPYNhNZacAEXNOA?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-08-11",
+   "title": "チケット発売開始!!️",
+   "venue": "横浜1000CLUB",
+   "open": "11:10",
+   "start": "11:30",
+   "stage": "20:15-20:35",
+   "tickets": [
+    "https://tiget.net/events/498597"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": "on",
+   "sale_start": "2026-06-19",
+   "post": "https://x.com/idoll_omiya/status/2086965827585310960",
+   "thumb": "https://pbs.twimg.com/media/HPZRpmNbQAAThsD?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HPZRpmNbQAAThsD?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -4304,8 +4735,8 @@
    "start": "10:30",
    "stage": "11:00-11:25",
    "tickets": [
-    "https://tiget.net/events/510227",
     "https://event.tiget.net/tsuyofes_2026",
+    "https://tiget.net/events/510227",
     "https://tiget.net/events/528283"
    ],
    "type": "event",
@@ -4478,9 +4909,9 @@
    "start": "11:30",
    "stage": null,
    "tickets": [
-    "https://t-dv.com/purefes2026",
     "https://t-dv.com/omiyaidoll260703",
-    "https://t-dv.com/superreviver2"
+    "https://t-dv.com/superreviver2",
+    "https://t-dv.com/purefes2026"
    ],
    "type": "live",
    "status": "scheduled",
@@ -4684,5 +5115,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:12:56+09:00"
+ "updated": "2026-10-08T01:15:11+09:00"
 }
