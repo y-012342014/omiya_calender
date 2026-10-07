@@ -83,6 +83,23 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
 .dlg-body dd { margin: 0; overflow-wrap: anywhere; }
 .dlg-body img { max-width: 100%; border-radius: 8px; margin-top: 10px; }
 .small { font-size: 12px; color: var(--sub); }
+button.went { border: 1px solid var(--line); background: var(--btn); color: var(--sub); border-radius: 14px;
+  padding: 2px 10px; font-size: 12px; cursor: pointer; }
+button.went.on { background: var(--ok); border-color: var(--ok); color: #fff; font-weight: 600; }
+@media (prefers-color-scheme: dark) { button.went.on { color: #10210f; } }
+.card.went-on { border-color: var(--ok); }
+.panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 12px; }
+.panel h2 { font-size: 14px; margin: 0 0 8px; }
+.stat-big { font-size: 28px; font-weight: 700; line-height: 1.1; }
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 6px 12px; margin-top: 8px; font-size: 13px; }
+.stat-grid b { font-size: 16px; }
+.panel textarea { width: 100%; min-height: 64px; font: 12px/1.4 ui-monospace, Consolas, monospace; color: var(--text);
+  background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; overflow-wrap: anywhere; }
+.panel .row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+.panel .row button { border: 1px solid var(--line); background: var(--btn); color: var(--text); border-radius: 8px;
+  padding: 6px 12px; font-size: 13px; cursor: pointer; }
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--text); color: var(--bg);
+  padding: 8px 14px; border-radius: 8px; font-size: 13px; z-index: 20; display: none; max-width: 90vw; }
 </style>
 </head>
 <body>
@@ -93,9 +110,11 @@ dialog::backdrop { background: rgba(0,0,0,.45); }
   <nav>
     <button data-tab="upcoming" class="on">今後</button>
     <button data-tab="past">終了</button>
+    <button data-tab="went">行った</button>
   </nav>
 </header>
 <main id="main"></main>
+<div class="toast" id="toast"></div>
 <dialog id="dlg"><div class="dlg-head"><h3 id="dlgTitle"></h3><button id="dlgClose">閉じる</button></div>
   <div class="dlg-body" id="dlgBody"></div></dialog>
 
@@ -107,6 +126,53 @@ const WD = ["日","月","火","水","木","金","土"];
 const store = { get(k) { try { return localStorage.getItem(k) || ""; } catch (e) { return ""; } },
                 set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
 let DATA = { accounts: [], shows: [] }, TAB = "upcoming", ACCT = store.get("acct"), PAST_YM = "";
+
+let WENT = new Set();
+const toast = (msg) => { const t = $("toast"); t.textContent = msg; t.style.display = "block"; clearTimeout(t._h); t._h = setTimeout(() => t.style.display = "none", 2500); };
+
+// 引き継ぎコード: 「LV1 グループ:日付,日付…;グループ:…」。日付は YYMMDD、同じ日の2本目以降は -2 など
+function encodeWent(set) {
+  const by = {};
+  [...set].sort().forEach(k => { const [a, d, n] = k.split("|"); (by[a] = by[a] || []).push(d.replaceAll("-", "").slice(2) + (n ? "-" + n : "")); });
+  return "LV1 " + Object.keys(by).sort().map(a => `${a}:${by[a].join(",")}`).join(";");
+}
+function decodeWent(code) {
+  const out = new Set();
+  const body = String(code || "").trim().replace(/^LV1\s*/, "");
+  if (!body) return out;
+  for (const part of body.split(";")) {
+    const [a, list] = part.split(":");
+    if (!a || !list || !/^[A-Za-z0-9_]+$/.test(a.trim())) throw new Error("コードの形が正しくありません");
+    for (const item of list.split(",")) {
+      const m = item.trim().match(/^(\d{2})(\d{2})(\d{2})(?:-(\d+))?$/);
+      if (!m) throw new Error("コードの形が正しくありません: " + item);
+      out.add(`${a.trim()}|20${m[1]}-${m[2]}-${m[3]}` + (m[4] ? `|${m[4]}` : ""));
+    }
+  }
+  return out;
+}
+const idb = {
+  open() { return new Promise((res, rej) => { const r = indexedDB.open("live-went", 1);
+    r.onupgradeneeded = () => r.result.createObjectStore("kv"); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); }); },
+  async get() { try { const db = await this.open(); return await new Promise(res => {
+    const q = db.transaction("kv").objectStore("kv").get("went"); q.onsuccess = () => res(q.result || ""); q.onerror = () => res(""); }); } catch (e) { return ""; } },
+  async set(v) { try { const db = await this.open(); db.transaction("kv", "readwrite").objectStore("kv").put(v, "went"); } catch (e) {} },
+};
+async function loadWent() {
+  const merged = new Set();
+  for (const src of [store.get("went"), await idb.get()]) {
+    try { decodeWent(src).forEach(k => merged.add(k)); } catch (e) {}
+  }
+  WENT = merged;
+  try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch (e) {}
+}
+function saveWent() {
+  const code = encodeWent(WENT);
+  store.set("went", code);
+  idb.set(code);
+  const ta = $("wentCode");
+  if (ta) ta.value = code;   // 引き継ぎコードは常に最新
+}
 
 const today = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; })();
 const labelOf = (id) => (DATA.accounts.find(a => a.id === id) || {}).label || id;
@@ -126,13 +192,15 @@ const times = (s) => [s.open && "開場 " + s.open, s.start && "開演 " + s.sta
 function card(s, i) {
   const p = dparts(s.date);
   const ticket = s.tickets[0] && s.date >= today ? `<a class="ticket" href="${esc(s.tickets[0])}" target="_blank" rel="noopener" onclick="event.stopPropagation()">チケット</a>` : "";
-  return `<div class="card ${s.status === "canceled" ? "canceled" : ""}" data-i="${i}">
+  const on = WENT.has(s.key);
+  const went = s.date <= today && s.key ? `<button class="went ${on ? "on" : ""}" data-went="${esc(s.key)}">${on ? "✓ 行った" : "行った？"}</button>` : "";
+  return `<div class="card ${s.status === "canceled" ? "canceled" : ""} ${on ? "went-on" : ""}" data-i="${i}">
     <div class="date"><div class="md">${p.m}/${p.d}</div><div class="wd ${p.w === 6 ? "sat" : p.w === 0 ? "sun" : ""}">${WD[p.w]}${p.y !== new Date().getFullYear() ? "<br>" + p.y : ""}</div></div>
     <div class="body">${ACCT ? "" : `<div class="who">${esc(labelOf(s.account))}</div>`}
       <div class="title">${esc(s.title || (s.type === "event" ? "イベント" : "ライブ"))}</div>
       ${s.venue ? `<div class="line2">📍${esc(s.venue)}</div>` : ""}
       ${times(s) ? `<div class="line2">${esc(times(s))}</div>` : ""}
-      <div class="chips">${ticket}${chips(s)}</div></div>
+      <div class="chips">${went}${ticket}${chips(s)}</div></div>
     ${s.thumb ? `<img class="thumb" loading="lazy" src="${esc(s.thumb)}" alt="">` : ""}
   </div>`;
 }
@@ -144,6 +212,7 @@ function render() {
   $("accts").innerHTML = [`<button data-acct="" class="${ACCT ? "" : "on"}">すべて</button>`]
     .concat(accts.map(a => `<button data-acct="${esc(a.id)}" class="${ACCT === a.id ? "on" : ""}">${esc(a.label)}</button>`)).join("");
   let list = DATA.shows.map((s, i) => ({ s, i })).filter(x => !ACCT || x.s.account === ACCT);
+  if (TAB === "went") { $("main").innerHTML = renderWent(list); return; }
   list = TAB === "upcoming" ? list.filter(x => x.s.date >= today) : list.filter(x => x.s.date < today).reverse();
   let html = "", cur = "";
   if (TAB === "past" && list.length) {
@@ -177,6 +246,39 @@ function render() {
   $("main").innerHTML = html;
 }
 
+function renderWent(all) {
+  const mine = all.filter(x => WENT.has(x.s.key)).reverse();
+  const byYear = {}, byGroup = {};
+  mine.forEach(({ s }) => { const y = s.date.slice(0, 4); byYear[y] = (byYear[y] || 0) + 1; byGroup[s.account] = (byGroup[s.account] || 0) + 1; });
+  const thisYear = String(new Date().getFullYear());
+  let html = `<div class="panel"><h2>行ったライブ${ACCT ? `（${esc(labelOf(ACCT))}）` : ""}</h2>
+    <div class="stat-big">${mine.length}<span class="small"> 回</span></div>
+    <div class="stat-grid">
+      ${Object.keys(byYear).sort().reverse().map(y => `<div>${y}年 <b>${byYear[y]}</b> 回${y === thisYear ? "（今年）" : ""}</div>`).join("")}
+      ${ACCT ? "" : Object.keys(byGroup).map(a => `<div>${esc(labelOf(a))} <b>${byGroup[a]}</b> 回</div>`).join("")}
+    </div>
+    <div class="small" style="margin-top:6px">公演の「行った？」を押すと数えます（チェックはこの端末のブラウザにだけ保存され、ほかの人には見えません）。</div></div>`;
+  let cur = "";
+  for (const { s, i } of mine) {
+    const ym = s.date.slice(0, 7);
+    if (ym !== cur) { cur = ym; const [y, m] = ym.split("-"); html += `<div class="month">${y}年${Number(m)}月</div>`; }
+    html += card(s, i);
+  }
+  if (!mine.length) html += `<div class="empty">まだありません。「終了」タブの公演で「行った？」を押してください。</div>`;
+  const known = new Set(DATA.shows.map(s => s.key));
+  const lost = [...WENT].filter(k => !known.has(k)).length;
+  html += `<div class="panel" style="margin-top:18px"><h2>引き継ぎコード</h2>
+    <div class="small">機種変更やブラウザのデータ消去に備えて、ときどきコピーしてメモや LINE に残してください。チェックするたびに自動で最新になります。</div>
+    <textarea id="wentCode" readonly>${esc(encodeWent(WENT))}</textarea>
+    <div class="row"><button id="wentCopy">コピー</button>${navigator.share ? '<button id="wentShare">共有（LINE・メモなど）</button>' : ""}</div>
+    <div class="small" style="margin-top:10px">新しい端末では、残しておいたコードを貼り付けて「復元」を押します（今のチェックに足し合わせます）。</div>
+    <textarea id="wentIn" placeholder="LV1 idoll_omiya:251127,…"></textarea>
+    <div class="row"><button id="wentRestore">復元</button></div>
+    ${lost ? `<div class="small">一覧にない公演のチェックが ${lost} 件あります（公演の情報が直されたためです。コードには残しています）。</div>` : ""}
+    <div class="small">iPhone の Safari は、しばらく開かないサイトのデータを消すことがあります。ホーム画面に追加して使うと消えにくくなります。</div></div>`;
+  return html;
+}
+
 function openShow(i) {
   const s = DATA.shows[i];
   const p = dparts(s.date);
@@ -187,11 +289,43 @@ function openShow(i) {
     <div class="chips">${s.tickets.map((u, k) => `<a class="ticket" href="${esc(u)}" target="_blank" rel="noopener">チケット${s.tickets.length > 1 ? k + 1 : ""}</a>`).join("")}
       ${s.post ? `<a class="btn sub" href="${esc(s.post)}" target="_blank" rel="noopener">元の告知（X）</a>` : ""}</div>
     ${s.image ? `<a href="${esc(s.post || s.image)}" target="_blank" rel="noopener"><img src="${esc(s.image)}" alt=""></a>` : ""}
+    ${s.date <= today ? `<p><button class="went ${WENT.has(s.key) ? "on" : ""}" data-went="${esc(s.key)}">${WENT.has(s.key) ? "✓ 行った" : "行った？"}</button></p>` : ""}
     <p class="small">告知から自動で読み取っています。時間や内容は元の告知で確かめてください。</p>`;
   $("dlg").showModal();
 }
 
-document.addEventListener("click", (ev) => {
+document.addEventListener("click", async (ev) => {
+  const w = ev.target.closest("[data-went]");
+  if (w) {
+    ev.stopPropagation();
+    const k = w.dataset.went;
+    if (WENT.has(k)) WENT.delete(k); else WENT.add(k);
+    saveWent();
+    if ($("dlg").open) $("dlg").close();
+    render();
+    return;
+  }
+  if (ev.target.id === "wentCopy") {
+    const code = encodeWent(WENT);
+    try { await navigator.clipboard.writeText(code); toast("コピーしました"); }
+    catch (e) { const ta = $("wentCode"); ta.select(); document.execCommand("copy"); toast("コピーしました"); }
+    return;
+  }
+  if (ev.target.id === "wentShare") {
+    try { await navigator.share({ title: "ライブ予定 引き継ぎコード", text: encodeWent(WENT) }); } catch (e) {}
+    return;
+  }
+  if (ev.target.id === "wentRestore") {
+    try {
+      const add = decodeWent($("wentIn").value);
+      if (!add.size) { toast("コードを貼り付けてください"); return; }
+      const before = WENT.size;
+      add.forEach(k => WENT.add(k));
+      saveWent(); render();
+      toast(`復元しました（${WENT.size - before} 件追加）`);
+    } catch (e) { toast(e.message); }
+    return;
+  }
   const ym = ev.target.closest("[data-ym]");
   if (ym && ym.dataset.ym) { PAST_YM = ym.dataset.ym; render(); window.scrollTo(0, 0); return; }
   const t = ev.target.closest("[data-tab],[data-acct],[data-i]");
@@ -206,7 +340,7 @@ document.addEventListener("change", (ev) => {
 $("dlgClose").onclick = () => $("dlg").close();
 $("dlg").addEventListener("click", (ev) => { if (ev.target === $("dlg")) $("dlg").close(); });
 
-fetch("data.json", { cache: "no-store" }).then(r => r.json()).then(d => {
+Promise.all([fetch("data.json", { cache: "no-store" }).then(r => r.json()), loadWent()]).then(([d]) => {
   DATA = d;
   if (ACCT && !DATA.accounts.some(a => a.id === ACCT)) ACCT = "";
   const up = DATA.shows.filter(s => s.date >= today).length;
