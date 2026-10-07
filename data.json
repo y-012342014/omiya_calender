@@ -592,7 +592,7 @@
     "https://ticketdive.com/event/sumihayuna2026"
    ],
    "type": "live",
-   "status": "scheduled",
+   "status": "canceled",
    "sale": null,
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2029431956812005443",
@@ -5009,5 +5009,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:26:50+09:00"
+ "updated": "2026-10-08T01:26:53+09:00"
 }
