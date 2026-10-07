@@ -822,23 +822,6 @@
   },
   {
    "account": "idoll_omiya",
-   "date": "2025-11-13",
-   "title": null,
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/1988611847747145813",
-   "thumb": "https://pbs.twimg.com/media/G5j34ogbkAAiUiB?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G5j34ogbkAAiUiB?format=jpg&name=medium"
-  },
-  {
-   "account": "idoll_omiya",
    "date": "2025-11-15",
    "title": "IDOL CONTENT EXPO @秋葉原ZEST",
    "venue": "秋葉原ZEST",
@@ -893,23 +876,6 @@
    "post": "https://x.com/idoll_omiya/status/1990615952422273123",
    "thumb": "https://pbs.twimg.com/media/G5MIR-HbIAEXikF?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/G5MIR-HbIAEXikF?format=jpg&name=medium"
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2025-11-19",
-   "title": null,
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/1988611847747145813",
-   "thumb": "https://pbs.twimg.com/media/G5j34ogbkAAiUiB?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G5j34ogbkAAiUiB?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -7408,5 +7374,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:48:11+09:00"
+ "updated": "2026-10-08T01:48:16+09:00"
 }
