@@ -339,9 +339,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/1975079026701304146",
-   "thumb": null,
-   "image": null
+   "post": "https://x.com/idoll_omiya/status/1975078492154052642",
+   "thumb": "https://pbs.twimg.com/media/G2jjKO5aEAE4KQc?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G2jjKO5aEAE4KQc?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -1028,7 +1028,7 @@
   {
    "account": "idoll_omiya",
    "date": "2025-12-06",
-   "title": "得1P+集合写メ券+選択写メ券 ※Sチケのみ",
+   "title": "冠Fes-カンフェス-無銭大感謝祭SP!",
    "venue": "イオンモール幕張新都心 グランドモール 1階グランドスクエア",
    "open": null,
    "start": null,
@@ -1123,7 +1123,7 @@
   {
    "account": "idoll_omiya",
    "date": "2025-12-14",
-   "title": "得1P+集合写メ券",
+   "title": "ぜひゲットして下さい👍",
    "venue": "RaiBoC Hall(小ホール)",
    "open": "17:05",
    "start": "17:40",
@@ -1135,14 +1135,14 @@
    "status": "scheduled",
    "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2000038041113833833",
+   "post": "https://x.com/idoll_omiya/status/2000007837649453375",
    "thumb": "https://pbs.twimg.com/media/G5ul_xUawAEDGtb?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/G5ul_xUawAEDGtb?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
    "date": "2025-12-20",
-   "title": "得1P+トーク付きランダムブロマイド",
+   "title": "JAPAN IDOL SUPER LIVE 2025",
    "venue": "ダンスホール新世紀",
    "open": "10:00",
    "start": null,
@@ -1314,7 +1314,7 @@
   {
    "account": "idoll_omiya",
    "date": "2025-12-30",
-   "title": "得1P+トーク付きランダムブロマイド",
+   "title": "1000CLUB SUPER LIVE 2025",
    "venue": "横浜1000CLUB",
    "open": "08:40",
    "start": "09:00",
@@ -1707,7 +1707,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-01-17",
-   "title": "得1P+トーク付きランダムブロマイド",
+   "title": "MUSIC BAR MIRAI亭",
    "venue": "横浜みなとみらいブロンテ",
    "open": "18:00",
    "start": "18:15",
@@ -1948,6 +1948,25 @@
   {
    "account": "idoll_omiya",
    "date": "2026-02-01",
+   "title": "RAD iD LIVE",
+   "venue": "DIVA",
+   "open": "16:40",
+   "start": null,
+   "stage": "17:00-17:25",
+   "tickets": [
+    "https://livepocket.jp/e/0201_diva_3"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2017834015773049250",
+   "thumb": null,
+   "image": null
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-02-01",
    "title": "名古屋発超大型ライブサーキットフェス",
    "venue": "RAD HALL",
    "open": null,
@@ -1982,25 +2001,6 @@
    "post": "https://x.com/idoll_omiya/status/2016815987581206540",
    "thumb": "https://pbs.twimg.com/media/G_0rRU3bUAQ-jKz?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/G_0rRU3bUAQ-jKz?format=jpg&name=medium"
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2026-02-01",
-   "title": "RAD iD LIVE",
-   "venue": "DIVA",
-   "open": "16:40",
-   "start": null,
-   "stage": "17:00-17:25",
-   "tickets": [
-    "https://livepocket.jp/e/0201_diva_3"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2017834015773049250",
-   "thumb": null,
-   "image": null
   },
   {
    "account": "hymel_info",
@@ -2041,25 +2041,6 @@
    "image": "https://pbs.twimg.com/media/HAOEqc8b0AA5_SW?format=jpg&name=medium"
   },
   {
-   "account": "hymel_info",
-   "date": "2026-02-07",
-   "title": "IDOL CONTENT EXPO @秋葉原ZEST~コスパ抜群LIVE~前編・後編",
-   "venue": "秋葉原ZEST",
-   "open": "10:30",
-   "start": "10:50",
-   "stage": "10:50-11:15",
-   "tickets": [
-    "https://tiget.net/events/464943"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2019893869794717997",
-   "thumb": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=medium"
-  },
-  {
    "account": "idoll_omiya",
    "date": "2026-02-07",
    "title": "IDOL CONTENT EXPO",
@@ -2077,6 +2058,25 @@
    "post": "https://x.com/idoll_omiya/status/2019924066988355838",
    "thumb": "https://pbs.twimg.com/media/HAY__PtacAYUEyv?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HAY__PtacAYUEyv?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-02-07",
+   "title": "IDOL CONTENT EXPO @秋葉原ZEST~コスパ抜群LIVE~前編・後編",
+   "venue": "秋葉原ZEST",
+   "open": "10:30",
+   "start": "10:50",
+   "stage": "10:50-11:15",
+   "tickets": [
+    "https://tiget.net/events/464943"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2019893869794717997",
+   "thumb": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -2442,9 +2442,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2027670119531315355",
-   "thumb": "https://pbs.twimg.com/media/HBwEOvybAAAUN_m?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HBwEOvybAAAUN_m?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2025453786941300856",
+   "thumb": "https://pbs.twimg.com/media/HBvbdv4bYAANTTt?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HBvbdv4bYAANTTt?format=jpg&name=medium"
   },
   {
    "account": "hymel_info",
@@ -2504,7 +2504,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-03-02",
-   "title": "得1P+トーク付きランダムブロマイド",
+   "title": null,
    "venue": "池袋SOUND PEACE",
    "open": "18:20",
    "start": "18:40",
@@ -2561,7 +2561,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-03-05",
-   "title": "得1P+集合写メ券",
+   "title": null,
    "venue": "Zirco Tokyo",
    "open": "16:10",
    "start": "16:30",
@@ -2694,7 +2694,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-03-14",
-   "title": "得2P+全員トーク付きブロマイド+推しメンメセカ+特典イベ",
+   "title": "チケット販売開始🌷",
    "venue": "東京ドイツ村",
    "open": null,
    "start": null,
@@ -2810,7 +2810,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-03-21",
-   "title": "得1P+選択写メ券×2",
+   "title": "割早割¥1,000キャッシュバック",
    "venue": "時事通信ホール",
    "open": "10:00",
    "start": "10:20",
@@ -2898,9 +2898,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2036639210640454142",
-   "thumb": "https://pbs.twimg.com/media/HDmRTWBaAAEwp9s?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HDmRTWBaAAEwp9s?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2033891102399267285",
+   "thumb": "https://pbs.twimg.com/media/HDmQkpFbEAIHlBH?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HDmQkpFbEAIHlBH?format=jpg&name=medium"
   },
   {
    "account": "idoll_omiya",
@@ -3149,7 +3149,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-04-05",
-   "title": "得1P+集合写メ券+アプリP2倍券",
+   "title": null,
    "venue": "イオンモール幕張新都心 グランドモール 1階グランドスクエア",
    "open": "10:00",
    "start": "10:20",
@@ -3187,7 +3187,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-04-07",
-   "title": "得1P+集合チェキ券+私物サイン券",
+   "title": "JAPAN IDOL SUPER LIVE 2026",
    "venue": "新宿ReNY",
    "open": "13:00",
    "start": "13:15",
@@ -3280,7 +3280,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-04-13",
-   "title": "得1P+トーク付きランダムブロマイド+選択写メ券",
+   "title": null,
    "venue": "Zirco Tokyo",
    "open": "16:00",
    "start": "16:20",
@@ -3299,7 +3299,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-04-16",
-   "title": "得1P+トーク付きランダムブロマイド",
+   "title": "そのここ de HASYAGE",
    "venue": "大塚FUTURE",
    "open": "17:45",
    "start": "18:15",
@@ -3357,7 +3357,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-04-18",
-   "title": "得1P+30秒動画券",
+   "title": "FUTURE: SUPER LIVE 2026",
    "venue": "大塚FUTURE",
    "open": "09:15",
    "start": "09:30",
@@ -3569,7 +3569,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-04-29",
-   "title": "得1P+集合写メ券",
+   "title": "冠Fes-カンフェス",
    "venue": "Zirco Tokyo",
    "open": "10:55",
    "start": "11:10",
@@ -3681,23 +3681,6 @@
   {
    "account": "idoll_omiya",
    "date": "2026-05-03",
-   "title": "静岡駅周辺エリア",
-   "venue": "静岡🆕",
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2035985384900079976",
-   "thumb": "https://pbs.twimg.com/media/HEFFjrMb0AAss5j?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HEFFjrMb0AAss5j?format=jpg&name=medium"
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2026-05-03",
    "title": null,
    "venue": "駿府城公園",
    "open": null,
@@ -3734,25 +3717,6 @@
    "image": "https://pbs.twimg.com/media/HG-msGoa0AAhLee?format=jpg&name=medium"
   },
   {
-   "account": "hymel_info",
-   "date": "2026-05-03",
-   "title": "SHIZUOKA MUSIC GENIC 2026",
-   "venue": "LIVE ROXY SHIZUOKA",
-   "open": "09:30",
-   "start": "10:00",
-   "stage": "11:00-11:20 / 17:20-17:35",
-   "tickets": [
-    "https://ticketdive.com/event/GmqYSNIReafc5IUrEUMa"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2050727034612035819",
-   "thumb": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=medium"
-  },
-  {
    "account": "idoll_omiya",
    "date": "2026-05-03",
    "title": "SHIZUOKA MUSIC GENIC 2026",
@@ -3773,8 +3737,27 @@
   },
   {
    "account": "hymel_info",
+   "date": "2026-05-03",
+   "title": "SHIZUOKA MUSIC GENIC 2026",
+   "venue": "LIVE ROXY SHIZUOKA",
+   "open": "09:30",
+   "start": "10:00",
+   "stage": "11:00-11:20 / 17:20-17:35",
+   "tickets": [
+    "https://ticketdive.com/event/GmqYSNIReafc5IUrEUMa"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2050727034612035819",
+   "thumb": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
    "date": "2026-05-05",
-   "title": "得1P+トーク付きランダムブロマイド",
+   "title": "アイドル放課後プロジェクト",
    "venue": "S.U.B TOKYO",
    "open": "10:00",
    "start": "10:15",
@@ -3832,7 +3815,7 @@
    "account": "idoll_omiya",
    "date": "2026-05-06",
    "title": "supported by IDOL FEVER EVER",
-   "venue": "仙台",
+   "venue": "仙台中心街ライブハウス4ヶ所+野外特設ステージ",
    "open": null,
    "start": null,
    "stage": null,
@@ -3841,7 +3824,7 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2035985384900079976",
+   "post": "https://x.com/idoll_omiya/status/2026598514348986596",
    "thumb": "https://pbs.twimg.com/media/HB_r0Cfa0AAz2qH?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HB_r0Cfa0AAz2qH?format=jpg&name=medium"
   },
@@ -4112,7 +4095,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-05-19",
-   "title": "得1P+選択写メ券×2",
+   "title": "JAPAN IDOL SUPER LIVE 2026",
    "venue": "新宿ReNY Come next",
    "open": "14:00",
    "start": "14:15",
@@ -4437,7 +4420,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-06-07",
-   "title": "得1P+30秒動画券",
+   "title": "ネクストカルチャーズ",
    "venue": "SHIBUYA DESEO",
    "open": "10:10",
    "start": "10:30",
@@ -4755,7 +4738,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-06-25",
-   "title": "得1P+集合チェキ券",
+   "title": "冠Fes-カンフェス-SOUL",
    "venue": "Zirco Tokyo",
    "open": "15:00",
    "start": "15:15",
@@ -5116,7 +5099,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-07-17",
-   "title": "得1P+選択写メ券",
+   "title": "いつかのネバーランド",
    "venue": "渋谷CRAWL",
    "open": "18:50",
    "start": "19:00",
@@ -5628,7 +5611,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-08-11",
-   "title": "得1P+集合写メ券",
+   "title": "YouTube配信はこちら📡",
    "venue": "横浜1000CLUB",
    "open": "11:10",
    "start": "11:30",
@@ -6065,7 +6048,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-08-29",
-   "title": "得2P+集合写メ券+選択写メ券",
+   "title": "FUJIN circuit!五反田Jack編",
    "venue": "GOTANDA G4",
    "open": "12:00",
    "start": "12:15",
@@ -6750,7 +6733,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-09-28",
-   "title": "得1P+選択写メ券",
+   "title": "超REVIVER -JAPAN SERIES-",
    "venue": "池袋SOUND PEACE",
    "open": "17:50",
    "start": "18:10",
@@ -7306,5 +7289,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:49:00+09:00"
+ "updated": "2026-10-08T01:51:28+09:00"
 }
