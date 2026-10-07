@@ -3064,23 +3064,6 @@
    "image": null
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-03-29",
-   "title": "miniちかっぱ祭ver.28.0inOSAKA",
-   "venue": "CCO クリエイティブセンター大阪",
-   "open": null,
-   "start": null,
-   "stage": "16:20-16:40",
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2038043710466736247",
-   "thumb": "https://pbs.twimg.com/media/HEVYWFcbYAUsJ8y?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HEVYWFcbYAUsJ8y?format=jpg&name=medium"
-  },
-  {
    "account": "hymel_info",
    "date": "2026-03-29",
    "title": "Nage Summit -奏紅めいか 生誕祭-",
@@ -3102,11 +3085,11 @@
   {
    "account": "idoll_omiya",
    "date": "2026-03-29",
-   "title": "得3P+選択写メ券",
-   "venue": "# G8 ナンバーゲート",
+   "title": "miniちかっぱ祭ver.28.0inOSAKA",
+   "venue": "CCO クリエイティブセンター大阪",
    "open": "09:40",
    "start": "10:00",
-   "stage": "11:45-12:05",
+   "stage": "16:20-16:40",
    "tickets": [
     "https://tiget.net/events/468707",
     "https://ticketdive.com/event/GJF_260329"
@@ -3115,9 +3098,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2038043458540359924",
-   "thumb": "https://pbs.twimg.com/media/HEVYMtxaAAAcLlA?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HEVYMtxaAAAcLlA?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2038043710466736247",
+   "thumb": "https://pbs.twimg.com/media/HEVYWFcbYAUsJ8y?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HEVYWFcbYAUsJ8y?format=jpg&name=medium"
   },
   {
    "account": "hymel_info",
@@ -7476,5 +7459,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:47:29+09:00"
+ "updated": "2026-10-08T01:47:33+09:00"
 }
