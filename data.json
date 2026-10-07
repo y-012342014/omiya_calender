@@ -1300,23 +1300,6 @@
    "image": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-04-27",
-   "title": null,
-   "venue": "渋谷に出演予定しておりましたDreamiaですが、出演キャンセルとなりました。",
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2045035549787131974",
-   "thumb": null,
-   "image": null
-  },
-  {
    "account": "hymel_info",
    "date": "2026-04-27",
    "title": "ILJ mini",
@@ -5043,5 +5026,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:25:53+09:00"
+ "updated": "2026-10-08T01:25:58+09:00"
 }
