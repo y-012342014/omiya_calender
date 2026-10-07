@@ -1998,9 +1998,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2017750115898036281",
-   "thumb": "https://pbs.twimg.com/media/G_0smQNbUAUZZDB?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G_0smQNbUAUZZDB?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2017834015773049250",
+   "thumb": null,
+   "image": null
   },
   {
    "account": "hymel_info",
@@ -7374,5 +7374,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:48:31+09:00"
+ "updated": "2026-10-08T01:48:35+09:00"
 }
