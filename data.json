@@ -342,23 +342,6 @@
   {
    "account": "hymel_info",
    "date": "2026-02-01",
-   "title": null,
-   "venue": "グリーンガーデン 池袋2-64-11 1F",
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2017780079372427683",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "hymel_info",
-   "date": "2026-02-01",
    "title": "Nage Summit",
    "venue": "池袋 SOUND PEACE",
    "open": "09:20",
@@ -371,7 +354,7 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2017704446051160516",
+   "post": "https://x.com/hymel_info/status/2017780079372427683",
    "thumb": "https://pbs.twimg.com/media/G__Xx5QbQAAd2vR?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/G__Xx5QbQAAd2vR?format=jpg&name=medium"
   },
@@ -5094,5 +5077,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:25:04+09:00"
+ "updated": "2026-10-08T01:25:14+09:00"
 }
