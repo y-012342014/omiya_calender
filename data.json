@@ -397,23 +397,6 @@
   {
    "account": "idoll_omiya",
    "date": "2025-10-09",
-   "title": "#関内デビル",
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/1975079152069013551",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2025-10-09",
    "title": "心響×FloewersLoft Vol.2",
    "venue": "FlowersLoft",
    "open": "18:20",
@@ -7459,5 +7442,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:47:41+09:00"
+ "updated": "2026-10-08T01:47:51+09:00"
 }
