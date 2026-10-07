@@ -270,6 +270,23 @@
   {
    "account": "hymel_info",
    "date": "2026-01-24",
+   "title": null,
+   "venue": "アルバム「イマハジマル」",
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2012404521100517796",
+   "thumb": "https://pbs.twimg.com/media/G-1rssLasAA5Ytt?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G-1rssLasAA5Ytt?format=jpg&name=medium"
+  },
+  {
+   "account": "hymel_info",
+   "date": "2026-01-24",
    "title": "GIRLS MUSIC SQUARE @新宿 2部",
    "venue": "シアターマーキュリー新宿",
    "open": "16:45",
@@ -1448,23 +1465,6 @@
   {
    "account": "hymel_info",
    "date": "2026-05-02",
-   "title": "愛知遠征決定❕",
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2018882338349019551",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "hymel_info",
-   "date": "2026-05-02",
    "title": "LiT FES",
    "venue": "大須TOYS",
    "open": "11:30",
@@ -2412,7 +2412,7 @@
   {
    "account": "idoll_omiya",
    "date": "2026-06-13",
-   "title": "mistFES2026 -10th anniversary-",
+   "title": "地方最大規模のアイドルサーキットフェス",
    "venue": "RAD NINE",
    "open": "09:30",
    "start": "10:00",
@@ -2422,9 +2422,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2065584938280452395",
-   "thumb": "https://pbs.twimg.com/media/HKiYegdaAAAU3rn?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HKiYegdaAAAU3rn?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2065610244726886527",
+   "thumb": null,
+   "image": null
   },
   {
    "account": "hymel_info",
@@ -3075,7 +3075,7 @@
    "account": "idoll_omiya",
    "date": "2026-07-23",
    "title": "冠Fes-カンフェス-",
-   "venue": "Zirco Tokyo",
+   "venue": "冠Fes-カンフェス- ZircoTokyo",
    "open": "15:45",
    "start": "16:00",
    "stage": "20:45-21:05",
@@ -3086,9 +3086,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": "2026-07-11",
-   "post": "https://x.com/idoll_omiya/status/2080095550922543582",
-   "thumb": "https://pbs.twimg.com/media/HNFR5zpaUAAOBJT?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNFR5zpaUAAOBJT?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2080311234696741282",
+   "thumb": null,
+   "image": null
   },
   {
    "account": "idoll_omiya",
@@ -4909,8 +4909,6 @@
    "start": "11:30",
    "stage": null,
    "tickets": [
-    "https://t-dv.com/omiyaidoll260703",
-    "https://t-dv.com/superreviver2",
     "https://t-dv.com/purefes2026"
    ],
    "type": "live",
@@ -5115,5 +5113,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:15:11+09:00"
+ "updated": "2026-10-08T01:18:18+09:00"
 }
