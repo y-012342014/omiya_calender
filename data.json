@@ -366,7 +366,7 @@
    "account": "idoll_omiya",
    "date": "2025-10-07",
    "title": "リリースイベント",
-   "venue": "HMV&amp;BOOKS SHIBUYA 5Fイベントスペース",
+   "venue": "HMV&BOOKS SHIBUYA 5Fイベントスペース",
    "open": null,
    "start": null,
    "stage": null,
@@ -830,7 +830,7 @@
    "key": "idoll_omiya|2025-11-11",
    "account": "idoll_omiya",
    "date": "2025-11-11",
-   "title": "スカーレット・レウ&amp;檽汐目 合同生誕祭",
+   "title": "スカーレット・レウ&檽汐目 合同生誕祭",
    "venue": "四谷LOTUS",
    "open": "14:50",
    "start": "16:00",
@@ -1298,7 +1298,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2004703901745107059",
    "thumb": "https://pbs.twimg.com/media/G8sCifqa4AA6fwH?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G8sCifqa4AA6fwH?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G8sCifqa4AA6fwH?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2025-12-27",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2025-12-27",
@@ -1318,7 +1324,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2004916068243169546",
    "thumb": null,
-   "image": null
+   "image": null,
+   "also": [
+    {
+     "key": "idoll_omiya|2025-12-27",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2025-12-28",
@@ -1359,7 +1371,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2005428553395900562",
    "thumb": "https://pbs.twimg.com/media/G8IoZD1bsAAyqey?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G8IoZD1bsAAyqey?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G8IoZD1bsAAyqey?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2025-12-29",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2025-12-29",
@@ -1379,7 +1397,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2005398355401199916",
    "thumb": "https://pbs.twimg.com/media/G9MSBq8aUAAS14b?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G9MSBq8aUAAS14b?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G9MSBq8aUAAS14b?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2025-12-29",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2025-12-30",
@@ -1425,7 +1449,7 @@
    "key": "hymel_info|2026-01-01",
    "account": "hymel_info",
    "date": "2026-01-01",
-   "title": "新年一発目&amp;30分ライブ❕",
+   "title": "新年一発目&30分ライブ❕",
    "venue": "SHIBUYA VIDENT",
    "open": null,
    "start": null,
@@ -1439,7 +1463,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2006455319816204794",
    "thumb": "https://pbs.twimg.com/media/G9gR_e-aIAANJtm?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G9gR_e-aIAANJtm?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G9gR_e-aIAANJtm?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-01-01",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-01-01",
@@ -1459,7 +1489,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2006455317266350390",
    "thumb": "https://pbs.twimg.com/media/G9TsMc3acAAe6Wm?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G9TsMc3acAAe6Wm?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G9TsMc3acAAe6Wm?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-01-01",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-01-01|2",
@@ -1597,7 +1633,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2002181897129275611",
    "thumb": "https://pbs.twimg.com/media/G8ktwJlaMAAgS4P?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G8ktwJlaMAAgS4P?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G8ktwJlaMAAgS4P?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-01-04",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-01-04",
@@ -1617,7 +1659,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2002182172208480261",
    "thumb": "https://pbs.twimg.com/media/G8kuAjHbsAA6jOu?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G8kuAjHbsAA6jOu?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G8kuAjHbsAA6jOu?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-01-04|3",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-01-05",
@@ -1773,7 +1821,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2012283727041413418",
    "thumb": "https://pbs.twimg.com/media/G-xQjgFbQAAjJ_r?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G-xQjgFbQAAjJ_r?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G-xQjgFbQAAjJ_r?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-01-17",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-01-17",
@@ -1793,7 +1847,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2012313926164504903",
    "thumb": "https://pbs.twimg.com/media/G-bxs9WaEAAscMw?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G-bxs9WaEAAscMw?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G-bxs9WaEAAscMw?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-01-17",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-01-17|2",
@@ -2167,7 +2227,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2019924066988355838",
    "thumb": "https://pbs.twimg.com/media/HAY__PtacAYUEyv?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HAY__PtacAYUEyv?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HAY__PtacAYUEyv?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-02-07",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-02-07",
@@ -2187,7 +2253,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2019893869794717997",
    "thumb": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HAePiB-aoAEwbjv?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-02-07",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-02-08",
@@ -2305,7 +2377,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2022143695034724732",
    "thumb": "https://pbs.twimg.com/media/HAgrtgaacAEFyqO?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HAgrtgaacAEFyqO?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HAgrtgaacAEFyqO?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-02-13",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-02-13",
@@ -2325,7 +2403,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2022068201073569983",
    "thumb": "https://pbs.twimg.com/media/HA8zz9xbsAIQneN?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HA8zz9xbsAIQneN?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HA8zz9xbsAIQneN?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-02-13",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-02-14",
@@ -2403,7 +2487,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2024680413763920180",
    "thumb": "https://pbs.twimg.com/media/G_GNLW5WgAAa9wO?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G_GNLW5WgAAa9wO?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G_GNLW5WgAAa9wO?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-02-20",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-02-20",
@@ -2421,7 +2511,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/1997433369098113379",
    "thumb": "https://pbs.twimg.com/media/G7fiuDKbkAAflZl?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G7fiuDKbkAAflZl?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G7fiuDKbkAAflZl?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-02-20",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-02-21",
@@ -2439,7 +2535,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2024997503523807742",
    "thumb": "https://pbs.twimg.com/media/G_GMaBPWQAEN-eS?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G_GMaBPWQAEN-eS?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G_GMaBPWQAEN-eS?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-02-21",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-02-21",
@@ -2457,7 +2559,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2024967299996778631",
    "thumb": "https://pbs.twimg.com/media/HBmnmXWa8AAgmxW?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HBmnmXWa8AAgmxW?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HBmnmXWa8AAgmxW?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-02-21",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-02-23",
@@ -2477,7 +2585,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2025692079125299351",
    "thumb": "https://pbs.twimg.com/media/HBu0DIfbgAABfYG?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HBu0DIfbgAABfYG?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HBu0DIfbgAABfYG?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-02-23",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-02-23",
@@ -2497,7 +2611,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2025722274771284385",
    "thumb": "https://pbs.twimg.com/media/G-oKhYBacAA35BI?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/G-oKhYBacAA35BI?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/G-oKhYBacAA35BI?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-02-23",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-02-24",
@@ -2575,7 +2695,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2025453786941300856",
    "thumb": "https://pbs.twimg.com/media/HBvbdv4bYAANTTt?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HBvbdv4bYAANTTt?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HBvbdv4bYAANTTt?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-02-28",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-02-28",
@@ -2595,7 +2721,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2027504012908761275",
    "thumb": "https://pbs.twimg.com/media/HCJu02taAAAXL_w?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HCJu02taAAAXL_w?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HCJu02taAAAXL_w?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-02-28",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-03-01",
@@ -2995,7 +3127,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2035476544886583807",
    "thumb": "https://pbs.twimg.com/media/HDYMO7abQAMVWNf?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HDYMO7abQAMVWNf?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HDYMO7abQAMVWNf?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-03-22",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-03-22",
@@ -3015,7 +3153,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2035506743455723616",
    "thumb": "https://pbs.twimg.com/media/HC44go3bsAAfqyH?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HC44go3bsAAfqyH?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HC44go3bsAAfqyH?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-03-22",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-03-24",
@@ -3292,7 +3436,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2040201401616552380",
    "thumb": "https://pbs.twimg.com/media/HFBAPA-akAAwmje?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HFBAPA-akAAwmje?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HFBAPA-akAAwmje?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-04-04",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-04-04",
@@ -3312,7 +3462,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2040197838429466669",
    "thumb": "https://pbs.twimg.com/media/HFA9HnYaUAAYjrs?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HFA9HnYaUAAYjrs?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HFA9HnYaUAAYjrs?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-04-04",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-04-05",
@@ -3531,7 +3687,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2045315296760836252",
    "thumb": "https://pbs.twimg.com/media/HGB6vO9bYAASQ_N?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGB6vO9bYAASQ_N?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HGB6vO9bYAASQ_N?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-04-18",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-04-18",
@@ -3552,7 +3714,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2045291222437441961",
    "thumb": "https://pbs.twimg.com/media/HGClIwza8AEAPB0?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGClIwza8AEAPB0?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HGClIwza8AEAPB0?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-04-18",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-04-19",
@@ -3592,7 +3760,13 @@
    "sale_start": "2026-03-05",
    "post": "https://x.com/idoll_omiya/status/2046061301420687368",
    "thumb": "https://pbs.twimg.com/media/HCkh8bLawAQR5Nd?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HCkh8bLawAQR5Nd?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HCkh8bLawAQR5Nd?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-04-20",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-04-20",
@@ -3612,7 +3786,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2045985800349782164",
    "thumb": "https://pbs.twimg.com/media/HGB66YraMAABSl4?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGB66YraMAABSl4?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HGB66YraMAABSl4?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-04-20",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-04-22",
@@ -3694,7 +3874,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2048190326339441126",
    "thumb": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-04-26",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-04-26",
@@ -3714,7 +3900,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2048190322945970225",
    "thumb": "https://pbs.twimg.com/media/HGyYxBza4AAXsJp?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGyYxBza4AAXsJp?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HGyYxBza4AAXsJp?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-04-26",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-04-27",
@@ -3734,7 +3926,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2048552711239639485",
    "thumb": "https://pbs.twimg.com/media/HGPL-nobMAAenSJ?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGPL-nobMAAenSJ?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HGPL-nobMAAenSJ?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-04-27",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-04-27",
@@ -3754,7 +3952,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2048552712178995264",
    "thumb": "https://pbs.twimg.com/media/HG1mvO1agAAWjDE?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HG1mvO1agAAWjDE?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HG1mvO1agAAWjDE?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-04-27",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-04-29",
@@ -3774,7 +3978,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2049277483170849016",
    "thumb": "https://pbs.twimg.com/media/HFw6MVHbAAAX3aI?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HFw6MVHbAAAX3aI?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HFw6MVHbAAAX3aI?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-04-29",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-04-29",
@@ -3794,7 +4004,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2049277487864283396",
    "thumb": "https://pbs.twimg.com/media/HG_s_yHbgAAO4Sv?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HG_s_yHbgAAO4Sv?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HG_s_yHbgAAO4Sv?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-04-29",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-02",
@@ -3814,7 +4030,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2050379754885243108",
    "thumb": "https://pbs.twimg.com/media/HHDErDSa4AAnerl?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHDErDSa4AAnerl?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HHDErDSa4AAnerl?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-02",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-02",
@@ -3834,7 +4056,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2050364653054603532",
    "thumb": "https://pbs.twimg.com/media/HHRKs1abwAA17rz?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHRKs1abwAA17rz?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HHRKs1abwAA17rz?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-02",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-02|2",
@@ -3852,7 +4080,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2050375460505489859",
    "thumb": null,
-   "image": null
+   "image": null,
+   "also": [
+    {
+     "key": "hymel_info|2026-05-02|2",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-02|2",
@@ -3872,7 +4106,13 @@
    "sale_start": "2026-04-30",
    "post": "https://x.com/hymel_info/status/2050364898002051476",
    "thumb": "https://pbs.twimg.com/media/HHRK-LBasAATPsW?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHRK-LBasAATPsW?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HHRK-LBasAATPsW?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-02|2",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-03",
@@ -3892,7 +4132,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2049024160844873833",
    "thumb": "https://pbs.twimg.com/media/HG-YmhHaQAAEgYh?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HG-YmhHaQAAEgYh?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HG-YmhHaQAAEgYh?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-03",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-03",
@@ -3912,7 +4158,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2049039638921367830",
    "thumb": "https://pbs.twimg.com/media/HG-msGoa0AAhLee?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HG-msGoa0AAhLee?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HG-msGoa0AAhLee?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-03",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-03|2",
@@ -3932,7 +4184,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2050727035031482409",
    "thumb": "https://pbs.twimg.com/media/HHDFMwnbYAA38EN?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHDFMwnbYAA38EN?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HHDFMwnbYAA38EN?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-03|2",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-03|2",
@@ -3952,7 +4210,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2050727034612035819",
    "thumb": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HHWkTdnbYAAV5Ut?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-03|2",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-05",
@@ -4228,7 +4492,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2055438078802833790",
    "thumb": "https://pbs.twimg.com/media/HHoJhV7aMAAcM8E?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHoJhV7aMAAcM8E?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HHoJhV7aMAAcM8E?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-16",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-16",
@@ -4248,7 +4518,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2055439298493829265",
    "thumb": "https://pbs.twimg.com/media/HIZjJIVbMAAiIG7?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HIZjJIVbMAAiIG7?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HIZjJIVbMAAiIG7?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-16",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-17",
@@ -4288,7 +4564,13 @@
    "sale_start": "2026-05-12",
    "post": "https://x.com/idoll_omiya/status/2056177952425992643",
    "thumb": "https://pbs.twimg.com/media/HIGICgzbAAAxj1L?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HIGICgzbAAAxj1L?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HIGICgzbAAAxj1L?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-18",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-18",
@@ -4308,7 +4590,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2056162856614433228",
    "thumb": "https://pbs.twimg.com/media/HIh8lRIaMAAF5ao?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HIh8lRIaMAAF5ao?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HIh8lRIaMAAF5ao?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-18",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-19",
@@ -4348,7 +4636,13 @@
    "sale_start": "2026-05-18",
    "post": "https://x.com/idoll_omiya/status/2057989895851778112",
    "thumb": "https://pbs.twimg.com/media/HI7crLsbkAAS7nh?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HI7crLsbkAAS7nh?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HI7crLsbkAAS7nh?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-23",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-23",
@@ -4368,7 +4662,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2057974792842551598",
    "thumb": "https://pbs.twimg.com/media/HI6vk9kbwAAd98X?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HI6vk9kbwAAd98X?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HI6vk9kbwAAd98X?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-23",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-24",
@@ -4388,7 +4688,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2058337179001028894",
    "thumb": "https://pbs.twimg.com/media/HHymfIhbYAAp4_o?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HHymfIhbYAAp4_o?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HHymfIhbYAAp4_o?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-24",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-24",
@@ -4408,7 +4714,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2058337185049333996",
    "thumb": "https://pbs.twimg.com/media/HI_vdkebQAAvutT?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HI_vdkebQAAvutT?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HI_vdkebQAAvutT?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-24",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-28",
@@ -4507,7 +4819,13 @@
    "sale_start": "2026-04-27",
    "post": "https://x.com/hymel_info/status/2060511511219724745",
    "thumb": "https://pbs.twimg.com/media/HJe9VNWaYAAq36r?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HJe9VNWaYAAq36r?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HJe9VNWaYAAq36r?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-30",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-30",
@@ -4529,7 +4847,13 @@
    "sale_start": "2026-04-27",
    "post": "https://x.com/idoll_omiya/status/2060511512230277366",
    "thumb": "https://pbs.twimg.com/media/HIS7V2DaYAAokAR?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HIS7V2DaYAAokAR?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HIS7V2DaYAAokAR?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-30",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-05-31",
@@ -4569,7 +4893,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2060873898149707783",
    "thumb": "https://pbs.twimg.com/media/HJkeWEjbMAAZ4XX?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HJkeWEjbMAAZ4XX?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HJkeWEjbMAAZ4XX?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-05-31",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-05-31",
@@ -4589,7 +4919,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2060873894060310606",
    "thumb": "https://pbs.twimg.com/media/HJYgiunaYAAjVSC?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HJYgiunaYAAjVSC?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HJYgiunaYAAjVSC?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-05-31|2",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-06-02",
@@ -4629,7 +4965,13 @@
    "sale_start": "2026-05-24",
    "post": "https://x.com/idoll_omiya/status/2063071758664798483",
    "thumb": "https://pbs.twimg.com/media/HKGA1B9bMAAl6tk?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HKGA1B9bMAAl6tk?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HKGA1B9bMAAl6tk?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-06-06",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-06-06",
@@ -4650,7 +4992,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2063048223917564049",
    "thumb": "https://pbs.twimg.com/media/HKDRmwxawAAmX_4?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HKDRmwxawAAmX_4?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HKDRmwxawAAmX_4?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-06-06",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-06-07",
@@ -4670,7 +5018,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2063410615507628191",
    "thumb": "https://pbs.twimg.com/media/HJT3vDUaoAAfPvu?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HJT3vDUaoAAfPvu?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HJT3vDUaoAAfPvu?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-06-07",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-06-07",
@@ -4690,7 +5044,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2063410609190760595",
    "thumb": "https://pbs.twimg.com/media/HKDRwi2b0AEHrY6?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HKDRwi2b0AEHrY6?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HKDRwi2b0AEHrY6?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-06-07",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-06-08",
@@ -5045,7 +5405,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2070658371947217097",
    "thumb": "https://pbs.twimg.com/media/HLxxj35bMAAhGVc?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HLxxj35bMAAhGVc?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HLxxj35bMAAhGVc?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-06-27",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-06-27",
@@ -5065,7 +5431,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2070658370676384253",
    "thumb": "https://pbs.twimg.com/media/HLxxrBtbgAANqvk?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HLxxrBtbgAANqvk?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HLxxrBtbgAANqvk?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-06-27",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-06-28",
@@ -5085,7 +5457,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2071020757593842138",
    "thumb": "https://pbs.twimg.com/media/HLzVEF7a8AARp1R?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HLzVEF7a8AARp1R?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HLzVEF7a8AARp1R?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-06-28",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-06-28",
@@ -5105,7 +5483,13 @@
    "sale_start": "2026-06-20",
    "post": "https://x.com/idoll_omiya/status/2071035859223118234",
    "thumb": "https://pbs.twimg.com/media/HLzjIt2acAEDsvy?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HLzjIt2acAEDsvy?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HLzjIt2acAEDsvy?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-06-28",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-06-29",
@@ -5302,7 +5686,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2076143597456687108",
    "thumb": null,
-   "image": null
+   "image": null,
+   "also": [
+    {
+     "key": "hymel_info|2026-07-12",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-07-12",
@@ -5324,7 +5714,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2076197248627830870",
    "thumb": "https://pbs.twimg.com/media/HNAiYjxbYAALbwa?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNAiYjxbYAALbwa?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HNAiYjxbYAALbwa?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-07-12",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-07-15",
@@ -5405,7 +5801,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2078268518835875883",
    "thumb": "https://pbs.twimg.com/media/HNasx0Ia0AA4BVR?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNasx0Ia0AA4BVR?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HNasx0Ia0AA4BVR?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-07-18",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-07-18",
@@ -5425,7 +5827,13 @@
    "sale_start": "2026-06-12",
    "post": "https://x.com/idoll_omiya/status/2078283613507121479",
    "thumb": "https://pbs.twimg.com/media/HKiTvH8boAAdJFg?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HKiTvH8boAAdJFg?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HKiTvH8boAAdJFg?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-07-18",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-07-19",
@@ -5445,7 +5853,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2078645999900254717",
    "thumb": "https://pbs.twimg.com/media/HMM7V3BaQAAPUnT?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HMM7V3BaQAAPUnT?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HMM7V3BaQAAPUnT?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-07-19",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-07-19",
@@ -5465,7 +5879,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2078630906714013993",
    "thumb": "https://pbs.twimg.com/media/HNat-_uawAABhr_?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNat-_uawAABhr_?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HNat-_uawAABhr_?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-07-19",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-07-20",
@@ -5485,7 +5905,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2079008395047383359",
    "thumb": "https://pbs.twimg.com/media/HNFS22gasAAO3EL?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNFS22gasAAO3EL?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HNFS22gasAAO3EL?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-07-20",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-07-20",
@@ -5506,7 +5932,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2078993539422470284",
    "thumb": "https://pbs.twimg.com/media/HNoRKWBbYAAxkvi?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNoRKWBbYAAxkvi?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HNoRKWBbYAAxkvi?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-07-20",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-07-23",
@@ -5546,7 +5978,13 @@
    "sale_start": "2026-06-15",
    "post": "https://x.com/idoll_omiya/status/2080473043969925566",
    "thumb": "https://pbs.twimg.com/media/HKq1vh5aAAALDFO?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HKq1vh5aAAALDFO?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HKq1vh5aAAALDFO?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-07-24",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-07-24",
@@ -5566,7 +6004,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2080442845249282324",
    "thumb": "https://pbs.twimg.com/media/HN62GyYbIAAxJYg?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HN62GyYbIAAxJYg?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HN62GyYbIAAxJYg?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-07-24",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-07-25",
@@ -5606,7 +6050,13 @@
    "sale_start": "2026-06-17",
    "post": "https://x.com/idoll_omiya/status/2081167618980114642",
    "thumb": "https://pbs.twimg.com/media/HK6Zuhda4AAUTTS?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HK6Zuhda4AAUTTS?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HK6Zuhda4AAUTTS?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-07-26",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-07-26",
@@ -5626,7 +6076,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2081167620774981666",
    "thumb": "https://pbs.twimg.com/media/HOE2z7DasAAPO03?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HOE2z7DasAAPO03?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HOE2z7DasAAPO03?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-07-26",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-07-26|2",
@@ -5764,7 +6220,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2083357042149118373",
    "thumb": "https://pbs.twimg.com/media/HOKMVdvaUAAqsTY?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HOKMVdvaUAAqsTY?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HOKMVdvaUAAqsTY?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-08-01",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-01",
@@ -5784,7 +6246,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2083341942402973753",
    "thumb": "https://pbs.twimg.com/media/HOl9tXOaMAAP5pR?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HOl9tXOaMAAP5pR?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HOl9tXOaMAAP5pR?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-01",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-03",
@@ -5904,7 +6372,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2086950728048799775",
    "thumb": "https://pbs.twimg.com/media/HPYNhNZacAEXNOA?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HPYNhNZacAEXNOA?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HPYNhNZacAEXNOA?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-11",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-11",
@@ -5924,7 +6398,13 @@
    "sale_start": "2026-06-19",
    "post": "https://x.com/idoll_omiya/status/2086965827585310960",
    "thumb": "https://pbs.twimg.com/media/HPZRpmNbQAAThsD?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HPZRpmNbQAAThsD?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HPZRpmNbQAAThsD?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-08-11",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-13",
@@ -5985,7 +6465,13 @@
    "sale_start": "2026-07-31",
    "post": "https://x.com/idoll_omiya/status/2088113383593664842",
    "thumb": "https://pbs.twimg.com/media/HPpqdkgbMAAt8eN?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HPpqdkgbMAAt8eN?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HPpqdkgbMAAt8eN?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-08-14",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-14",
@@ -6005,7 +6491,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2088037887841620175",
    "thumb": "https://pbs.twimg.com/media/HPk2v9pbsAA9Ehh?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HPk2v9pbsAA9Ehh?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HPk2v9pbsAA9Ehh?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-14",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-15",
@@ -6065,7 +6557,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2088460678281781749",
    "thumb": "https://pbs.twimg.com/media/HPtD80YaoAAxGwT?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HPtD80YaoAAxGwT?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HPtD80YaoAAxGwT?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-08-15|2",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-15|2",
@@ -6085,7 +6583,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2088400524706287800",
    "thumb": "https://pbs.twimg.com/media/HPsZErhb0AAMVsw?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HPsZErhb0AAMVsw?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HPsZErhb0AAMVsw?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-15|2",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-16",
@@ -6105,7 +6609,13 @@
    "sale_start": "2026-07-30",
    "post": "https://x.com/idoll_omiya/status/2088792860762214811",
    "thumb": "https://pbs.twimg.com/media/HOdL0W4aEAAskEx?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HOdL0W4aEAAskEx?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HOdL0W4aEAAskEx?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-08-16",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-16",
@@ -6125,7 +6635,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2088762663371510152",
    "thumb": "https://pbs.twimg.com/media/HPk41L1bIAAvcVm?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HPk41L1bIAAvcVm?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HPk41L1bIAAvcVm?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-16",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-18",
@@ -6243,7 +6759,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2090952093071028545",
    "thumb": "https://pbs.twimg.com/media/HQN81R_bYAAR9Q3?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HQN81R_bYAAR9Q3?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HQN81R_bYAAR9Q3?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-22|2",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-22|2",
@@ -6263,7 +6785,13 @@
    "sale_start": "2026-08-18",
    "post": "https://x.com/idoll_omiya/status/2090952089023225888",
    "thumb": "https://pbs.twimg.com/media/HQPxN9_bkAAoGQn?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HQPxN9_bkAAoGQn?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HQPxN9_bkAAoGQn?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-08-22",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-23",
@@ -6283,7 +6811,13 @@
    "sale_start": "2026-07-14",
    "post": "https://x.com/idoll_omiya/status/2091314481234346380",
    "thumb": "https://pbs.twimg.com/media/HNLVBDrbIAAj3Qm?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNLVBDrbIAAj3Qm?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HNLVBDrbIAAj3Qm?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-08-23",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-23",
@@ -6303,7 +6837,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2091299383862026683",
    "thumb": "https://pbs.twimg.com/media/HQFyyAGawAAf2dk?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HQFyyAGawAAf2dk?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HQFyyAGawAAf2dk?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-23",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-24",
@@ -6324,7 +6864,13 @@
    "sale_start": "2026-08-09",
    "post": "https://x.com/idoll_omiya/status/2091755142085521453",
    "thumb": null,
-   "image": null
+   "image": null,
+   "also": [
+    {
+     "key": "hymel_info|2026-08-24",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-24",
@@ -6344,7 +6890,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2091676867744960889",
    "thumb": "https://pbs.twimg.com/media/HQapQ_7b0AA65Y6?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HQapQ_7b0AA65Y6?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HQapQ_7b0AA65Y6?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-24",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-08-27",
@@ -6405,7 +6957,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2093836094576218404",
    "thumb": "https://pbs.twimg.com/media/HQyhkvYaUAAIqul?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HQyhkvYaUAAIqul?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HQyhkvYaUAAIqul?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-08-30",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-30",
@@ -6425,7 +6983,13 @@
    "sale_start": "2026-07-20",
    "post": "https://x.com/idoll_omiya/status/2093851193290395676",
    "thumb": "https://pbs.twimg.com/media/HNlLuR6aUAAGtYJ?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HNlLuR6aUAAGtYJ?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HNlLuR6aUAAGtYJ?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-08-30",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-08-31",
@@ -6545,7 +7109,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2096387905602162825",
    "thumb": "https://pbs.twimg.com/media/HRe2b0TasAAMkcS?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HRe2b0TasAAMkcS?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HRe2b0TasAAMkcS?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-09-06",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-09-06",
@@ -6565,7 +7135,13 @@
    "sale_start": "2026-08-29",
    "post": "https://x.com/idoll_omiya/status/2096387911021457720",
    "thumb": "https://pbs.twimg.com/media/HRe10wDbcAAJR_G?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HRe10wDbcAAJR_G?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HRe10wDbcAAJR_G?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-09-06",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-09-07",
@@ -6824,7 +7400,13 @@
    "sale_start": "2026-08-18",
    "post": "https://x.com/idoll_omiya/status/2101476445025378423",
    "thumb": "https://pbs.twimg.com/media/HSWZUwnbsAANvQ-?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HSWZUwnbsAANvQ-?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HSWZUwnbsAANvQ-?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-09-20|2",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-09-20|2",
@@ -6845,7 +7427,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2101461341265367395",
    "thumb": "https://pbs.twimg.com/media/HSWXMn1bsAA--vs?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HSWXMn1bsAA--vs?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HSWXMn1bsAA--vs?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-09-20",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-09-21",
@@ -6946,7 +7534,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2102548498570997819",
    "thumb": "https://pbs.twimg.com/media/HSfA4D2boAAYIEP?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HSfA4D2boAAYIEP?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HSfA4D2boAAYIEP?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-09-23",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-09-23",
@@ -6966,7 +7560,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2102533399365943760",
    "thumb": "https://pbs.twimg.com/media/HSi8BZlacAEZ8SB?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HSi8BZlacAEZ8SB?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HSi8BZlacAEZ8SB?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-09-23",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-09-25",
@@ -7004,7 +7604,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2103635668559626324",
    "thumb": "https://pbs.twimg.com/media/HS_jQbdbMAAOmE9?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HS_jQbdbMAAOmE9?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HS_jQbdbMAAOmE9?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-09-26",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-09-26",
@@ -7024,7 +7630,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2103680965105115456",
    "thumb": "https://pbs.twimg.com/media/HS_jz0xaMAAVm2v?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HS_jz0xaMAAVm2v?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HS_jz0xaMAAVm2v?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-09-26",
+     "how": "venue"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-09-27",
@@ -7172,6 +7784,24 @@
    "key": "idoll_omiya|2026-10-04",
    "account": "idoll_omiya",
    "date": "2026-10-04",
+   "title": "埼玉県",
+   "venue": "エメラルドステージ",
+   "open": null,
+   "start": null,
+   "stage": "12:35-12:50",
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2106551598126366765",
+   "thumb": null,
+   "image": null
+  },
+  {
+   "key": "idoll_omiya|2026-10-04|2",
+   "account": "idoll_omiya",
+   "date": "2026-10-04",
    "title": "#クロフェス2026 7年目 ラッキー7アイドルフィーバーだしん!",
    "venue": "稲毛海浜公園プール",
    "open": "08:00",
@@ -7185,9 +7815,9 @@
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-09-08",
-   "post": "https://x.com/idoll_omiya/status/2106551598126366765",
-   "thumb": null,
-   "image": null
+   "post": "https://x.com/idoll_omiya/status/2106527216842498141",
+   "thumb": "https://pbs.twimg.com/media/HTiN7XSaIAA4iX2?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HTiN7XSaIAA4iX2?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-05",
@@ -7451,7 +8081,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2103432780344672661",
    "thumb": "https://pbs.twimg.com/media/HTDkxogaMAADO5I?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTDkxogaMAADO5I?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HTDkxogaMAADO5I?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-10-17|2",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-10-17|2",
@@ -7471,7 +8107,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2103433006254084182",
    "thumb": "https://pbs.twimg.com/media/HTDlGbVakAAOb9T?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTDlGbVakAAOb9T?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HTDlGbVakAAOb9T?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-10-17",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-10-24",
@@ -7493,7 +8135,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2105503175478493596",
    "thumb": "https://pbs.twimg.com/media/HTg_57paMAAV4Ey?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTg_57paMAAV4Ey?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HTg_57paMAAV4Ey?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-10-24",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-10-24",
@@ -7514,7 +8162,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2103480892824174661",
    "thumb": "https://pbs.twimg.com/media/HS_28K0bEAE_MzM?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HS_28K0bEAE_MzM?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HS_28K0bEAE_MzM?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-10-24",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-10-30",
@@ -7593,7 +8247,13 @@
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/2104564286345392240",
    "thumb": "https://pbs.twimg.com/media/HTB__j3bAAAb04B?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTB__j3bAAAb04B?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HTB__j3bAAAb04B?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-11-08",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "hymel_info|2026-11-08",
@@ -7614,7 +8274,13 @@
    "sale_start": null,
    "post": "https://x.com/hymel_info/status/2104564282004500604",
    "thumb": "https://pbs.twimg.com/media/HTCA6FFbYAAYQjQ?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTCA6FFbYAAYQjQ?format=jpg&name=medium"
+   "image": "https://pbs.twimg.com/media/HTCA6FFbYAAYQjQ?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-11-08",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-11-16",
@@ -7657,5 +8323,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T07:54:16+09:00"
+ "updated": "2026-10-08T08:05:09+09:00"
 }

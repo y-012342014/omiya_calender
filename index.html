@@ -88,6 +88,13 @@ button.went { border: 1px solid var(--line); background: var(--btn); color: var(
 button.went.on { background: var(--ok); border-color: var(--ok); color: #fff; font-weight: 600; }
 @media (prefers-color-scheme: dark) { button.went.on { color: #10210f; } }
 .card.went-on { border-color: var(--ok); }
+.chip.also { background: #fff3bf; color: #8a5a00; }
+@media (prefers-color-scheme: dark) { .chip.also { background: #3a3014; color: #ffd43b; } }
+.memo-line { font-size: 13px; color: var(--text); margin-top: 4px; overflow-wrap: anywhere; }
+.dlg-body textarea { width: 100%; min-height: 90px; font: inherit; color: var(--text); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 8px; padding: 8px; }
+.alsobox { border-top: 1px solid var(--line); margin-top: 12px; padding-top: 10px; }
+.alsobox .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 6px 0; }
 .panel { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 12px; }
 .panel h2 { font-size: 14px; margin: 0 0 8px; }
 .stat-big { font-size: 28px; font-weight: 700; line-height: 1.1; }
@@ -127,7 +134,7 @@ const store = { get(k) { try { return localStorage.getItem(k) || ""; } catch (e)
                 set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
 let DATA = { accounts: [], shows: [] }, TAB = "upcoming", ACCT = store.get("acct"), PAST_YM = "";
 
-let WENT = new Set();
+let WENT = new Set(), MEMO = {}, KEYIDX = {}, CUR_I = null;
 const toast = (msg) => { const t = $("toast"); t.textContent = msg; t.style.display = "block"; clearTimeout(t._h); t._h = setTimeout(() => t.style.display = "none", 2500); };
 
 // 引き継ぎコード: 「LV1 グループ:日付,日付…;グループ:…」。日付は YYMMDD、同じ日の2本目以降は -2 など
@@ -151,12 +158,29 @@ function decodeWent(code) {
   }
   return out;
 }
+// メモがあるときの引き継ぎコードは「LV2 」＋（チェックとメモを JSON にして base64url にしたもの）
+const b64e = (str) => btoa(String.fromCharCode(...new TextEncoder().encode(str))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+const b64d = (b) => new TextDecoder().decode(Uint8Array.from(atob(b.replace(/-/g, "+").replace(/_/g, "/")), c => c.charCodeAt(0)));
+function encodeAll() {
+  const went = encodeWent(WENT);
+  const memo = Object.fromEntries(Object.entries(MEMO).filter(([, v]) => v && v.trim()));
+  return Object.keys(memo).length ? "LV2 " + b64e(JSON.stringify({ w: went.replace(/^LV1 /, ""), m: memo })) : went;
+}
+function decodeAll(code) {
+  code = String(code || "").trim();
+  if (code.startsWith("LV2")) {
+    let o;
+    try { o = JSON.parse(b64d(code.replace(/^LV2\s*/, ""))); } catch (e) { throw new Error("コードの形が正しくありません"); }
+    return { went: decodeWent("LV1 " + (o.w || "")), memo: o.m || {} };
+  }
+  return { went: decodeWent(code), memo: {} };
+}
 const idb = {
   open() { return new Promise((res, rej) => { const r = indexedDB.open("live-went", 1);
     r.onupgradeneeded = () => r.result.createObjectStore("kv"); r.onsuccess = () => res(r.result); r.onerror = () => rej(r.error); }); },
-  async get() { try { const db = await this.open(); return await new Promise(res => {
-    const q = db.transaction("kv").objectStore("kv").get("went"); q.onsuccess = () => res(q.result || ""); q.onerror = () => res(""); }); } catch (e) { return ""; } },
-  async set(v) { try { const db = await this.open(); db.transaction("kv", "readwrite").objectStore("kv").put(v, "went"); } catch (e) {} },
+  async get(k = "went") { try { const db = await this.open(); return await new Promise(res => {
+    const q = db.transaction("kv").objectStore("kv").get(k); q.onsuccess = () => res(q.result || ""); q.onerror = () => res(""); }); } catch (e) { return ""; } },
+  async set(v, k = "went") { try { const db = await this.open(); db.transaction("kv", "readwrite").objectStore("kv").put(v, k); } catch (e) {} },
 };
 async function loadWent() {
   const merged = new Set();
@@ -164,14 +188,28 @@ async function loadWent() {
     try { decodeWent(src).forEach(k => merged.add(k)); } catch (e) {}
   }
   WENT = merged;
+  const memo = {};
+  for (const src of [await idb.get("memo"), store.get("memo")]) {   // 後に読むほう（localStorage）を優先
+    try { Object.assign(memo, JSON.parse(src || "{}")); } catch (e) {}
+  }
+  MEMO = memo;
   try { if (navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch (e) {}
+}
+function refreshCode() {
+  const ta = $("wentCode");
+  if (ta) ta.value = encodeAll();   // 引き継ぎコードは常に最新
 }
 function saveWent() {
   const code = encodeWent(WENT);
   store.set("went", code);
   idb.set(code);
-  const ta = $("wentCode");
-  if (ta) ta.value = code;   // 引き継ぎコードは常に最新
+  refreshCode();
+}
+function saveMemo() {
+  const v = JSON.stringify(MEMO);
+  store.set("memo", v);
+  idb.set(v, "memo");
+  refreshCode();
 }
 
 const today = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; })();
@@ -187,6 +225,14 @@ function chips(s) {
   if (s.sale === "soldout") c.push('<span class="chip">完売</span>');
   return c.join("");
 }
+function alsoChips(s) {
+  return (s.also || []).map(a => {
+    const o = DATA.shows[KEYIDX[a.key]];
+    if (!o) return "";
+    return a.how === "same" ? `<span class="chip also">＋${esc(labelOf(o.account))} も出演</span>`
+                            : `<span class="chip">同じ会場に ${esc(labelOf(o.account))}</span>`;
+  }).join("");
+}
 const times = (s) => [s.open && "開場 " + s.open, s.start && "開演 " + s.start, s.stage && "出演 " + s.stage].filter(Boolean).join("　");
 
 function card(s, i) {
@@ -200,7 +246,8 @@ function card(s, i) {
       <div class="title">${esc(s.title || (s.type === "event" ? "イベント" : "ライブ"))}</div>
       ${s.venue ? `<div class="line2">📍${esc(s.venue)}</div>` : ""}
       ${times(s) ? `<div class="line2">${esc(times(s))}</div>` : ""}
-      <div class="chips">${went}${ticket}${chips(s)}</div></div>
+      ${MEMO[s.key] ? `<div class="memo-line">📝 ${esc(MEMO[s.key].split("\n")[0].slice(0, 40))}${MEMO[s.key].length > 40 || MEMO[s.key].includes("\n") ? "…" : ""}</div>` : ""}
+      <div class="chips">${went}${ticket}${chips(s)}${alsoChips(s)}</div></div>
     ${s.thumb ? `<img class="thumb" loading="lazy" src="${esc(s.thumb)}" alt="">` : ""}
   </div>`;
 }
@@ -257,7 +304,7 @@ function renderWent(all) {
       ${Object.keys(byYear).sort().reverse().map(y => `<div>${y}年 <b>${byYear[y]}</b> 回${y === thisYear ? "（今年）" : ""}</div>`).join("")}
       ${ACCT ? "" : Object.keys(byGroup).map(a => `<div>${esc(labelOf(a))} <b>${byGroup[a]}</b> 回</div>`).join("")}
     </div>
-    <div class="small" style="margin-top:6px">公演の「行った？」を押すと数えます（チェックはこの端末のブラウザにだけ保存され、ほかの人には見えません）。</div></div>`;
+    <div class="small" style="margin-top:6px">公演の「行った？」を押すと数えます。公演を開くとメモも残せます（チェックもメモもこの端末のブラウザにだけ保存され、ほかの人には見えません）。</div></div>`;
   let cur = "";
   for (const { s, i } of mine) {
     const ym = s.date.slice(0, 7);
@@ -269,7 +316,7 @@ function renderWent(all) {
   const lost = [...WENT].filter(k => !known.has(k)).length;
   html += `<div class="panel" style="margin-top:18px"><h2>引き継ぎコード</h2>
     <div class="small">機種変更やブラウザのデータ消去に備えて、ときどきコピーしてメモや LINE に残してください。チェックするたびに自動で最新になります。</div>
-    <textarea id="wentCode" readonly>${esc(encodeWent(WENT))}</textarea>
+    <textarea id="wentCode" readonly>${esc(encodeAll())}</textarea>
     <div class="row"><button id="wentCopy">コピー</button>${navigator.share ? '<button id="wentShare">共有（LINE・メモなど）</button>' : ""}</div>
     <div class="small" style="margin-top:10px">新しい端末では、残しておいたコードを貼り付けて「復元」を押します（今のチェックに足し合わせます）。</div>
     <textarea id="wentIn" placeholder="LV1 idoll_omiya:251127,…"></textarea>
@@ -280,6 +327,7 @@ function renderWent(all) {
 }
 
 function openShow(i) {
+  CUR_I = i;
   const s = DATA.shows[i];
   const p = dparts(s.date);
   $("dlgTitle").textContent = `${p.m}/${p.d}（${WD[p.w]}） ${s.title || ""}`;
@@ -288,41 +336,72 @@ function openShow(i) {
   $("dlgBody").innerHTML = `<dl>${rows.map(r => `<dt>${esc(r[0])}</dt><dd>${esc(r[1])}</dd>`).join("")}</dl>
     <div class="chips">${s.tickets.map((u, k) => `<a class="ticket" href="${esc(u)}" target="_blank" rel="noopener">チケット${s.tickets.length > 1 ? k + 1 : ""}</a>`).join("")}
       ${s.post ? `<a class="btn sub" href="${esc(s.post)}" target="_blank" rel="noopener">元の告知（X）</a>` : ""}</div>
-    ${s.image ? `<a href="${esc(s.post || s.image)}" target="_blank" rel="noopener"><img src="${esc(s.image)}" alt=""></a>` : ""}
     ${s.date <= today ? `<p><button class="went ${WENT.has(s.key) ? "on" : ""}" data-went="${esc(s.key)}">${WENT.has(s.key) ? "✓ 行った" : "行った？"}</button></p>` : ""}
-    <p class="small">告知から自動で読み取っています。時間や内容は元の告知で確かめてください。</p>`;
-  $("dlg").showModal();
+    ${alsoBox(s)}
+    <div class="alsobox"><div class="small">メモ（この端末のブラウザにだけ保存。引き継ぎコードにも入ります）</div>
+      <textarea id="memoIn" data-key="${esc(s.key)}" placeholder="セトリ、特典会、誰と行ったか など">${esc(MEMO[s.key] || "")}</textarea></div>
+    <p class="small">告知から自動で読み取っています。時間や内容は元の告知で確かめてください。</p>
+    ${s.image ? `<a href="${esc(s.post || s.image)}" target="_blank" rel="noopener"><img src="${esc(s.image)}" alt=""></a>` : ""}`;
+  if (!$("dlg").open) $("dlg").showModal();   // 開いたまま別の公演に切り替えることもある
+  $("dlg").scrollTop = 0;
 }
 
+function alsoBox(s) {
+  if (!s.also || !s.also.length) return "";
+  return `<div class="alsobox">${s.also.map(a => {
+    const o = DATA.shows[KEYIDX[a.key]];
+    if (!o) return "";
+    const on = WENT.has(o.key);
+    const head = a.how === "same" ? `${esc(labelOf(o.account))} も出演しています` : `同じ日・同じ会場に ${esc(labelOf(o.account))} の公演があります`;
+    return `<div class="small">${head}</div><div class="row"><a href="#" data-open="${KEYIDX[a.key]}">${esc(o.title || "（公演名なし）")}${o.stage ? "　出演 " + esc(o.stage) : ""}</a>
+      ${o.date <= today ? `<button class="went ${on ? "on" : ""}" data-went="${esc(o.key)}">${on ? "✓ 行った" : "行った？"}</button>` : ""}</div>`;
+  }).join("")}</div>`;
+}
+
+let memoTimer = null;
+document.addEventListener("input", (ev) => {
+  if (ev.target.id !== "memoIn") return;
+  const k = ev.target.dataset.key, v = ev.target.value;
+  clearTimeout(memoTimer);
+  memoTimer = setTimeout(() => {   // 打つたびに自動で保存
+    if (v.trim()) MEMO[k] = v; else delete MEMO[k];
+    saveMemo();
+  }, 400);
+});
+
 document.addEventListener("click", async (ev) => {
+  const op = ev.target.closest("[data-open]");
+  if (op) { ev.preventDefault(); openShow(Number(op.dataset.open)); return; }
   const w = ev.target.closest("[data-went]");
   if (w) {
     ev.stopPropagation();
     const k = w.dataset.went;
     if (WENT.has(k)) WENT.delete(k); else WENT.add(k);
     saveWent();
-    if ($("dlg").open) $("dlg").close();
     render();
+    if ($("dlg").open && CUR_I !== null) openShow(CUR_I);
     return;
   }
   if (ev.target.id === "wentCopy") {
-    const code = encodeWent(WENT);
+    const code = encodeAll();
     try { await navigator.clipboard.writeText(code); toast("コピーしました"); }
     catch (e) { const ta = $("wentCode"); ta.select(); document.execCommand("copy"); toast("コピーしました"); }
     return;
   }
   if (ev.target.id === "wentShare") {
-    try { await navigator.share({ title: "ライブ予定 引き継ぎコード", text: encodeWent(WENT) }); } catch (e) {}
+    try { await navigator.share({ title: "ライブ予定 引き継ぎコード", text: encodeAll() }); } catch (e) {}
     return;
   }
   if (ev.target.id === "wentRestore") {
     try {
-      const add = decodeWent($("wentIn").value);
-      if (!add.size) { toast("コードを貼り付けてください"); return; }
+      const got = decodeAll($("wentIn").value);
+      if (!got.went.size && !Object.keys(got.memo).length) { toast("コードを貼り付けてください"); return; }
       const before = WENT.size;
-      add.forEach(k => WENT.add(k));
-      saveWent(); render();
-      toast(`復元しました（${WENT.size - before} 件追加）`);
+      got.went.forEach(k => WENT.add(k));
+      let memos = 0;
+      for (const [k, v] of Object.entries(got.memo)) if (!MEMO[k]) { MEMO[k] = v; memos++; }
+      saveWent(); saveMemo(); render();
+      toast(`復元しました（チェック ${WENT.size - before} 件・メモ ${memos} 件を追加）`);
     } catch (e) { toast(e.message); }
     return;
   }
@@ -337,11 +416,18 @@ document.addEventListener("click", async (ev) => {
 document.addEventListener("change", (ev) => {
   if (ev.target.id === "ymSel") { PAST_YM = ev.target.value; render(); window.scrollTo(0, 0); }
 });
+$("dlg").addEventListener("close", () => {
+  const m = $("memoIn");
+  if (m) { clearTimeout(memoTimer); if (m.value.trim()) MEMO[m.dataset.key] = m.value; else delete MEMO[m.dataset.key]; saveMemo(); }
+  CUR_I = null;
+  render();
+});
 $("dlgClose").onclick = () => $("dlg").close();
 $("dlg").addEventListener("click", (ev) => { if (ev.target === $("dlg")) $("dlg").close(); });
 
 Promise.all([fetch("data.json", { cache: "no-store" }).then(r => r.json()), loadWent()]).then(([d]) => {
   DATA = d;
+  KEYIDX = Object.fromEntries(DATA.shows.map((s, i) => [s.key, i]));
   if (ACCT && !DATA.accounts.some(a => a.id === ACCT)) ACCT = "";
   const up = DATA.shows.filter(s => s.date >= today).length;
   $("meta").textContent = `今後 ${up}件・更新 ${(d.updated || "").slice(5, 16).replace("T", " ").replace("-", "/")}`;
