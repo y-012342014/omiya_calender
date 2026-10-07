@@ -3608,23 +3608,6 @@
    "account": "idoll_omiya",
    "date": "2026-05-02",
    "title": null,
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2018882213102727368",
-   "thumb": "https://pbs.twimg.com/media/HAOE68Fa0AAWYs5?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HAOE68Fa0AAWYs5?format=jpg&name=medium"
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2026-05-02",
-   "title": null,
    "venue": "名古屋",
    "open": null,
    "start": null,
@@ -7374,5 +7357,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:48:35+09:00"
+ "updated": "2026-10-08T01:48:39+09:00"
 }
