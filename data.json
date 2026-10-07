@@ -543,23 +543,6 @@
   {
    "account": "idoll_omiya",
    "date": "2025-10-18",
-   "title": null,
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/1978752107873255892",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2025-10-18",
    "title": "ご新規様チェキ1枚無料✨",
    "venue": "#富士急ハイランド セントラルパークステージ",
    "open": null,
@@ -7425,5 +7408,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:47:55+09:00"
+ "updated": "2026-10-08T01:47:59+09:00"
 }
