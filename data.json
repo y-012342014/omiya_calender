@@ -3024,23 +3024,6 @@
    "image": "https://pbs.twimg.com/media/HEQV4JnagAA7lJU?format=jpg&name=medium"
   },
   {
-   "account": "idoll_omiya",
-   "date": "2026-03-28",
-   "title": "miniちかっぱ祭ver.28.0inOSAKA 出演🔥🔥🔥",
-   "venue": "CCO クリエイティブセンター大阪",
-   "open": null,
-   "start": null,
-   "stage": "13:15-13:35 / 20:10-20:35",
-   "tickets": [],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2037717058386027005",
-   "thumb": null,
-   "image": null
-  },
-  {
    "account": "hymel_info",
    "date": "2026-03-28",
    "title": "GIRLS MUSIC SQUARE @新宿 1部",
@@ -3068,27 +3051,6 @@
    "start": "12:50",
    "stage": "20:10-20:35",
    "tickets": [
-    "https://tiget.net/events/468704",
-    "https://tiget.net/events/468707",
-    "https://ticketdive.com/event/GJF_260328"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2037681322643140750",
-   "thumb": "https://pbs.twimg.com/media/HEVYDp5bwAAROs7?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HEVYDp5bwAAROs7?format=jpg&name=medium"
-  },
-  {
-   "account": "idoll_omiya",
-   "date": "2026-03-28",
-   "title": "得3P+選択写メ券",
-   "venue": "FANJ twice",
-   "open": "12:30",
-   "start": "12:50",
-   "stage": "20:10-20:35",
-   "tickets": [
     "https://ticketdive.com/event/GJF_260328"
    ],
    "type": "live",
@@ -3098,6 +3060,27 @@
    "post": "https://x.com/idoll_omiya/status/2034975585945231592",
    "thumb": "https://pbs.twimg.com/media/HD2vdLHboAAc-_7?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HD2vdLHboAAc-_7?format=jpg&name=medium"
+  },
+  {
+   "account": "idoll_omiya",
+   "date": "2026-03-28",
+   "title": "miniちかっぱ祭ver.28.0inOSAKA 出演🔥🔥🔥",
+   "venue": "CCO クリエイティブセンター大阪",
+   "open": "12:30",
+   "start": "12:50",
+   "stage": "13:15-13:35 / 20:10-20:35",
+   "tickets": [
+    "https://tiget.net/events/468704",
+    "https://tiget.net/events/468707",
+    "https://ticketdive.com/event/GJF_260328"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2037717058386027005",
+   "thumb": null,
+   "image": null
   },
   {
    "account": "idoll_omiya",
@@ -7512,5 +7495,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:46:19+09:00"
+ "updated": "2026-10-08T01:47:20+09:00"
 }
