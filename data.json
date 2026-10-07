@@ -22,25 +22,6 @@
  "shows": [
   {
    "account": "hymel_info",
-   "date": "2025-12-06",
-   "title": null,
-   "venue": null,
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [
-    "https://ticketdive.com/event/hypermelty0th"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": "on",
-   "sale_start": null,
-   "post": "https://x.com/hymel_info/status/1997063433192460447",
-   "thumb": null,
-   "image": null
-  },
-  {
-   "account": "hymel_info",
    "date": "2025-12-27",
    "title": "イマハジマル",
    "venue": "S.U.B TOKYO",
@@ -5113,5 +5094,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:24:00+09:00"
+ "updated": "2026-10-08T01:25:04+09:00"
 }
