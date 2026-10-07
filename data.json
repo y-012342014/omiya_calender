@@ -886,8 +886,8 @@
    "date": "2026-04-04",
    "title": "IDOL CONTENT EXPO @秋葉原ZEST~コスパ抜群LIVE~",
    "venue": "秋葉原ZEST",
-   "open": null,
-   "start": null,
+   "open": "09:40",
+   "start": "10:00",
    "stage": "11:10-11:40 / 13:55-14:15",
    "tickets": [
     "https://tiget.net/events/479116"
@@ -5043,5 +5043,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T01:25:45+09:00"
+ "updated": "2026-10-08T01:25:49+09:00"
 }
