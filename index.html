@@ -156,7 +156,45 @@ const store = { get(k) { try { return localStorage.getItem(k) || ""; } catch (e)
 let DATA = { accounts: [], shows: [] }, TAB = "upcoming", ACCT = store.get("acct"), PAST_YM = "";
 
 let WENT = new Set(), MEMO = {}, KEYIDX = {}, CUR_I = null;
-let SHIFTS = { days: [], members: [] }, SHIFT_YM = "", MEMBER = "", SKEY = {}, CUR_SHIFT = null;
+let SHIFTS = { days: [], members: [] }, SHIFT_YM = "", COND = [], SKEY = {}, CUR_SHIFT = null;
+// 出勤の検索条件。"m:名前" か "g:グループ"（g:other は他ユニット）。複数あれば、すべてを満たす時間帯（AND）
+const condLoad = () => { try { return JSON.parse(localStorage.getItem("shiftq") || "[]"); } catch (e) { return []; } };
+const condSave = () => { try { localStorage.setItem("shiftq", JSON.stringify(COND)); } catch (e) {} };
+function condOk(c, s) {
+  const v = c.slice(2);
+  if (c.startsWith("m:")) return s.members.includes(v);
+  if (v === "other") return s.members.some(n => { const m = SHIFTS.members.find(x => x.name === n); return !m || !m.account; });
+  return s.groups.includes(v);
+}
+const condMatch = (s) => COND.every(c => condOk(c, s));
+const isMe = (n) => COND.includes("m:" + n);
+const condName = (c) => c.startsWith("m:") ? c.slice(2) : (c === "g:other" ? "他ユニット" : labelOf(c.slice(2)));
+const condTitle = () => COND.map(condName).join(" ＋ ");
+function condPicker(groups) {
+  const gopts = groups.map(([id, label]) => `<option value="g:${esc(id || "other")}" ${COND.includes("g:" + (id || "other")) ? "disabled" : ""}>${esc(label)}（グループ）</option>`).join("");
+  const mopts = groups.map(([id, label]) => {
+    const ms = SHIFTS.members.filter(m => (m.account || null) === id);
+    return ms.length ? `<optgroup label="${esc(label)}">${ms.map(m => `<option value="m:${esc(m.name)}" ${isMe(m.name) ? "disabled" : ""}>${esc(m.name)}</option>`).join("")}</optgroup>` : "";
+  }).join("");
+  return `<div class="picker"><select id="condSel" aria-label="探す条件"><option value="">${COND.length ? "＋ 条件を足す（すべてを満たす日を探す）" : "メンバー・グループで探す"}</option>
+    <optgroup label="グループ">${gopts}</optgroup>${mopts}</select></div>
+    ${COND.length ? `<div class="chips" style="margin:-4px 0 10px">${COND.map(c => `<button class="went on" data-cdel="${esc(c)}">${esc(condName(c))} ×</button>`).join("")}
+      ${COND.length > 1 ? '<button class="went" data-cdel="*">すべて外す</button>' : ""}</div>` : ""}`;
+}
+function condClick(ev) {
+  const b = ev.target.closest("[data-cdel]");
+  if (!b) return false;
+  COND = b.dataset.cdel === "*" ? [] : COND.filter(c => c !== b.dataset.cdel);
+  condSave(); render();
+  return true;
+}
+function condChange(ev) {
+  if (ev.target.id !== "condSel") return false;
+  if (ev.target.value && !COND.includes(ev.target.value)) { COND.push(ev.target.value); condSave(); }
+  render();
+  return true;
+}
+
 const toast = (msg) => { const t = $("toast"); t.textContent = msg; t.style.display = "block"; clearTimeout(t._h); t._h = setTimeout(() => t.style.display = "none", 2500); };
 
 // 引き継ぎコード: 「LV1 グループ:日付,日付…;グループ:…」。日付は YYMMDD、同じ日の2本目以降は -2 など
@@ -332,31 +370,26 @@ function shiftCard(d, s) {
     <div class="date"><div class="md">${p.m}/${p.d}</div><div class="wd ${p.w === 6 ? "sat" : p.w === 0 ? "sun" : ""}">${WD[p.w]}${p.y !== new Date().getFullYear() ? "<br>" + p.y : ""}</div></div>
     <div class="body"><div>${groupTags(s.groups)}</div>
       <div class="shift-head">店舗 ${esc(time)}</div>
-      <div class="line2">${s.members.map(n => `<span class="mem ${n === MEMBER ? "me" : ""}">${esc(n)}${s.notes && s.notes[n] ? `<small>（${esc(s.notes[n])}）</small>` : ""}</span>`).join("")}</div>
+      <div class="line2">${s.members.map(n => `<span class="mem ${isMe(n) ? "me" : ""}">${esc(n)}${s.notes && s.notes[n] ? `<small>（${esc(s.notes[n])}）</small>` : ""}</span>`).join("")}</div>
       ${lives ? `<div class="line2">${lives}</div>` : ""}
       ${MEMO[s.key] ? `<div class="memo-line">📝 ${esc(MEMO[s.key].split("\n")[0].slice(0, 40))}</div>` : ""}
       <div class="chips">${went}</div></div></div>`;
 }
 function memberPicker() {
-  const groups = [...DATA.accounts.map(a => [a.id, a.label]), ...Object.entries(SHIFTS.units || {}), [null, "他ユニット"]];
-  const opts = groups.map(([id, label]) => {
-    const ms = SHIFTS.members.filter(m => (m.account || null) === id);
-    return ms.length ? `<optgroup label="${esc(label)}">${ms.map(m => `<option value="${esc(m.name)}" ${m.name === MEMBER ? "selected" : ""}>${esc(m.name)}</option>`).join("")}</optgroup>` : "";
-  }).join("");
-  return `<div class="picker"><select id="memberSel" aria-label="メンバー"><option value="">メンバーで探す（全員を表示）</option>${opts}</select></div>`;
+  return condPicker([...DATA.accounts.map(a => [a.id, a.label]), ...Object.entries(SHIFTS.units || {}), [null, "他ユニット"]]);
 }
 function renderShift() {
   if (!SHIFTS.days.length) return '<div class="empty">店舗出勤の情報はまだありません</div>';
   let html = memberPicker();
-  const visible = (s) => (!ACCT || s.groups.includes(ACCT)) && (!MEMBER || s.members.includes(MEMBER));
-  if (MEMBER) {
+  const visible = (s) => (!ACCT || s.groups.includes(ACCT)) && condMatch(s);
+  if (COND.length) {
     // メンバーの出勤日: これからの分と、これまでの回数
     const mine = [];
-    SHIFTS.days.forEach(d => d.sessions.forEach(s => { if (s.members.includes(MEMBER)) mine.push({ d, s }); }));
+    SHIFTS.days.forEach(d => d.sessions.forEach(s => { if (condMatch(s)) mine.push({ d, s }); }));
     const next = mine.filter(x => x.d.date >= today), past = mine.filter(x => x.d.date < today).reverse();
     const ym = today.slice(0, 7);
     const went = mine.filter(x => WENT.has(x.s.key)).length;
-    html += `<div class="panel"><h2>${esc(MEMBER)} の店舗出勤</h2>
+    html += `<div class="panel"><h2>${esc(condTitle())} の店舗出勤${COND.length > 1 ? "（そろう日）" : ""}</h2>
       <div class="stat-grid"><div>これから <b>${next.length}</b> 回</div><div>今月 <b>${mine.filter(x => x.d.date.startsWith(ym)).length}</b> 回</div>
       <div>記録にある分 <b>${mine.length}</b> 回</div><div>会いに行った <b>${went}</b> 回</div></div>
       <div class="small" style="margin-top:6px">月ごと: ${(() => { const bm = {}; mine.forEach(x => { const k = x.d.date.slice(0, 7); bm[k] = (bm[k] || 0) + 1; });
@@ -503,6 +536,7 @@ document.addEventListener("input", (ev) => {
 });
 
 document.addEventListener("click", async (ev) => {
+  if (condClick(ev)) return;
   const sy = ev.target.closest("[data-sym]");
   if (sy && sy.dataset.sym) { SHIFT_YM = sy.dataset.sym; render(); window.scrollTo(0, 0); return; }
   const op = ev.target.closest("[data-open]");
@@ -554,7 +588,7 @@ document.addEventListener("click", async (ev) => {
 document.addEventListener("change", (ev) => {
   if (ev.target.id === "ymSel") { PAST_YM = ev.target.value; render(); window.scrollTo(0, 0); }
   if (ev.target.id === "symSel") { SHIFT_YM = ev.target.value; render(); window.scrollTo(0, 0); }
-  if (ev.target.id === "memberSel") { MEMBER = ev.target.value; store.set("member", MEMBER); render(); window.scrollTo(0, 0); }
+  if (condChange(ev)) window.scrollTo(0, 0);
 });
 $("dlg").addEventListener("close", () => {
   const m = $("memoIn");
@@ -571,8 +605,7 @@ Promise.all([fetch("data.json", { cache: "no-store" }).then(r => r.json()), load
     SHIFTS = sh;
     SKEY = {};
     SHIFTS.days.forEach(day => day.sessions.forEach(s => { SKEY[s.key] = { d: day, s }; }));
-    MEMBER = store.get("member");
-    if (MEMBER && !SHIFTS.members.some(m => m.name === MEMBER)) MEMBER = "";
+    COND = condLoad().filter(c => !c.startsWith("m:") || SHIFTS.members.some(m => m.name === c.slice(2)));
   }
   DATA = d;
   KEYIDX = Object.fromEntries(DATA.shows.map((s, i) => [s.key, i]));
