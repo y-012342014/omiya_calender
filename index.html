@@ -99,6 +99,8 @@ button.went.on { background: var(--ok); border-color: var(--ok); color: #fff; fo
 .gtag.c-hymel_info { background: #8e24aa; }
 .gtag.c-mix { background: #f6bf26; color: #3d2f00; }
 .gtag.c-other { background: #33b679; }
+.gtag.c-lapis { background: #039be5; }
+.card.shift.c-lapis { border-left-color: #039be5; }
 .card.shift { border-left: 6px solid var(--line); }
 .card.shift.c-idoll_omiya { border-left-color: #d50000; }
 .card.shift.c-hymel_info { border-left-color: #8e24aa; }
@@ -233,7 +235,7 @@ function saveMemo() {
 }
 
 const today = (() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; })();
-const labelOf = (id) => (DATA.accounts.find(a => a.id === id) || {}).label || id;
+const labelOf = (id) => (DATA.accounts.find(a => a.id === id) || {}).label || (SHIFTS.units || {})[id] || id;
 function dparts(iso) { const [y, m, d] = iso.split("-").map(Number); return { y, m, d, w: new Date(y, m - 1, d).getDay() }; }
 
 function chips(s) {
@@ -336,7 +338,7 @@ function shiftCard(d, s) {
       <div class="chips">${went}</div></div></div>`;
 }
 function memberPicker() {
-  const groups = [...DATA.accounts.map(a => [a.id, a.label]), [null, "他ユニット"]];
+  const groups = [...DATA.accounts.map(a => [a.id, a.label]), ...Object.entries(SHIFTS.units || {}), [null, "他ユニット"]];
   const opts = groups.map(([id, label]) => {
     const ms = SHIFTS.members.filter(m => (m.account || null) === id);
     return ms.length ? `<optgroup label="${esc(label)}">${ms.map(m => `<option value="${esc(m.name)}" ${m.name === MEMBER ? "selected" : ""}>${esc(m.name)}</option>`).join("")}</optgroup>` : "";
@@ -357,7 +359,9 @@ function renderShift() {
     html += `<div class="panel"><h2>${esc(MEMBER)} の店舗出勤</h2>
       <div class="stat-grid"><div>これから <b>${next.length}</b> 回</div><div>今月 <b>${mine.filter(x => x.d.date.startsWith(ym)).length}</b> 回</div>
       <div>記録にある分 <b>${mine.length}</b> 回</div><div>会いに行った <b>${went}</b> 回</div></div>
-      <div class="small" style="margin-top:6px">${SHIFTS.days[0].date.replaceAll("-", "/")} 以降の公式の出勤表から数えています。</div></div>`;
+      <div class="small" style="margin-top:6px">月ごと: ${(() => { const bm = {}; mine.forEach(x => { const k = x.d.date.slice(0, 7); bm[k] = (bm[k] || 0) + 1; });
+        return Object.keys(bm).sort().reverse().map(k => `${k.slice(0, 4) === today.slice(0, 4) ? "" : k.slice(2, 4) + "年"}${Number(k.slice(5))}月 ${bm[k]}回`).join("・"); })()}</div>
+      <div class="small">${SHIFTS.days[0].date.replaceAll("-", "/")} 以降の公式の出勤表から数えています。</div></div>`;
     html += `<div class="month">これからの出勤</div>` + (next.map(x => shiftCard(x.d, x.s)).join("") || '<div class="empty">公開されている出勤表には、まだありません</div>');
     if (past.length) {
       let cur = "";
