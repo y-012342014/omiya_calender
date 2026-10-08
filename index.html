@@ -90,6 +90,24 @@ button.went.on { background: var(--ok); border-color: var(--ok); color: #fff; fo
 .card.went-on { border-color: var(--ok); }
 .chip.also { background: #fff3bf; color: #8a5a00; }
 @media (prefers-color-scheme: dark) { .chip.also { background: #3a3014; color: #ffd43b; } }
+.shift-head { font-weight: 600; }
+.mem { display: inline-block; margin-right: 6px; }
+.mem.me { color: var(--accent); font-weight: 700; }
+.gtag { font-size: 11px; padding: 1px 7px; border-radius: 10px; color: #fff; margin-right: 4px; font-weight: 600; }
+/* Google カレンダーの色にそろえる: 大宮I☆DOLL=トマト、HyperMelty=ブドウ、MixDay=バナナ、他ユニット=セージ */
+.gtag.c-idoll_omiya { background: #d50000; }
+.gtag.c-hymel_info { background: #8e24aa; }
+.gtag.c-mix { background: #f6bf26; color: #3d2f00; }
+.gtag.c-other { background: #33b679; }
+.card.shift { border-left: 6px solid var(--line); }
+.card.shift.c-idoll_omiya { border-left-color: #d50000; }
+.card.shift.c-hymel_info { border-left-color: #8e24aa; }
+.card.shift.c-mix { border-left-color: #f6bf26; }
+.card.shift.c-other { border-left-color: #33b679; }
+.closed-row { font-size: 13px; color: var(--sub); padding: 6px 12px; border: 1px dashed var(--line); border-radius: 10px; margin-bottom: 8px; }
+.picker { display: flex; gap: 8px; margin: 4px 0 10px; }
+.picker select { flex: 1; min-width: 0; font: inherit; color: var(--text); background: var(--card);
+  border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; }
 .memo-line { font-size: 13px; color: var(--text); margin-top: 4px; overflow-wrap: anywhere; }
 .dlg-body textarea { width: 100%; min-height: 90px; font: inherit; color: var(--text); background: var(--bg);
   border: 1px solid var(--line); border-radius: 8px; padding: 8px; }
@@ -117,6 +135,7 @@ button.went.on { background: var(--ok); border-color: var(--ok); color: #fff; fo
   <nav>
     <button data-tab="upcoming" class="on">今後</button>
     <button data-tab="past">終了</button>
+    <button data-tab="shift">出勤</button>
     <button data-tab="went">行った</button>
   </nav>
 </header>
@@ -135,6 +154,7 @@ const store = { get(k) { try { return localStorage.getItem(k) || ""; } catch (e)
 let DATA = { accounts: [], shows: [] }, TAB = "upcoming", ACCT = store.get("acct"), PAST_YM = "";
 
 let WENT = new Set(), MEMO = {}, KEYIDX = {}, CUR_I = null;
+let SHIFTS = { days: [], members: [] }, SHIFT_YM = "", MEMBER = "", SKEY = {}, CUR_SHIFT = null;
 const toast = (msg) => { const t = $("toast"); t.textContent = msg; t.style.display = "block"; clearTimeout(t._h); t._h = setTimeout(() => t.style.display = "none", 2500); };
 
 // 引き継ぎコード: 「LV1 グループ:日付,日付…;グループ:…」。日付は YYMMDD、同じ日の2本目以降は -2 など
@@ -260,6 +280,7 @@ function render() {
     .concat(accts.map(a => `<button data-acct="${esc(a.id)}" class="${ACCT === a.id ? "on" : ""}">${esc(a.label)}</button>`)).join("");
   let list = DATA.shows.map((s, i) => ({ s, i })).filter(x => !ACCT || x.s.account === ACCT);
   if (TAB === "went") { $("main").innerHTML = renderWent(list); return; }
+  if (TAB === "shift") { $("main").innerHTML = renderShift(); return; }
   list = TAB === "upcoming" ? list.filter(x => x.s.date >= today) : list.filter(x => x.s.date < today).reverse();
   let html = "", cur = "";
   if (TAB === "past" && list.length) {
@@ -293,16 +314,121 @@ function render() {
   $("main").innerHTML = html;
 }
 
+const shiftClass = (groups) => groups.length > 1 ? "c-mix" : groups.length ? "c-" + groups[0] : "c-other";
+function groupTags(groups) {
+  if (groups.length > 1) return `<span class="gtag c-mix">MixDay</span>` + groups.map(g => `<span class="gtag c-${esc(g)}">${esc(labelOf(g))}</span>`).join("");
+  return groups.length ? `<span class="gtag c-${esc(groups[0])}">${esc(labelOf(groups[0]))}</span>`
+                       : '<span class="gtag c-other">他ユニット</span>';
+}
+function shiftCard(d, s) {
+  const p = dparts(d.date);
+  const on = WENT.has(s.key);
+  const went = d.date <= today ? `<button class="went ${on ? "on" : ""}" data-went="${esc(s.key)}">${on ? "✓ 行った" : "行った？"}</button>` : "";
+  const time = [s.label, s.start && `${s.start}〜${s.end || ""}`].filter(Boolean).join(" ");
+  const lives = (s.lives || []).map(l => `LIVE ${esc(l.time || "")}`).join("・");
+  return `<div class="card shift ${shiftClass(s.groups)} ${on ? "went-on" : ""}" data-shift="${esc(s.key)}">
+    <div class="date"><div class="md">${p.m}/${p.d}</div><div class="wd ${p.w === 6 ? "sat" : p.w === 0 ? "sun" : ""}">${WD[p.w]}${p.y !== new Date().getFullYear() ? "<br>" + p.y : ""}</div></div>
+    <div class="body"><div>${groupTags(s.groups)}</div>
+      <div class="shift-head">店舗 ${esc(time)}</div>
+      <div class="line2">${s.members.map(n => `<span class="mem ${n === MEMBER ? "me" : ""}">${esc(n)}</span>`).join("")}</div>
+      ${lives ? `<div class="line2">${lives}</div>` : ""}
+      ${MEMO[s.key] ? `<div class="memo-line">📝 ${esc(MEMO[s.key].split("\n")[0].slice(0, 40))}</div>` : ""}
+      <div class="chips">${went}</div></div></div>`;
+}
+function memberPicker() {
+  const groups = [...DATA.accounts.map(a => [a.id, a.label]), [null, "他ユニット"]];
+  const opts = groups.map(([id, label]) => {
+    const ms = SHIFTS.members.filter(m => (m.account || null) === id);
+    return ms.length ? `<optgroup label="${esc(label)}">${ms.map(m => `<option value="${esc(m.name)}" ${m.name === MEMBER ? "selected" : ""}>${esc(m.name)}</option>`).join("")}</optgroup>` : "";
+  }).join("");
+  return `<div class="picker"><select id="memberSel" aria-label="メンバー"><option value="">メンバーで探す（全員を表示）</option>${opts}</select></div>`;
+}
+function renderShift() {
+  if (!SHIFTS.days.length) return '<div class="empty">店舗出勤の情報はまだありません</div>';
+  let html = memberPicker();
+  const visible = (s) => (!ACCT || s.groups.includes(ACCT)) && (!MEMBER || s.members.includes(MEMBER));
+  if (MEMBER) {
+    // メンバーの出勤日: これからの分と、これまでの回数
+    const mine = [];
+    SHIFTS.days.forEach(d => d.sessions.forEach(s => { if (s.members.includes(MEMBER)) mine.push({ d, s }); }));
+    const next = mine.filter(x => x.d.date >= today), past = mine.filter(x => x.d.date < today).reverse();
+    const ym = today.slice(0, 7);
+    const went = mine.filter(x => WENT.has(x.s.key)).length;
+    html += `<div class="panel"><h2>${esc(MEMBER)} の店舗出勤</h2>
+      <div class="stat-grid"><div>これから <b>${next.length}</b> 回</div><div>今月 <b>${mine.filter(x => x.d.date.startsWith(ym)).length}</b> 回</div>
+      <div>記録にある分 <b>${mine.length}</b> 回</div><div>会いに行った <b>${went}</b> 回</div></div>
+      <div class="small" style="margin-top:6px">${SHIFTS.days[0].date.replaceAll("-", "/")} 以降の公式の出勤表から数えています。</div></div>`;
+    html += `<div class="month">これからの出勤</div>` + (next.map(x => shiftCard(x.d, x.s)).join("") || '<div class="empty">公開されている出勤表には、まだありません</div>');
+    if (past.length) {
+      let cur = "";
+      html += `<div class="month" style="margin-top:20px">これまでの出勤</div>`;
+      for (const x of past) {
+        const m = x.d.date.slice(0, 7);
+        if (m !== cur) { cur = m; html += `<div class="small" style="margin:10px 2px 4px">${Number(m.slice(0, 4))}年${Number(m.slice(5))}月</div>`; }
+        html += shiftCard(x.d, x.s);
+      }
+    }
+    return html;
+  }
+  // 月ごとの一覧（新しい月から選べる。最初は今月）
+  const months = [...new Set(SHIFTS.days.map(d => d.date.slice(0, 7)))].sort().reverse();
+  if (!months.includes(SHIFT_YM)) SHIFT_YM = months.includes(today.slice(0, 7)) ? today.slice(0, 7) : months[0];
+  const k = months.indexOf(SHIFT_YM);
+  const label = (m) => `${m.slice(0, 4)}年${Number(m.slice(5))}月`;
+  html += `<div class="monthbar">
+    <button data-sym="${months[k + 1] || ""}" ${months[k + 1] ? "" : "disabled"} aria-label="前の月">‹</button>
+    <select id="symSel" aria-label="表示する月">${months.map(m => `<option value="${m}" ${m === SHIFT_YM ? "selected" : ""}>${label(m)}</option>`).join("")}</select>
+    <button data-sym="${months[k - 1] || ""}" ${k > 0 ? "" : "disabled"} aria-label="次の月">›</button></div>`;
+  let n = 0;
+  for (const d of SHIFTS.days.filter(d => d.date.startsWith(SHIFT_YM))) {
+    if (d.closed) {
+      if (!ACCT) { const p = dparts(d.date); html += `<div class="closed-row">${p.m}/${p.d}（${WD[p.w]}）店休日</div>`; }
+      continue;
+    }
+    for (const s of d.sessions.filter(visible)) { html += shiftCard(d, s); n++; }
+  }
+  if (!n) html += '<div class="empty">この月の出勤はありません</div>';
+  if (SHIFTS.calendar && SHIFTS.calendar.web) {
+    html += `<div class="cals"><h2>店舗出勤をカレンダーに入れる</h2><div class="row">
+      <a class="btn sub" href="${esc(SHIFTS.calendar.add)}" target="_blank" rel="noopener">Google カレンダーに追加</a>
+      <a class="btn sub" href="${esc(SHIFTS.calendar.web)}" target="_blank" rel="noopener">カレンダーで見る</a>
+      <a class="btn sub" href="${esc(SHIFTS.calendar.ical)}">iCal（iPhone など）</a></div></div>`;
+  }
+  html += `<p class="small">公式の出勤表（<a href="${esc(SHIFTS.source)}" target="_blank" rel="noopener">officedmw.com</a>）から1日2回読み取っています。急な変更は公式で確かめてください。</p>`;
+  return html;
+}
+function openShift(key) {
+  const x = SKEY[key];
+  if (!x) return;
+  CUR_SHIFT = key; CUR_I = null;
+  const { d, s } = x;
+  const p = dparts(d.date);
+  $("dlgTitle").textContent = `${p.m}/${p.d}（${WD[p.w]}） 店舗 ${[s.label, s.start && s.start + "〜" + (s.end || "")].filter(Boolean).join(" ")}`;
+  $("dlgBody").innerHTML = `<div>${groupTags(s.groups)}</div>
+    <dl><dt>出勤</dt><dd>${s.members.map(esc).join("、")}</dd>
+    ${(s.lives || []).map(l => `<dt>LIVE ${esc(l.time || "")}</dt><dd>${l.members.map(esc).join("、")}</dd>`).join("")}</dl>
+    ${d.date <= today ? `<p><button class="went ${WENT.has(s.key) ? "on" : ""}" data-went="${esc(s.key)}">${WENT.has(s.key) ? "✓ 行った" : "行った？"}</button></p>` : ""}
+    <div class="alsobox"><div class="small">メモ（この端末のブラウザにだけ保存。引き継ぎコードにも入ります）</div>
+      <textarea id="memoIn" data-key="${esc(s.key)}" placeholder="チェキ、話したこと など">${esc(MEMO[s.key] || "")}</textarea></div>
+    <p class="small">公式の出勤表から読み取っています。</p>`;
+  if (!$("dlg").open) $("dlg").showModal();
+  $("dlg").scrollTop = 0;
+}
+
 function renderWent(all) {
   const mine = all.filter(x => WENT.has(x.s.key)).reverse();
   const byYear = {}, byGroup = {};
   mine.forEach(({ s }) => { const y = s.date.slice(0, 4); byYear[y] = (byYear[y] || 0) + 1; byGroup[s.account] = (byGroup[s.account] || 0) + 1; });
   const thisYear = String(new Date().getFullYear());
+  const shiftWent = [];
+  SHIFTS.days.forEach(d => d.sessions.forEach(s => { if (WENT.has(s.key) && (!ACCT || s.groups.includes(ACCT))) shiftWent.push({ d, s }); }));
+  shiftWent.reverse();
   let html = `<div class="panel"><h2>行ったライブ${ACCT ? `（${esc(labelOf(ACCT))}）` : ""}</h2>
     <div class="stat-big">${mine.length}<span class="small"> 回</span></div>
     <div class="stat-grid">
       ${Object.keys(byYear).sort().reverse().map(y => `<div>${y}年 <b>${byYear[y]}</b> 回${y === thisYear ? "（今年）" : ""}</div>`).join("")}
       ${ACCT ? "" : Object.keys(byGroup).map(a => `<div>${esc(labelOf(a))} <b>${byGroup[a]}</b> 回</div>`).join("")}
+      <div>店舗 <b>${shiftWent.length}</b> 回</div>
     </div>
     <div class="small" style="margin-top:6px">公演の「行った？」を押すと数えます。公演を開くとメモも残せます（チェックもメモもこの端末のブラウザにだけ保存され、ほかの人には見えません）。</div></div>`;
   let cur = "";
@@ -312,7 +438,10 @@ function renderWent(all) {
     html += card(s, i);
   }
   if (!mine.length) html += `<div class="empty">まだありません。「終了」タブの公演で「行った？」を押してください。</div>`;
-  const known = new Set(DATA.shows.map(s => s.key));
+  if (shiftWent.length) {
+    html += `<div class="month" style="margin-top:20px">店舗に行った日</div>` + shiftWent.map(x => shiftCard(x.d, x.s)).join("");
+  }
+  const known = new Set(DATA.shows.map(s => s.key).concat(Object.keys(SKEY)));
   const lost = [...WENT].filter(k => !known.has(k)).length;
   html += `<div class="panel" style="margin-top:18px"><h2>引き継ぎコード</h2>
     <div class="small">機種変更やブラウザのデータ消去に備えて、ときどきコピーしてメモや LINE に残してください。チェックするたびに自動で最新になります。</div>
@@ -327,7 +456,7 @@ function renderWent(all) {
 }
 
 function openShow(i) {
-  CUR_I = i;
+  CUR_I = i; CUR_SHIFT = null;
   const s = DATA.shows[i];
   const p = dparts(s.date);
   $("dlgTitle").textContent = `${p.m}/${p.d}（${WD[p.w]}） ${s.title || ""}`;
@@ -370,6 +499,8 @@ document.addEventListener("input", (ev) => {
 });
 
 document.addEventListener("click", async (ev) => {
+  const sy = ev.target.closest("[data-sym]");
+  if (sy && sy.dataset.sym) { SHIFT_YM = sy.dataset.sym; render(); window.scrollTo(0, 0); return; }
   const op = ev.target.closest("[data-open]");
   if (op) { ev.preventDefault(); openShow(Number(op.dataset.open)); return; }
   const w = ev.target.closest("[data-went]");
@@ -380,6 +511,7 @@ document.addEventListener("click", async (ev) => {
     saveWent();
     render();
     if ($("dlg").open && CUR_I !== null) openShow(CUR_I);
+    else if ($("dlg").open && CUR_SHIFT) openShift(CUR_SHIFT);
     return;
   }
   if (ev.target.id === "wentCopy") {
@@ -407,6 +539,8 @@ document.addEventListener("click", async (ev) => {
   }
   const ym = ev.target.closest("[data-ym]");
   if (ym && ym.dataset.ym) { PAST_YM = ym.dataset.ym; render(); window.scrollTo(0, 0); return; }
+  const sc = ev.target.closest("[data-shift]");
+  if (sc) { openShift(sc.dataset.shift); return; }
   const t = ev.target.closest("[data-tab],[data-acct],[data-i]");
   if (!t) return;
   if (t.dataset.tab) { TAB = t.dataset.tab; render(); window.scrollTo(0, 0); }
@@ -415,17 +549,27 @@ document.addEventListener("click", async (ev) => {
 });
 document.addEventListener("change", (ev) => {
   if (ev.target.id === "ymSel") { PAST_YM = ev.target.value; render(); window.scrollTo(0, 0); }
+  if (ev.target.id === "symSel") { SHIFT_YM = ev.target.value; render(); window.scrollTo(0, 0); }
+  if (ev.target.id === "memberSel") { MEMBER = ev.target.value; store.set("member", MEMBER); render(); window.scrollTo(0, 0); }
 });
 $("dlg").addEventListener("close", () => {
   const m = $("memoIn");
   if (m) { clearTimeout(memoTimer); if (m.value.trim()) MEMO[m.dataset.key] = m.value; else delete MEMO[m.dataset.key]; saveMemo(); }
-  CUR_I = null;
+  CUR_I = null; CUR_SHIFT = null;
   render();
 });
 $("dlgClose").onclick = () => $("dlg").close();
 $("dlg").addEventListener("click", (ev) => { if (ev.target === $("dlg")) $("dlg").close(); });
 
-Promise.all([fetch("data.json", { cache: "no-store" }).then(r => r.json()), loadWent()]).then(([d]) => {
+Promise.all([fetch("data.json", { cache: "no-store" }).then(r => r.json()), loadWent(),
+             fetch("shifts.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).catch(() => null)]).then(([d, , sh]) => {
+  if (sh) {
+    SHIFTS = sh;
+    SKEY = {};
+    SHIFTS.days.forEach(day => day.sessions.forEach(s => { SKEY[s.key] = { d: day, s }; }));
+    MEMBER = store.get("member");
+    if (MEMBER && !SHIFTS.members.some(m => m.name === MEMBER)) MEMBER = "";
+  }
   DATA = d;
   KEYIDX = Object.fromEntries(DATA.shows.map((s, i) => [s.key, i]));
   if (ACCT && !DATA.accounts.some(a => a.id === ACCT)) ACCT = "";
