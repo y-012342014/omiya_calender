@@ -325,7 +325,7 @@ function shiftCard(d, s) {
   const on = WENT.has(s.key);
   const went = d.date <= today ? `<button class="went ${on ? "on" : ""}" data-went="${esc(s.key)}">${on ? "✓ 行った" : "行った？"}</button>` : "";
   const time = [s.label, s.start && `${s.start}〜${s.end || ""}`].filter(Boolean).join(" ");
-  const lives = (s.lives || []).map(l => `LIVE ${esc(l.time || "")}`).join("・");
+  const lives = (s.lives || []).map(l => `${esc(l.title || "LIVE")} ${esc(l.time || "")}`).join("・");
   return `<div class="card shift ${shiftClass(s.groups)} ${on ? "went-on" : ""}" data-shift="${esc(s.key)}">
     <div class="date"><div class="md">${p.m}/${p.d}</div><div class="wd ${p.w === 6 ? "sat" : p.w === 0 ? "sun" : ""}">${WD[p.w]}${p.y !== new Date().getFullYear() ? "<br>" + p.y : ""}</div></div>
     <div class="body"><div>${groupTags(s.groups)}</div>
@@ -406,7 +406,7 @@ function openShift(key) {
   $("dlgTitle").textContent = `${p.m}/${p.d}（${WD[p.w]}） 店舗 ${[s.label, s.start && s.start + "〜" + (s.end || "")].filter(Boolean).join(" ")}`;
   $("dlgBody").innerHTML = `<div>${groupTags(s.groups)}</div>
     <dl><dt>出勤</dt><dd>${s.members.map(esc).join("、")}</dd>
-    ${(s.lives || []).map(l => `<dt>LIVE ${esc(l.time || "")}</dt><dd>${l.members.map(esc).join("、")}</dd>`).join("")}</dl>
+    ${(s.lives || []).map(l => `<dt>${esc(l.title || "LIVE")} ${esc(l.time || "")}</dt><dd>${l.members.map(esc).join("、") || "（未定）"}</dd>`).join("")}</dl>
     ${d.date <= today ? `<p><button class="went ${WENT.has(s.key) ? "on" : ""}" data-went="${esc(s.key)}">${WENT.has(s.key) ? "✓ 行った" : "行った？"}</button></p>` : ""}
     <div class="alsobox"><div class="small">メモ（この端末のブラウザにだけ保存。引き継ぎコードにも入ります）</div>
       <textarea id="memoIn" data-key="${esc(s.key)}" placeholder="チェキ、話したこと など">${esc(MEMO[s.key] || "")}</textarea></div>
