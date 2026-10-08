@@ -330,7 +330,7 @@ function shiftCard(d, s) {
     <div class="date"><div class="md">${p.m}/${p.d}</div><div class="wd ${p.w === 6 ? "sat" : p.w === 0 ? "sun" : ""}">${WD[p.w]}${p.y !== new Date().getFullYear() ? "<br>" + p.y : ""}</div></div>
     <div class="body"><div>${groupTags(s.groups)}</div>
       <div class="shift-head">店舗 ${esc(time)}</div>
-      <div class="line2">${s.members.map(n => `<span class="mem ${n === MEMBER ? "me" : ""}">${esc(n)}</span>`).join("")}</div>
+      <div class="line2">${s.members.map(n => `<span class="mem ${n === MEMBER ? "me" : ""}">${esc(n)}${s.notes && s.notes[n] ? `<small>（${esc(s.notes[n])}）</small>` : ""}</span>`).join("")}</div>
       ${lives ? `<div class="line2">${lives}</div>` : ""}
       ${MEMO[s.key] ? `<div class="memo-line">📝 ${esc(MEMO[s.key].split("\n")[0].slice(0, 40))}</div>` : ""}
       <div class="chips">${went}</div></div></div>`;
