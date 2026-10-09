@@ -8171,6 +8171,24 @@
    ]
   },
   {
+   "key": "idoll_omiya|2026-10-28",
+   "account": "idoll_omiya",
+   "date": "2026-10-28",
+   "title": "AKIBAカルチャーズHALLOWEEN LIVE!!!",
+   "venue": "AKIBAカルチャーズ劇場",
+   "open": "17:00",
+   "start": "17:25",
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2108543012401828305",
+   "thumb": "https://pbs.twimg.com/media/HULaczjaYAAAWZ_?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HULaczjaYAAAWZ_?format=jpg&name=medium"
+  },
+  {
    "key": "hymel_info|2026-10-30",
    "account": "hymel_info",
    "date": "2026-10-30",
@@ -8323,5 +8341,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-08T08:05:09+09:00"
+ "updated": "2026-10-09T22:00:17+09:00"
 }
