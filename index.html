@@ -167,6 +167,11 @@ function condOk(c, s) {
   return s.groups.includes(v);
 }
 const condMatch = (s) => COND.every(c => condOk(c, s));
+// 条件で探した出勤日。各条件は、その日のどこかの時間帯で満たせばよい（2人がそろう日 = 同じ日に2人とも出勤。時間帯は別でもよい）
+function condDays() {
+  return SHIFTS.days.filter(d => COND.every(c => d.sessions.some(s => condOk(c, s))))
+    .map(d => ({ d, ss: d.sessions.filter(s => COND.some(c => condOk(c, s))) }));
+}
 const isMe = (n) => COND.includes("m:" + n);
 const condName = (c) => c.startsWith("m:") ? c.slice(2) : (c === "g:other" ? "他ユニット" : labelOf(c.slice(2)));
 const condTitle = () => COND.map(condName).join(" ＋ ");
@@ -384,25 +389,24 @@ function renderShift() {
   const visible = (s) => (!ACCT || s.groups.includes(ACCT)) && condMatch(s);
   if (COND.length) {
     // メンバーの出勤日: これからの分と、これまでの回数
-    const mine = [];
-    SHIFTS.days.forEach(d => d.sessions.forEach(s => { if (condMatch(s)) mine.push({ d, s }); }));
+    const mine = condDays();
     const next = mine.filter(x => x.d.date >= today), past = mine.filter(x => x.d.date < today).reverse();
     const ym = today.slice(0, 7);
-    const went = mine.filter(x => WENT.has(x.s.key)).length;
+    const went = mine.filter(x => x.ss.some(s => WENT.has(s.key))).length;
     html += `<div class="panel"><h2>${esc(condTitle())} の店舗出勤${COND.length > 1 ? "（そろう日）" : ""}</h2>
-      <div class="stat-grid"><div>これから <b>${next.length}</b> 回</div><div>今月 <b>${mine.filter(x => x.d.date.startsWith(ym)).length}</b> 回</div>
-      <div>記録にある分 <b>${mine.length}</b> 回</div><div>会いに行った <b>${went}</b> 回</div></div>
+      <div class="stat-grid"><div>これから <b>${next.length}</b> 日</div><div>今月 <b>${mine.filter(x => x.d.date.startsWith(ym)).length}</b> 日</div>
+      <div>記録にある分 <b>${mine.length}</b> 日</div><div>会いに行った <b>${went}</b> 日</div></div>
       <div class="small" style="margin-top:6px">月ごと: ${(() => { const bm = {}; mine.forEach(x => { const k = x.d.date.slice(0, 7); bm[k] = (bm[k] || 0) + 1; });
-        return Object.keys(bm).sort().reverse().map(k => `${k.slice(0, 4) === today.slice(0, 4) ? "" : k.slice(2, 4) + "年"}${Number(k.slice(5))}月 ${bm[k]}回`).join("・"); })()}</div>
-      <div class="small">${SHIFTS.days[0].date.replaceAll("-", "/")} 以降の公式の出勤表から数えています。</div></div>`;
-    html += `<div class="month">これからの出勤</div>` + (next.map(x => shiftCard(x.d, x.s)).join("") || '<div class="empty">公開されている出勤表には、まだありません</div>');
+        return Object.keys(bm).sort().reverse().map(k => `${k.slice(0, 4) === today.slice(0, 4) ? "" : k.slice(2, 4) + "年"}${Number(k.slice(5))}月 ${bm[k]}日`).join("・"); })()}</div>
+      <div class="small">${SHIFTS.days[0].date.replaceAll("-", "/")} 以降の公式の出勤表から、日の数で数えています。${COND.length > 1 ? "時間帯が別でも、同じ日に出ていれば数えます。" : ""}</div></div>`;
+    html += `<div class="month">これからの出勤</div>` + (next.map(x => x.ss.map(s => shiftCard(x.d, s)).join("")).join("") || '<div class="empty">公開されている出勤表には、まだありません</div>');
     if (past.length) {
       let cur = "";
       html += `<div class="month" style="margin-top:20px">これまでの出勤</div>`;
       for (const x of past) {
         const m = x.d.date.slice(0, 7);
         if (m !== cur) { cur = m; html += `<div class="small" style="margin:10px 2px 4px">${Number(m.slice(0, 4))}年${Number(m.slice(5))}月</div>`; }
-        html += shiftCard(x.d, x.s);
+        html += x.ss.map(s => shiftCard(x.d, s)).join("");
       }
     }
     return html;
