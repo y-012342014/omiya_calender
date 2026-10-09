@@ -7884,8 +7884,8 @@
    "key": "idoll_omiya|2026-10-10",
    "account": "idoll_omiya",
    "date": "2026-10-10",
-   "title": "大宮I☆DOLLとふじさんぽ撮影会",
-   "venue": "富士急ハイランド内",
+   "title": "ZOKKONステージ",
+   "venue": "富士急ハイランド",
    "open": "10:00",
    "start": "10:30",
    "stage": "11:00-11:25",
@@ -7894,13 +7894,13 @@
     "https://tiget.net/events/510227",
     "https://tiget.net/events/528283"
    ],
-   "type": "event",
+   "type": "live",
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-08-10",
-   "post": "https://x.com/idoll_omiya/status/2107037883895050587",
-   "thumb": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2108548582257426757",
+   "thumb": "https://pbs.twimg.com/media/HUMRv1fbEAAtQV7?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUMRv1fbEAAtQV7?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-10-10|2",
@@ -8341,5 +8341,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-09T22:00:17+09:00"
+ "updated": "2026-10-10T08:00:14+09:00"
 }
