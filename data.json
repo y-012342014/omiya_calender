@@ -8117,6 +8117,26 @@
    ]
   },
   {
+   "key": "idoll_omiya|2026-10-18",
+   "account": "idoll_omiya",
+   "date": "2026-10-18",
+   "title": "アイコレ",
+   "venue": "KMAパラダイスホール",
+   "open": "10:40",
+   "start": "11:00",
+   "stage": "15:10-15:30",
+   "tickets": [
+    "https://tiget.net/events/527780"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2108905396937101516",
+   "thumb": "https://pbs.twimg.com/media/HUPOO7RbkAAohwM?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUPOO7RbkAAohwM?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-10-24",
    "account": "idoll_omiya",
    "date": "2026-10-24",
@@ -8342,5 +8362,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-10T18:00:13+09:00"
+ "updated": "2026-10-10T22:00:31+09:00"
 }
