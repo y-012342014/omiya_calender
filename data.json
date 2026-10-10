@@ -7870,15 +7870,16 @@
    "start": "10:10",
    "stage": "12:25-12:40",
    "tickets": [
-    "https://ticketdive.com/event/EbisuSUPERLIVE2026"
+    "https://ticketdive.com/event/EbisuSUPERLIVE2026",
+    "https://t-dv.com/EbisuSUPERLIVE2026"
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": null,
+   "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2106897156414292260",
-   "thumb": "https://pbs.twimg.com/media/HTy1Z2bbsAAk753?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTy1Z2bbsAAk753?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2108709097285832887",
+   "thumb": "https://pbs.twimg.com/media/HTy2f5ca0AASHab?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HTy2f5ca0AASHab?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-10",
@@ -7898,9 +7899,9 @@
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-08-10",
-   "post": "https://x.com/idoll_omiya/status/2108548582257426757",
-   "thumb": "https://pbs.twimg.com/media/HUMRv1fbEAAtQV7?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUMRv1fbEAAtQV7?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2108738908829958221",
+   "thumb": "https://pbs.twimg.com/media/HUO-28paUAI7z_Z?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUO-28paUAI7z_Z?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-10-10|2",
@@ -7918,9 +7919,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2107730984099873010",
-   "thumb": "https://pbs.twimg.com/media/HUAp-IfaoAAHhaf?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUAp-IfaoAAHhaf?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2108754399623631240",
+   "thumb": "https://pbs.twimg.com/media/HUMtTsxbgAAlR2f?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUMtTsxbgAAlR2f?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-10-11",
@@ -8341,5 +8342,5 @@
    "image": "https://pbs.twimg.com/media/HTyPFh8bQAE9iE1?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-10T08:00:14+09:00"
+ "updated": "2026-10-10T12:00:17+09:00"
 }
