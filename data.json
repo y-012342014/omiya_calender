@@ -8070,9 +8070,9 @@
    "date": "2026-10-17",
    "title": "ぴゅあふぇす2026",
    "venue": "TwinBoxAKIHABARA/TwinBoxGARAGE",
-   "open": "11:00",
-   "start": "11:30",
-   "stage": null,
+   "open": "10:30",
+   "start": "11:00",
+   "stage": "11:00-11:25 / 13:35-14:00",
    "tickets": [
     "https://t-dv.com/purefes2026"
    ],
@@ -8080,9 +8080,9 @@
    "status": "scheduled",
    "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2103432780344672661",
-   "thumb": "https://pbs.twimg.com/media/HTDkxogaMAADO5I?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTDkxogaMAADO5I?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2109237581896421639",
+   "thumb": "https://pbs.twimg.com/media/HUUl0E3bsAAE-gP?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUUl0E3bsAAE-gP?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-10-17|2",
@@ -8095,10 +8095,10 @@
    "account": "hymel_info",
    "date": "2026-10-17",
    "title": "ぴゅあふぇす2026",
-   "venue": "TwinBoxAKIHABARA/TwinBoxGARAGE",
-   "open": "11:00",
-   "start": "11:30",
-   "stage": null,
+   "venue": "TwinBoxGARAGE",
+   "open": "10:30",
+   "start": "11:00",
+   "stage": "17:55-18:20",
    "tickets": [
     "https://t-dv.com/purefes2026"
    ],
@@ -8106,9 +8106,9 @@
    "status": "scheduled",
    "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2103433006254084182",
-   "thumb": "https://pbs.twimg.com/media/HTDlGbVakAAOb9T?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTDlGbVakAAOb9T?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2109237576317935839",
+   "thumb": "https://pbs.twimg.com/media/HUUmIyiaoAAEOGT?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUUmIyiaoAAEOGT?format=jpg&name=medium",
    "also": [
     {
      "key": "idoll_omiya|2026-10-17",
@@ -8132,9 +8132,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2108905396937101516",
-   "thumb": "https://pbs.twimg.com/media/HUPOO7RbkAAohwM?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUPOO7RbkAAohwM?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2109267774228856898",
+   "thumb": "https://pbs.twimg.com/media/HUPOYgvacAASD_X?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUPOYgvacAASD_X?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-24",
@@ -8362,5 +8362,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-11T12:00:29+09:00"
+ "updated": "2026-10-11T22:00:30+09:00"
 }
