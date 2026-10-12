@@ -7954,15 +7954,16 @@
    "start": "11:00",
    "stage": "12:00-12:30",
    "tickets": [
-    "https://yum-e.zaiko.io/en/e/abc1012"
+    "https://yum-e.zaiko.io/en/e/abc1012",
+    "https://yum-e.zaiko.io/e/abc1012"
    ],
    "type": "live",
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2105976101914755154",
-   "thumb": "https://pbs.twimg.com/media/HTm-NfRbkAEM6DY?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTm-NfRbkAEM6DY?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2109433875474649522",
+   "thumb": "https://pbs.twimg.com/media/HUMvJreasAAFEjj?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUMvJreasAAFEjj?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-10-12",
@@ -7978,11 +7979,11 @@
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": null,
+   "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2101597244533227815",
-   "thumb": "https://pbs.twimg.com/media/HSi6n7bbYAAU0sa?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HSi6n7bbYAAU0sa?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2109433871427150241",
+   "thumb": "https://pbs.twimg.com/media/HULXuPxbcAAvaRl?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HULXuPxbcAAvaRl?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-14",
@@ -8135,6 +8136,26 @@
    "post": "https://x.com/idoll_omiya/status/2109267774228856898",
    "thumb": "https://pbs.twimg.com/media/HUPOYgvacAASD_X?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HUPOYgvacAASD_X?format=jpg&name=medium"
+  },
+  {
+   "key": "idoll_omiya|2026-10-21",
+   "account": "idoll_omiya",
+   "date": "2026-10-21",
+   "title": "JAPAN IDOL SUPER LIVE 2026",
+   "venue": "新宿ReNY",
+   "open": "13:30",
+   "start": "14:00",
+   "stage": "16:25-16:45",
+   "tickets": [
+    "https://t-dv.com/JAPANIDOL2026ShinjukuReNYComeNext_10_21"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2109479184061853796",
+   "thumb": "https://pbs.twimg.com/media/HUY8_DrasAAmf1l?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUY8_DrasAAmf1l?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-24",
@@ -8362,5 +8383,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-11T22:00:30+09:00"
+ "updated": "2026-10-12T12:00:25+09:00"
 }
