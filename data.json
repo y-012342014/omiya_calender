@@ -7989,21 +7989,22 @@
    "key": "idoll_omiya|2026-10-14",
    "account": "idoll_omiya",
    "date": "2026-10-14",
-   "title": "春夏秋冬サラ卒業公演",
+   "title": "ありがとう、そして次のゲ-トへ",
    "venue": "西川口 Live House Hearts",
    "open": null,
    "start": null,
    "stage": null,
    "tickets": [
-    "https://ticketdive.com/event/hitotokisara20261014"
+    "https://ticketdive.com/event/hitotokisara20261014",
+    "https://tiget.net/events/527196"
    ],
    "type": "live",
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-09-07",
-   "post": "https://x.com/idoll_omiya/status/2107637031753105809",
-   "thumb": "https://pbs.twimg.com/media/HT6SgwGboAESDpu?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HT6SgwGboAESDpu?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2109524431609745515",
+   "thumb": null,
+   "image": null
   },
   {
    "key": "idoll_omiya|2026-10-16",
@@ -8383,5 +8384,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-12T12:00:25+09:00"
+ "updated": "2026-10-12T18:00:19+09:00"
 }
