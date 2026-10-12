@@ -8148,15 +8148,16 @@
    "start": "14:00",
    "stage": "16:25-16:45",
    "tickets": [
-    "https://t-dv.com/JAPANIDOL2026ShinjukuReNYComeNext_10_21"
+    "https://t-dv.com/JAPANIDOL2026ShinjukuReNYComeNext_10_21",
+    "https://ticketdive.com/event/JAPANIDOL2026ShinjukuReNYComeNext_10_21"
    ],
    "type": "live",
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2109479184061853796",
-   "thumb": "https://pbs.twimg.com/media/HUY8_DrasAAmf1l?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUY8_DrasAAmf1l?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2109630166813323678",
+   "thumb": "https://pbs.twimg.com/media/HUY84z6aAAAHjr9?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUY84z6aAAAHjr9?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-24",
@@ -8384,5 +8385,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-12T18:00:19+09:00"
+ "updated": "2026-10-13T08:00:06+09:00"
 }
