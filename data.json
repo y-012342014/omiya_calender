@@ -8002,9 +8002,9 @@
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-09-07",
-   "post": "https://x.com/idoll_omiya/status/2109998459797278893",
-   "thumb": null,
-   "image": null
+   "post": "https://x.com/idoll_omiya/status/2110173751363145772",
+   "thumb": "https://pbs.twimg.com/media/HUjV0QPa8AA64yY?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUjV0QPa8AA64yY?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-16",
@@ -8385,5 +8385,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-14T08:00:33+09:00"
+ "updated": "2026-10-14T12:00:08+09:00"
 }
