@@ -8180,6 +8180,24 @@
    "image": "https://pbs.twimg.com/media/HUY84z6aAAAHjr9?format=jpg&name=medium"
   },
   {
+   "key": "idoll_omiya|2026-10-22",
+   "account": "idoll_omiya",
+   "date": "2026-10-22",
+   "title": "#大宮アイドール",
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2110724876797645251",
+   "thumb": null,
+   "image": null
+  },
+  {
    "key": "idoll_omiya|2026-10-24",
    "account": "idoll_omiya",
    "date": "2026-10-24",
@@ -8479,5 +8497,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-15T22:00:45+09:00"
+ "updated": "2026-10-16T08:00:27+09:00"
 }
