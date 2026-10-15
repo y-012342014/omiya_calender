@@ -8185,9 +8185,9 @@
    "date": "2026-10-24",
    "title": "超REVIVER -JAPAN SERIES-",
    "venue": "RAD HALL",
-   "open": "15:40",
-   "start": "15:55",
-   "stage": "18:20-18:35 / 20:40-21:05",
+   "open": "17:50",
+   "start": "18:05",
+   "stage": "18:05-18:20 / 20:50-21:15",
    "tickets": [
     "https://tiget.net/events/511686",
     "https://event.tiget.net/omiya-i-doll-oneman-live",
@@ -8197,9 +8197,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2105503175478493596",
-   "thumb": "https://pbs.twimg.com/media/HTg_57paMAAV4Ey?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HTg_57paMAAV4Ey?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2110664577977385440",
+   "thumb": "https://pbs.twimg.com/media/HUqSHvYaoAAIl_6?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUqSHvYaoAAIl_6?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-10-24",
@@ -8211,11 +8211,11 @@
    "key": "hymel_info|2026-10-24",
    "account": "hymel_info",
    "date": "2026-10-24",
-   "title": "アツい、アツすぎる!むせんまんじゅうin名古屋",
+   "title": "超REVIVER -JAPAN SERIES-",
    "venue": "RAD HALL",
-   "open": "15:40",
-   "start": "15:55",
-   "stage": "19:25-19:50",
+   "open": "17:50",
+   "start": "18:05",
+   "stage": "19:35-20:00",
    "tickets": [
     "https://tiget.net/events/511686",
     "https://tiget.net/events/525078"
@@ -8224,9 +8224,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2103480892824174661",
-   "thumb": "https://pbs.twimg.com/media/HS_28K0bEAE_MzM?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HS_28K0bEAE_MzM?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2110660399364534302",
+   "thumb": "https://pbs.twimg.com/media/HUqSbqqbwAAZ_hp?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUqSbqqbwAAZ_hp?format=jpg&name=medium",
    "also": [
     {
      "key": "idoll_omiya|2026-10-24",
@@ -8251,9 +8251,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2110347393115803982",
-   "thumb": "https://pbs.twimg.com/media/HUk6l28bYAAJR5Y?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUk6l28bYAAJR5Y?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2110709779190743122",
+   "thumb": "https://pbs.twimg.com/media/HUk60kbasAAUF8N?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUk60kbasAAUF8N?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-10-25",
@@ -8278,9 +8278,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2110347388540133698",
-   "thumb": "https://pbs.twimg.com/media/HUk7HcjagAAjppy?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUk7HcjagAAjppy?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2110709779438150065",
+   "thumb": "https://pbs.twimg.com/media/HUk7Uq2aUAAemti?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUk7Uq2aUAAemti?format=jpg&name=medium",
    "also": [
     {
      "key": "idoll_omiya|2026-10-25",
@@ -8343,6 +8343,26 @@
    "post": "https://x.com/idoll_omiya/status/2100577146494423277",
    "thumb": "https://pbs.twimg.com/media/HSa_eLuagAAuFzg?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HSa_eLuagAAuFzg?format=jpg&name=medium"
+  },
+  {
+   "key": "hymel_info|2026-10-31",
+   "account": "hymel_info",
+   "date": "2026-10-31",
+   "title": "KAIZOKU FES HALLOWEEN",
+   "venue": "ジールシアター新橋",
+   "open": "11:30",
+   "start": "12:00",
+   "stage": "12:25-12:50",
+   "tickets": [
+    "https://ticketdive.com/event/kaizoku_fes1031"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2110687145434488903",
+   "thumb": "https://pbs.twimg.com/media/HUpaqo0bwAA5NFr?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUpaqo0bwAA5NFr?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-02",
@@ -8459,5 +8479,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-15T18:00:24+09:00"
+ "updated": "2026-10-15T22:00:45+09:00"
 }
