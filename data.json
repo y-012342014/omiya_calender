@@ -8139,6 +8139,26 @@
    "image": "https://pbs.twimg.com/media/HUPOYgvacAASD_X?format=jpg&name=medium"
   },
   {
+   "key": "hymel_info|2026-10-20",
+   "account": "hymel_info",
+   "date": "2026-10-20",
+   "title": "Idol PiT NEXTGIRLS",
+   "venue": "代々木ミューズホール",
+   "open": "18:00",
+   "start": "18:15",
+   "stage": "19:15-19:35",
+   "tickets": [
+    "https://tiget.net/events/525963/submit_password"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2110582132527788372",
+   "thumb": "https://pbs.twimg.com/media/HUpK8pjbcAA8eEG?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUpK8pjbcAA8eEG?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-10-21",
    "account": "idoll_omiya",
    "date": "2026-10-21",
@@ -8439,5 +8459,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-14T22:00:27+09:00"
+ "updated": "2026-10-15T18:00:24+09:00"
 }
