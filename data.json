@@ -8201,10 +8201,10 @@
    "key": "idoll_omiya|2026-10-24",
    "account": "idoll_omiya",
    "date": "2026-10-24",
-   "title": "超REVIVER -JAPAN SERIES-",
+   "title": "アツい、アツすぎる!むせんまんじゅうin名古屋",
    "venue": "RAD HALL",
-   "open": "17:50",
-   "start": "18:05",
+   "open": "15:40",
+   "start": "15:55",
    "stage": "18:05-18:20 / 21:15-21:40",
    "tickets": [
     "https://tiget.net/events/511686",
@@ -8215,9 +8215,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2111814972837921158",
-   "thumb": "https://pbs.twimg.com/media/HU6sAFPbwAAtXt3?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HU6sAFPbwAAtXt3?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2112018332920717744",
+   "thumb": null,
+   "image": null,
    "also": [
     {
      "key": "hymel_info|2026-10-24",
@@ -8229,10 +8229,10 @@
    "key": "hymel_info|2026-10-24",
    "account": "hymel_info",
    "date": "2026-10-24",
-   "title": "超REVIVER -JAPAN SERIES-",
+   "title": "アツい、アツすぎる!むせんまんじゅうin名古屋",
    "venue": "RAD HALL",
-   "open": "17:50",
-   "start": "18:05",
+   "open": "15:40",
+   "start": "15:55",
    "stage": "19:35-20:00",
    "tickets": [
     "https://tiget.net/events/511686",
@@ -8242,9 +8242,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2111815109739995402",
-   "thumb": "https://pbs.twimg.com/media/HU6spJ8aAAAYRAL?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HU6spJ8aAAAYRAL?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2112020596196557008",
+   "thumb": null,
+   "image": null,
    "also": [
     {
      "key": "idoll_omiya|2026-10-24",
@@ -8269,9 +8269,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2110709779190743122",
-   "thumb": "https://pbs.twimg.com/media/HUk60kbasAAUF8N?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUk60kbasAAUF8N?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2112018332920717744",
+   "thumb": null,
+   "image": null,
    "also": [
     {
      "key": "hymel_info|2026-10-25",
@@ -8296,9 +8296,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2110709779438150065",
-   "thumb": "https://pbs.twimg.com/media/HUk7Uq2aUAAemti?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUk7Uq2aUAAemti?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2112020596196557008",
+   "thumb": null,
+   "image": null,
    "also": [
     {
      "key": "idoll_omiya|2026-10-25",
@@ -8549,5 +8549,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-19T08:00:40+09:00"
+ "updated": "2026-10-19T18:00:35+09:00"
 }
