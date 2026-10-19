@@ -8457,6 +8457,26 @@
    ]
   },
   {
+   "key": "idoll_omiya|2026-11-11",
+   "account": "idoll_omiya",
+   "date": "2026-11-11",
+   "title": "魔訶不思議あどべんちゃあ4 対バン編ツアー埼玉",
+   "venue": "西川口 Live House Hearts",
+   "open": "18:30",
+   "start": "19:00",
+   "stage": "19:40-20:00",
+   "tickets": [
+    "https://livepocket.jp/e/vlx2r"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2112144228771926317",
+   "thumb": "https://pbs.twimg.com/media/HU-A8u1bcAApfaN?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HU-A8u1bcAApfaN?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-16",
    "account": "idoll_omiya",
    "date": "2026-11-16",
@@ -8549,5 +8569,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-19T18:00:35+09:00"
+ "updated": "2026-10-19T22:00:26+09:00"
 }
