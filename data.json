@@ -8148,15 +8148,16 @@
    "start": "18:15",
    "stage": "19:15-19:35",
    "tickets": [
-    "https://tiget.net/events/525963/submit_password"
+    "https://tiget.net/events/525963/submit_password",
+    "https://tiget.net/events/525963"
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": null,
+   "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2110582132527788372",
-   "thumb": "https://pbs.twimg.com/media/HUpK8pjbcAA8eEG?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HUpK8pjbcAA8eEG?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2112378276442235173",
+   "thumb": "https://pbs.twimg.com/media/HUpaO4-aoAA2nof?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HUpaO4-aoAA2nof?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-21",
@@ -8571,5 +8572,5 @@
    "image": "https://pbs.twimg.com/media/HUQbNuOa4AABlav?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-20T08:00:24+09:00"
+ "updated": "2026-10-20T18:00:15+09:00"
 }
