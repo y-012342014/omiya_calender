@@ -8586,19 +8586,52 @@
    "date": "2026-11-16",
    "title": "超REVIVER -JAPAN SERIES-",
    "venue": "duo MUSIC EXCHANGE",
-   "open": null,
-   "start": null,
+   "open": "12:40",
+   "start": "13:00",
    "stage": null,
    "tickets": [
-    "https://event.tiget.net/omiya-i-doll-oneman-live"
+    "https://event.tiget.net/omiya-i-doll-oneman-live",
+    "https://tiget.net/events/511688"
    ],
    "type": "live",
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2112524958857625727",
-   "thumb": "https://pbs.twimg.com/media/HVEyAk2awAAAuyq?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVEyAk2awAAAuyq?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2112899207099195637",
+   "thumb": "https://pbs.twimg.com/media/HVIWsKSawAAGfpm?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVIWsKSawAAGfpm?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-11-16",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "hymel_info|2026-11-16",
+   "account": "hymel_info",
+   "date": "2026-11-16",
+   "title": "超REVIVER -JAPAN SERIES-",
+   "venue": "duo MUSIC EXCHANGE",
+   "open": "12:40",
+   "start": "13:00",
+   "stage": null,
+   "tickets": [
+    "https://tiget.net/events/511688"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2112899206574903456",
+   "thumb": "https://pbs.twimg.com/media/HVIVwjIa4AAsqWl?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVIVwjIa4AAsqWl?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-11-16",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-11-29",
@@ -8673,5 +8706,5 @@
    "image": "https://pbs.twimg.com/media/HVEyAk2awAAAuyq?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-21T18:00:17+09:00"
+ "updated": "2026-10-22T08:00:32+09:00"
 }
