@@ -8257,6 +8257,58 @@
    "key": "idoll_omiya|2026-10-25",
    "account": "idoll_omiya",
    "date": "2026-10-25",
+   "title": "名古屋港水族館オフ会",
+   "venue": "名古屋港水族館",
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [
+    "https://tiget.net/events/532696"
+   ],
+   "type": "event",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2112759907586081105",
+   "thumb": null,
+   "image": null,
+   "also": [
+    {
+     "key": "hymel_info|2026-10-25",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "hymel_info|2026-10-25",
+   "account": "hymel_info",
+   "date": "2026-10-25",
+   "title": "名古屋港水族館オフ会",
+   "venue": "名古屋港水族館",
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [
+    "https://tiget.net/events/532696"
+   ],
+   "type": "event",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2112760051874337208",
+   "thumb": null,
+   "image": null,
+   "also": [
+    {
+     "key": "idoll_omiya|2026-10-25",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "idoll_omiya|2026-10-25|2",
+   "account": "idoll_omiya",
+   "date": "2026-10-25",
    "title": "RAD EASY LIVE",
    "venue": "R.A.D",
    "open": "14:40",
@@ -8276,13 +8328,13 @@
    "image": "https://pbs.twimg.com/media/HVE6t2LagAA7JZK?format=jpg&name=medium",
    "also": [
     {
-     "key": "hymel_info|2026-10-25",
+     "key": "hymel_info|2026-10-25|2",
      "how": "same"
     }
    ]
   },
   {
-   "key": "hymel_info|2026-10-25",
+   "key": "hymel_info|2026-10-25|2",
    "account": "hymel_info",
    "date": "2026-10-25",
    "title": "RAD EASY LIVE",
@@ -8303,7 +8355,7 @@
    "image": null,
    "also": [
     {
-     "key": "idoll_omiya|2026-10-25",
+     "key": "idoll_omiya|2026-10-25|2",
      "how": "same"
     }
    ]
@@ -8403,6 +8455,54 @@
    "post": "https://x.com/idoll_omiya/status/2099120924641329245",
    "thumb": "https://pbs.twimg.com/media/HSBtHl9agAAoYtn?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HSBtHl9agAAoYtn?format=jpg&name=medium"
+  },
+  {
+   "key": "idoll_omiya|2026-11-03",
+   "account": "idoll_omiya",
+   "date": "2026-11-03",
+   "title": "AGEO☆BUNKA FES",
+   "venue": "三井金属あげおコミュニティセンター",
+   "open": "09:45",
+   "start": "10:00",
+   "stage": "10:25-10:40 / 17:05-17:25",
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2112767760115847171",
+   "thumb": "https://pbs.twimg.com/media/HVIOiFbaoAAwyq6?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVIOiFbaoAAwyq6?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-11-03",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "hymel_info|2026-11-03",
+   "account": "hymel_info",
+   "date": "2026-11-03",
+   "title": "AGEO☆BUNKA FES",
+   "venue": "三井金属あげおコミュニティセンター",
+   "open": "09:45",
+   "start": "10:00",
+   "stage": "10:00-10:15 / 16:25-16:45",
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2112768070397927649",
+   "thumb": "https://pbs.twimg.com/media/HVIPQIYbIAAxGpT?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVIPQIYbIAAxGpT?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-11-03",
+     "how": "same"
+    }
+   ]
   },
   {
    "key": "idoll_omiya|2026-11-08",
@@ -8573,5 +8673,5 @@
    "image": "https://pbs.twimg.com/media/HVEyAk2awAAAuyq?format=jpg&name=medium"
   }
  ],
- "updated": "2026-10-21T12:00:28+09:00"
+ "updated": "2026-10-21T18:00:17+09:00"
 }
