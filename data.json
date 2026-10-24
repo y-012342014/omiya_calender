@@ -8216,7 +8216,7 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2113903175522713854",
+   "post": "https://x.com/idoll_omiya/status/2113927379496370601",
    "thumb": null,
    "image": null,
    "also": [
@@ -8457,6 +8457,26 @@
    "image": "https://pbs.twimg.com/media/HUpbhNCaEAAisZZ?format=jpg&name=medium"
   },
   {
+   "key": "hymel_info|2026-11-01",
+   "account": "hymel_info",
+   "date": "2026-11-01",
+   "title": "SHIBUYA KAWAII SUPER LIVE",
+   "venue": "渋谷近未来会館",
+   "open": "10:00",
+   "start": "10:20",
+   "stage": null,
+   "tickets": [
+    "https://livepocket.jp/e/onqi8"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2113963720179171439",
+   "thumb": "https://pbs.twimg.com/media/HVUm3qbakAEN3HJ?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVUm3qbakAEN3HJ?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-02",
    "account": "idoll_omiya",
    "date": "2026-11-02",
@@ -8617,7 +8637,7 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2113903175522713854",
+   "post": "https://x.com/idoll_omiya/status/2113927379496370601",
    "thumb": null,
    "image": null,
    "also": [
@@ -8719,7 +8739,7 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2113902562617483360",
+   "post": "https://x.com/hymel_info/status/2113952397974466898",
    "thumb": null,
    "image": null
   },
@@ -8740,10 +8760,10 @@
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-11-09",
-   "post": "https://x.com/idoll_omiya/status/2113903175522713854",
+   "post": "https://x.com/idoll_omiya/status/2113927379496370601",
    "thumb": null,
    "image": null
   }
  ],
- "updated": "2026-10-24T18:00:35+09:00"
+ "updated": "2026-10-24T22:00:34+09:00"
 }
