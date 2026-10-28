@@ -8616,9 +8616,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2114917333831721222",
-   "thumb": "https://pbs.twimg.com/media/HVmx5F9akAApToc?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVmx5F9akAApToc?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2115443474699018269",
+   "thumb": "https://pbs.twimg.com/media/HVmyUquaYAA1Uki?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVmyUquaYAA1Uki?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-11",
@@ -8648,7 +8648,7 @@
    "venue": "duo MUSIC EXCHANGE",
    "open": "12:40",
    "start": "13:00",
-   "stage": null,
+   "stage": "13:00-13:15 / 16:20-16:40 / 21:00-21:25",
    "tickets": [
     "https://event.tiget.net/omiya-i-doll-oneman-live",
     "https://tiget.net/events/511688"
@@ -8657,9 +8657,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2114341935695659369",
-   "thumb": null,
-   "image": null,
+   "post": "https://x.com/idoll_omiya/status/2115435917351768542",
+   "thumb": "https://pbs.twimg.com/media/HVshYpza0AA2Jc1?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVshYpza0AA2Jc1?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-11-16",
@@ -8675,7 +8675,7 @@
    "venue": "duo MUSIC EXCHANGE",
    "open": "12:40",
    "start": "13:00",
-   "stage": null,
+   "stage": "17:50-18:10",
    "tickets": [
     "https://tiget.net/events/511688"
    ],
@@ -8683,9 +8683,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2113261592431505799",
-   "thumb": "https://pbs.twimg.com/media/HVIV7HobcAA99_W?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVIV7HobcAA99_W?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2115435919981621713",
+   "thumb": "https://pbs.twimg.com/media/HVsh0XvaIAAEPJM?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVsh0XvaIAAEPJM?format=jpg&name=medium",
    "also": [
     {
      "key": "idoll_omiya|2026-11-16",
@@ -8805,5 +8805,5 @@
    "image": null
   }
  ],
- "updated": "2026-10-28T18:00:35+09:00"
+ "updated": "2026-10-29T08:00:27+09:00"
 }
