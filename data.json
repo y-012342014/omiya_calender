@@ -8694,6 +8694,24 @@
    ]
   },
   {
+   "key": "idoll_omiya|2026-11-21",
+   "account": "idoll_omiya",
+   "date": "2026-11-21",
+   "title": "鉄道ふれあいフェア",
+   "venue": "大宮アルシェ1Fイベントステージ",
+   "open": null,
+   "start": null,
+   "stage": "13:45-14:15",
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2115643927026106758",
+   "thumb": "https://pbs.twimg.com/media/HVxGBWMbwAAcbGk?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVxGBWMbwAAcbGk?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-29",
    "account": "idoll_omiya",
    "date": "2026-11-29",
@@ -8805,5 +8823,5 @@
    "image": null
   }
  ],
- "updated": "2026-10-29T12:00:33+09:00"
+ "updated": "2026-10-29T18:00:22+09:00"
 }
