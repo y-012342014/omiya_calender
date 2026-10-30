@@ -8433,9 +8433,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2114628939457179856",
-   "thumb": "https://pbs.twimg.com/media/HVirkliawAA3xPz?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVirkliawAA3xPz?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2116304150451630175",
+   "thumb": "https://pbs.twimg.com/media/HV5M787aUAAyY4S?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV5M787aUAAyY4S?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-10-31",
@@ -8751,6 +8751,26 @@
    "image": "https://pbs.twimg.com/media/HVxGBWMbwAAcbGk?format=jpg&name=medium"
   },
   {
+   "key": "idoll_omiya|2026-11-21|2",
+   "account": "idoll_omiya",
+   "date": "2026-11-21",
+   "title": "大宮I☆DOLL 新体制始動記念ライブ",
+   "venue": "アイドル育成型ライブカフェ IDOLL",
+   "open": "16:10",
+   "start": "16:30",
+   "stage": "16:30-17:00",
+   "tickets": [
+    "https://tiget.net/events/534947"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2116160697843294426",
+   "thumb": "https://pbs.twimg.com/media/HV4ak65b0AABwgL?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV4ak65b0AABwgL?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-29",
    "account": "idoll_omiya",
    "date": "2026-11-29",
@@ -8862,5 +8882,5 @@
    "image": null
   }
  ],
- "updated": "2026-10-30T22:00:26+09:00"
+ "updated": "2026-10-31T08:00:55+09:00"
 }
