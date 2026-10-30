@@ -8502,7 +8502,7 @@
    "account": "idoll_omiya",
    "date": "2026-11-03",
    "title": "AGEO☆BUNKA FES",
-   "venue": "三井金属あげおコミュニティセンター",
+   "venue": "ロビー",
    "open": "09:45",
    "start": "10:00",
    "stage": "10:25-10:40 / 17:05-17:25",
@@ -8511,9 +8511,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2112767760115847171",
-   "thumb": "https://pbs.twimg.com/media/HVIOiFbaoAAwyq6?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVIOiFbaoAAwyq6?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2116073632765989252",
+   "thumb": "https://pbs.twimg.com/media/HV3NZl-bYAA2ZlQ?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV3NZl-bYAA2ZlQ?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-11-03",
@@ -8526,7 +8526,7 @@
    "account": "hymel_info",
    "date": "2026-11-03",
    "title": "AGEO☆BUNKA FES",
-   "venue": "三井金属あげおコミュニティセンター",
+   "venue": "ロビー",
    "open": "09:45",
    "start": "10:00",
    "stage": "10:00-10:15 / 16:25-16:45",
@@ -8535,9 +8535,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2112768070397927649",
-   "thumb": "https://pbs.twimg.com/media/HVIPQIYbIAAxGpT?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVIPQIYbIAAxGpT?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2116074295931830577",
+   "thumb": "https://pbs.twimg.com/media/HV3ORH5aEAAtRVU?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV3ORH5aEAAtRVU?format=jpg&name=medium",
    "also": [
     {
      "key": "idoll_omiya|2026-11-03",
@@ -8665,7 +8665,7 @@
    "key": "idoll_omiya|2026-11-16",
    "account": "idoll_omiya",
    "date": "2026-11-16",
-   "title": "超REVIVER -JAPAN SERIES- FINAL",
+   "title": "超\"REVIVER\"祭",
    "venue": "duo MUSIC EXCHANGE",
    "open": "12:40",
    "start": "13:00",
@@ -8678,9 +8678,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2115435917351768542",
-   "thumb": "https://pbs.twimg.com/media/HVshYpza0AA2Jc1?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVshYpza0AA2Jc1?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2116092756682780682",
+   "thumb": "https://pbs.twimg.com/media/HV3G93MasAAWnMz?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV3G93MasAAWnMz?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-11-16",
@@ -8844,5 +8844,5 @@
    "image": null
   }
  ],
- "updated": "2026-10-30T12:00:29+09:00"
+ "updated": "2026-10-30T18:00:23+09:00"
 }
