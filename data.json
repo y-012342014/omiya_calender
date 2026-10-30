@@ -8546,6 +8546,24 @@
    ]
   },
   {
+   "key": "idoll_omiya|2026-11-04",
+   "account": "idoll_omiya",
+   "date": "2026-11-04",
+   "title": "今宮ムギのむぎゅっとお近づき計画っ!",
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "event",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2116122951779311741",
+   "thumb": "https://pbs.twimg.com/media/HV3kCZIaAAELXIK?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV3kCZIaAAELXIK?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-08",
    "account": "idoll_omiya",
    "date": "2026-11-08",
@@ -8637,9 +8655,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2116002148588949549",
-   "thumb": "https://pbs.twimg.com/media/HVy9aZ6bkAAVWoH?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVy9aZ6bkAAVWoH?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2116153151682437585",
+   "thumb": "https://pbs.twimg.com/media/HVy-B8XaQAA3ugz?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVy-B8XaQAA3ugz?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-11",
@@ -8844,5 +8862,5 @@
    "image": null
   }
  ],
- "updated": "2026-10-30T18:00:23+09:00"
+ "updated": "2026-10-30T22:00:26+09:00"
 }
