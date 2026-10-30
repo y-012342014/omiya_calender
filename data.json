@@ -8408,15 +8408,16 @@
    "start": "17:20",
    "stage": "17:35-17:55",
    "tickets": [
-    "https://ticketdive.com/event/daisukki-fes01"
+    "https://ticketdive.com/event/daisukki-fes01",
+    "https://t-dv.com/daisukki-fes01"
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": null,
+   "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2103831958203629653",
-   "thumb": "https://pbs.twimg.com/media/HS6af2-aEAAQ7il?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HS6af2-aEAAQ7il?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2116002154255409273",
+   "thumb": "https://pbs.twimg.com/media/HTy3YxDaIAEtZfh?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HTy3YxDaIAEtZfh?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-10-31",
@@ -8621,6 +8622,26 @@
    "image": "https://pbs.twimg.com/media/HVmyUquaYAA1Uki?format=jpg&name=medium"
   },
   {
+   "key": "hymel_info|2026-11-10",
+   "account": "hymel_info",
+   "date": "2026-11-10",
+   "title": "SHIBUYA KAWAII SUPER LIVE",
+   "venue": "渋谷音楽堂",
+   "open": "15:15",
+   "start": "15:45",
+   "stage": null,
+   "tickets": [
+    "https://tiget.net/events/534578"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2116002148588949549",
+   "thumb": "https://pbs.twimg.com/media/HVy9aZ6bkAAVWoH?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVy9aZ6bkAAVWoH?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-11",
    "account": "idoll_omiya",
    "date": "2026-11-11",
@@ -8823,5 +8844,5 @@
    "image": null
   }
  ],
- "updated": "2026-10-29T18:00:22+09:00"
+ "updated": "2026-10-30T12:00:29+09:00"
 }
