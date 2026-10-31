@@ -8481,21 +8481,22 @@
    "key": "idoll_omiya|2026-11-02",
    "account": "idoll_omiya",
    "date": "2026-11-02",
-   "title": "葉山あゆり生誕祭",
-   "venue": "池袋SOUND PEACE",
+   "title": "TEARS-ティアーズ- 葉山あゆり生誕祭",
+   "venue": "池袋SOUND PIECE",
    "open": "18:00",
    "start": "18:30",
    "stage": "20:00-20:20",
    "tickets": [
-    "https://t-dv.com/tea1102"
+    "https://t-dv.com/tea1102",
+    "https://ticketdive.com/event/tea1102"
    ],
    "type": "live",
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-09-13",
-   "post": "https://x.com/idoll_omiya/status/2099120924641329245",
-   "thumb": "https://pbs.twimg.com/media/HSBtHl9agAAoYtn?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HSBtHl9agAAoYtn?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2116490045507125634",
+   "thumb": null,
+   "image": null
   },
   {
    "key": "idoll_omiya|2026-11-03",
@@ -8647,7 +8648,7 @@
    "venue": "渋谷音楽堂",
    "open": "15:15",
    "start": "15:45",
-   "stage": null,
+   "stage": "18:10-18:30",
    "tickets": [
     "https://tiget.net/events/534578"
    ],
@@ -8655,9 +8656,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2116153151682437585",
-   "thumb": "https://pbs.twimg.com/media/HVy-B8XaQAA3ugz?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVy-B8XaQAA3ugz?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2116492657593901255",
+   "thumb": "https://pbs.twimg.com/media/HV9KzPFboAA4hCb?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV9KzPFboAA4hCb?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-11",
@@ -8673,11 +8674,11 @@
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": null,
+   "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2112506617749000687",
-   "thumb": "https://pbs.twimg.com/media/HU-BKXFaoAAaQSR?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HU-BKXFaoAAaQSR?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2116488493283361213",
+   "thumb": "https://pbs.twimg.com/media/HV9GrTDagAAptTT?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV9GrTDagAAptTT?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-16",
@@ -8696,7 +8697,7 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2116359384473424025",
+   "post": "https://x.com/idoll_omiya/status/2116490045507125634",
    "thumb": null,
    "image": null,
    "also": [
@@ -8877,10 +8878,10 @@
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-11-16",
-   "post": "https://x.com/idoll_omiya/status/2116359384473424025",
+   "post": "https://x.com/idoll_omiya/status/2116490045507125634",
    "thumb": null,
    "image": null
   }
  ],
- "updated": "2026-10-31T12:00:28+09:00"
+ "updated": "2026-10-31T22:00:33+09:00"
 }
