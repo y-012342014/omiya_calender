@@ -8844,6 +8844,58 @@
    "image": "https://pbs.twimg.com/media/HVUXsahbMAIRwmQ?format=jpg&name=medium"
   },
   {
+   "key": "idoll_omiya|2026-12-13",
+   "account": "idoll_omiya",
+   "date": "2026-12-13",
+   "title": "ういちゃんのおたんじょうびいわいにこい!!",
+   "venue": "代々木ミューズホール",
+   "open": "11:00",
+   "start": "11:30",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/usamiui_20261213"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2116885469674017124",
+   "thumb": "https://pbs.twimg.com/media/HWAgcjiaEAAWwd-?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HWAgcjiaEAAWwd-?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-12-13",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "hymel_info|2026-12-13",
+   "account": "hymel_info",
+   "date": "2026-12-13",
+   "title": "୨୧┈┈┈┈┈┈┈┈┈┈┈┈┈୨୧",
+   "venue": "代々木ミューズホール",
+   "open": "11:00",
+   "start": "11:30",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/usamiui_20261213"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2116885469023682646",
+   "thumb": "https://pbs.twimg.com/media/HWAfQ5FbsAACKhR?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HWAfQ5FbsAACKhR?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-12-13",
+     "how": "same"
+    }
+   ]
+  },
+  {
    "key": "hymel_info|2026-12-28",
    "account": "hymel_info",
    "date": "2026-12-28",
@@ -8883,5 +8935,5 @@
    "image": "https://pbs.twimg.com/media/HWBAiCIaIAAkD1R?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-01T18:00:35+09:00"
+ "updated": "2026-11-02T08:00:10+09:00"
 }
