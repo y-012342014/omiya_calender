@@ -8481,8 +8481,8 @@
    "key": "idoll_omiya|2026-11-02",
    "account": "idoll_omiya",
    "date": "2026-11-02",
-   "title": "TEARS-ティアーズ- 葉山あゆり生誕祭",
-   "venue": "池袋SOUND PIECE",
+   "title": "葉山あゆり生誕祭",
+   "venue": "池袋 SOUND PEACE",
    "open": "18:00",
    "start": "18:30",
    "stage": "20:00-20:20",
@@ -8492,11 +8492,11 @@
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": "before",
+   "sale": "on",
    "sale_start": "2026-09-13",
-   "post": "https://x.com/idoll_omiya/status/2116490045507125634",
-   "thumb": null,
-   "image": null
+   "post": "https://x.com/idoll_omiya/status/2117089317390623224",
+   "thumb": "https://pbs.twimg.com/media/HV9IPq8aYAAlUa6?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV9IPq8aYAAlUa6?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-03",
@@ -8935,5 +8935,5 @@
    "image": "https://pbs.twimg.com/media/HWBAiCIaIAAkD1R?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-02T08:00:10+09:00"
+ "updated": "2026-11-02T12:00:28+09:00"
 }
