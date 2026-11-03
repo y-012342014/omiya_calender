@@ -8824,6 +8824,26 @@
    ]
   },
   {
+   "key": "hymel_info|2026-12-05",
+   "account": "hymel_info",
+   "date": "2026-12-05",
+   "title": "GIRLS LIVE-Diary 1部",
+   "venue": "SHIBUYA DAIA",
+   "open": "09:20",
+   "start": "09:40",
+   "stage": null,
+   "tickets": [
+    "https://tiget.net/events/535548"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2117600783894278344",
+   "thumb": "https://pbs.twimg.com/media/HWM3T35boAAPpkq?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HWM3T35boAAPpkq?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-12-06",
    "account": "idoll_omiya",
    "date": "2026-12-06",
@@ -8935,5 +8955,5 @@
    "image": "https://pbs.twimg.com/media/HWBAiCIaIAAkD1R?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-03T08:00:33+09:00"
+ "updated": "2026-11-03T22:00:33+09:00"
 }
