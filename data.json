@@ -809,18 +809,37 @@
    "key": "idoll_omiya|2025-11-09",
    "account": "idoll_omiya",
    "date": "2025-11-09",
+   "title": "DREAMING IDOL FES!! Vol.18",
+   "venue": "S.U.B TOKYO",
+   "open": "12:30",
+   "start": "13:00",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/dmwfes_vol18"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": "on",
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/1987309157679308814",
+   "thumb": "https://pbs.twimg.com/media/G34ADHjWEAAE62v?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/G34ADHjWEAAE62v?format=jpg&name=medium"
+  },
+  {
+   "key": "idoll_omiya|2025-11-09|2",
+   "account": "idoll_omiya",
+   "date": "2025-11-09",
    "title": "DMW 11th Anniversary Party",
    "venue": "S.U.B TOKYO",
    "open": "17:30",
    "start": "17:50",
    "stage": "20:20-20:45",
    "tickets": [
-    "https://ticketdive.com/event/dmwfes_vol18",
     "https://ticketdive.com/event/dmw11thanniversary"
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": "on",
+   "sale": null,
    "sale_start": null,
    "post": "https://x.com/idoll_omiya/status/1987309409756979244",
    "thumb": "https://pbs.twimg.com/media/G34AN9gXAAAEhGk?format=jpg&name=small",
@@ -3859,26 +3878,25 @@
    "key": "idoll_omiya|2026-04-26",
    "account": "idoll_omiya",
    "date": "2026-04-26",
-   "title": "超パチパチ",
+   "title": "Be my side...",
    "venue": "西川口 Live House Hearts",
-   "open": "15:00",
-   "start": "15:20",
-   "stage": "15:20-19:40",
+   "open": "11:00",
+   "start": "11:30",
+   "stage": null,
    "tickets": [
-    "https://ticketdive.com/event/ichinoseritsu2026",
-    "https://ticketdive.com/event/pachipachi0426"
+    "https://ticketdive.com/event/ichinoseritsu2026"
    ],
    "type": "live",
    "status": "scheduled",
    "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2048190326339441126",
-   "thumb": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2048190322128118251",
+   "thumb": "https://pbs.twimg.com/media/HDdKJy5bsAAVu-r?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HDdKJy5bsAAVu-r?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-04-26",
-     "how": "same"
+     "how": "venue"
     }
    ]
   },
@@ -3904,6 +3922,36 @@
    "also": [
     {
      "key": "idoll_omiya|2026-04-26",
+     "how": "venue"
+    },
+    {
+     "key": "idoll_omiya|2026-04-26|2",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "idoll_omiya|2026-04-26|2",
+   "account": "idoll_omiya",
+   "date": "2026-04-26",
+   "title": "超パチパチ",
+   "venue": "西川口 Live House Hearts",
+   "open": "15:00",
+   "start": "15:20",
+   "stage": "15:20-19:40",
+   "tickets": [
+    "https://ticketdive.com/event/pachipachi0426"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2048190326339441126",
+   "thumb": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HGqHGYDasAAidzG?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-04-26",
      "how": "same"
     }
    ]
@@ -5888,6 +5936,24 @@
    ]
   },
   {
+   "key": "hymel_info|2026-07-20",
+   "account": "hymel_info",
+   "date": "2026-07-20",
+   "title": "池袋 SOUND PEACEにて出演予定のこちらのライブですが、",
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2078842299312996719",
+   "thumb": null,
+   "image": null
+  },
+  {
    "key": "idoll_omiya|2026-07-20",
    "account": "idoll_omiya",
    "date": "2026-07-20",
@@ -5908,13 +5974,43 @@
    "image": "https://pbs.twimg.com/media/HNFS22gasAAO3EL?format=jpg&name=medium",
    "also": [
     {
-     "key": "hymel_info|2026-07-20",
+     "key": "hymel_info|2026-07-20|2",
+     "how": "same"
+    },
+    {
+     "key": "hymel_info|2026-07-20|3",
+     "how": "venue"
+    }
+   ]
+  },
+  {
+   "key": "hymel_info|2026-07-20|2",
+   "account": "hymel_info",
+   "date": "2026-07-20",
+   "title": "遊撃少女",
+   "venue": "池袋 SOUND PEACE",
+   "open": "11:30",
+   "start": "11:45",
+   "stage": "11:45-12:05",
+   "tickets": [
+    "https://tiget.net/events/506306"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2078993291736215776",
+   "thumb": "https://pbs.twimg.com/media/HNaumwYagAArBDt?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HNaumwYagAArBDt?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-07-20",
      "how": "same"
     }
    ]
   },
   {
-   "key": "hymel_info|2026-07-20",
+   "key": "hymel_info|2026-07-20|3",
    "account": "hymel_info",
    "date": "2026-07-20",
    "title": "MUSIC VORTEX",
@@ -5923,7 +6019,6 @@
    "start": "18:10",
    "stage": "18:10-18:30",
    "tickets": [
-    "https://tiget.net/events/506306",
     "https://tiget.net/events/506308"
    ],
    "type": "live",
@@ -5936,7 +6031,7 @@
    "also": [
     {
      "key": "idoll_omiya|2026-07-20",
-     "how": "same"
+     "how": "venue"
     }
    ]
   },
@@ -8223,6 +8318,10 @@
     {
      "key": "hymel_info|2026-10-24",
      "how": "same"
+    },
+    {
+     "key": "hymel_info|2026-10-24|2",
+     "how": "same"
     }
    ]
   },
@@ -8249,6 +8348,70 @@
    "also": [
     {
      "key": "idoll_omiya|2026-10-24",
+     "how": "same"
+    },
+    {
+     "key": "idoll_omiya|2026-10-24|2",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "idoll_omiya|2026-10-24|2",
+   "account": "idoll_omiya",
+   "date": "2026-10-24",
+   "title": "アツい、アツすぎる!むせんまんじゅうin名古屋",
+   "venue": "RAD HALL",
+   "open": "15:40",
+   "start": "15:55",
+   "stage": null,
+   "tickets": [
+    "https://tiget.net/events/525078"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2103480894182826326",
+   "thumb": "https://pbs.twimg.com/media/HS_19VYaEAAfrOu?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HS_19VYaEAAfrOu?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-10-24",
+     "how": "same"
+    },
+    {
+     "key": "hymel_info|2026-10-24|2",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "hymel_info|2026-10-24|2",
+   "account": "hymel_info",
+   "date": "2026-10-24",
+   "title": "アツい、アツすぎる!むせんまんじゅうin名古屋",
+   "venue": "RAD HALL",
+   "open": "15:40",
+   "start": "15:55",
+   "stage": null,
+   "tickets": [
+    "https://tiget.net/events/525078"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2103480892824174661",
+   "thumb": "https://pbs.twimg.com/media/HS_28K0bEAE_MzM?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HS_28K0bEAE_MzM?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-10-24",
+     "how": "same"
+    },
+    {
+     "key": "idoll_omiya|2026-10-24|2",
      "how": "same"
     }
    ]
@@ -8306,6 +8469,33 @@
    ]
   },
   {
+   "key": "hymel_info|2026-10-25|2",
+   "account": "hymel_info",
+   "date": "2026-10-25",
+   "title": "RAD EASY LIVE",
+   "venue": "R.A.D",
+   "open": "14:40",
+   "start": "15:00",
+   "stage": "15:00-15:20 / 19:20-19:40",
+   "tickets": [
+    "https://t-dv.com/RAD-EASY-LIVE-1025",
+    "https://t-dv.com/RAD-EASY-LIVE-10250002"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2114144917522206983",
+   "thumb": "https://pbs.twimg.com/media/HVSe5Q4bwAA-ipa?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HVSe5Q4bwAA-ipa?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-10-25|2",
+     "how": "same"
+    }
+   ]
+  },
+  {
    "key": "idoll_omiya|2026-10-25|2",
    "account": "idoll_omiya",
    "date": "2026-10-25",
@@ -8329,33 +8519,6 @@
    "also": [
     {
      "key": "hymel_info|2026-10-25|2",
-     "how": "same"
-    }
-   ]
-  },
-  {
-   "key": "hymel_info|2026-10-25|2",
-   "account": "hymel_info",
-   "date": "2026-10-25",
-   "title": "RAD EASY LIVE",
-   "venue": "R.A.D",
-   "open": "14:40",
-   "start": "15:00",
-   "stage": "15:00-15:20 / 19:20-19:40",
-   "tickets": [
-    "https://t-dv.com/RAD-EASY-LIVE-1025",
-    "https://t-dv.com/RAD-EASY-LIVE-10250002"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2114144917522206983",
-   "thumb": "https://pbs.twimg.com/media/HVSe5Q4bwAA-ipa?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HVSe5Q4bwAA-ipa?format=jpg&name=medium",
-   "also": [
-    {
-     "key": "idoll_omiya|2026-10-25|2",
      "how": "same"
     }
    ]
@@ -8572,11 +8735,10 @@
    "venue": "大塚FUTURE",
    "open": "11:40",
    "start": "12:00",
-   "stage": "17:15-17:30 / 19:35-19:55",
+   "stage": null,
    "tickets": [
     "https://t-dv.com/dmwfes_vol22",
-    "https://ticketdive.com/event/dmwfes_vol22",
-    "https://t-dv.com/dmw12th"
+    "https://ticketdive.com/event/dmwfes_vol22"
    ],
    "type": "live",
    "status": "scheduled",
@@ -8589,6 +8751,10 @@
     {
      "key": "hymel_info|2026-11-08",
      "how": "same"
+    },
+    {
+     "key": "hymel_info|2026-11-08|2",
+     "how": "venue"
     }
    ]
   },
@@ -8600,11 +8766,10 @@
    "venue": "大塚FUTURE",
    "open": "11:40",
    "start": "12:00",
-   "stage": "18:15-18:35",
+   "stage": null,
    "tickets": [
     "https://t-dv.com/dmwfes_vol22",
-    "https://ticketdive.com/event/dmwfes_vol22",
-    "https://ticketdive.com/event/dmw12th"
+    "https://ticketdive.com/event/dmwfes_vol22"
    ],
    "type": "live",
    "status": "scheduled",
@@ -8616,6 +8781,70 @@
    "also": [
     {
      "key": "idoll_omiya|2026-11-08",
+     "how": "same"
+    },
+    {
+     "key": "idoll_omiya|2026-11-08|2",
+     "how": "venue"
+    }
+   ]
+  },
+  {
+   "key": "hymel_info|2026-11-08|2",
+   "account": "hymel_info",
+   "date": "2026-11-08",
+   "title": "DMW 12th Anniversary Party",
+   "venue": "大塚FUTURE",
+   "open": "16:00",
+   "start": "16:20",
+   "stage": "18:15-18:35",
+   "tickets": [
+    "https://ticketdive.com/event/dmw12th"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2112536814754091446",
+   "thumb": "https://pbs.twimg.com/media/HU4i5RubwAAlHJm?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HU4i5RubwAAlHJm?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-11-08",
+     "how": "venue"
+    },
+    {
+     "key": "idoll_omiya|2026-11-08|2",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "idoll_omiya|2026-11-08|2",
+   "account": "idoll_omiya",
+   "date": "2026-11-08",
+   "title": "DMW 12th Anniversary Party",
+   "venue": "大塚FUTURE",
+   "open": "16:00",
+   "start": "16:20",
+   "stage": "17:15-17:30 / 19:35-19:55",
+   "tickets": [
+    "https://t-dv.com/dmw12th"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2112536815366185244",
+   "thumb": "https://pbs.twimg.com/media/HU92T83awAAdMUB?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HU92T83awAAdMUB?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-11-08",
+     "how": "venue"
+    },
+    {
+     "key": "hymel_info|2026-11-08|2",
      "how": "same"
     }
    ]
@@ -8681,32 +8910,6 @@
    "image": "https://pbs.twimg.com/media/HV9GrTDagAAptTT?format=jpg&name=medium"
   },
   {
-   "key": "idoll_omiya|2026-11-15",
-   "account": "idoll_omiya",
-   "date": "2026-11-15",
-   "title": "ネクストカルチャーズVAMPKIN",
-   "venue": "浅草VAMPKIN",
-   "open": "11:00",
-   "start": "11:20",
-   "stage": "14:40-15:00",
-   "tickets": [
-    "https://tiget.net/events/533940"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": "on",
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2117949990370766927",
-   "thumb": "https://pbs.twimg.com/media/HWQrhFzbUAA1VIo?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HWQrhFzbUAA1VIo?format=jpg&name=medium",
-   "also": [
-    {
-     "key": "hymel_info|2026-11-15",
-     "how": "same"
-    }
-   ]
-  },
-  {
    "key": "hymel_info|2026-11-15",
    "account": "hymel_info",
    "date": "2026-11-15",
@@ -8728,6 +8931,32 @@
    "also": [
     {
      "key": "idoll_omiya|2026-11-15",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "idoll_omiya|2026-11-15",
+   "account": "idoll_omiya",
+   "date": "2026-11-15",
+   "title": "ネクストカルチャーズVAMPKIN",
+   "venue": "浅草VAMPKIN",
+   "open": "11:00",
+   "start": "11:20",
+   "stage": "14:40-15:00",
+   "tickets": [
+    "https://tiget.net/events/533940"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": "on",
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2117949990370766927",
+   "thumb": "https://pbs.twimg.com/media/HWQrhFzbUAA1VIo?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HWQrhFzbUAA1VIo?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-11-15",
      "how": "same"
     }
    ]
@@ -8824,32 +9053,6 @@
    "image": "https://pbs.twimg.com/media/HV4ak65b0AABwgL?format=jpg&name=medium"
   },
   {
-   "key": "idoll_omiya|2026-11-29",
-   "account": "idoll_omiya",
-   "date": "2026-11-29",
-   "title": null,
-   "venue": "代々木ミューズホール",
-   "open": "11:00",
-   "start": "11:30",
-   "stage": null,
-   "tickets": [
-    "https://ticketdive.com/event/kikurageshiome_20261129"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2112174427605733852",
-   "thumb": "https://pbs.twimg.com/media/HU9x8TQasAAQlbX?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HU9x8TQasAAQlbX?format=jpg&name=medium",
-   "also": [
-    {
-     "key": "hymel_info|2026-11-29",
-     "how": "same"
-    }
-   ]
-  },
-  {
    "key": "hymel_info|2026-11-29",
    "account": "hymel_info",
    "date": "2026-11-29",
@@ -8871,6 +9074,32 @@
    "also": [
     {
      "key": "idoll_omiya|2026-11-29",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "idoll_omiya|2026-11-29",
+   "account": "idoll_omiya",
+   "date": "2026-11-29",
+   "title": null,
+   "venue": "代々木ミューズホール",
+   "open": "11:00",
+   "start": "11:30",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/kikurageshiome_20261129"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2112174427605733852",
+   "thumb": "https://pbs.twimg.com/media/HU9x8TQasAAQlbX?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HU9x8TQasAAQlbX?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-11-29",
      "how": "same"
     }
    ]
@@ -8916,32 +9145,6 @@
    "image": "https://pbs.twimg.com/media/HVUXsahbMAIRwmQ?format=jpg&name=medium"
   },
   {
-   "key": "idoll_omiya|2026-12-13",
-   "account": "idoll_omiya",
-   "date": "2026-12-13",
-   "title": "ういちゃんのおたんじょうびいわいにこい!!",
-   "venue": "代々木ミューズホール",
-   "open": "11:00",
-   "start": "11:30",
-   "stage": null,
-   "tickets": [
-    "https://ticketdive.com/event/usamiui_20261213"
-   ],
-   "type": "live",
-   "status": "scheduled",
-   "sale": null,
-   "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2117247860039188855",
-   "thumb": "https://pbs.twimg.com/media/HWAgn2gaIAAfOK-?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HWAgn2gaIAAfOK-?format=jpg&name=medium",
-   "also": [
-    {
-     "key": "hymel_info|2026-12-13",
-     "how": "same"
-    }
-   ]
-  },
-  {
    "key": "hymel_info|2026-12-13",
    "account": "hymel_info",
    "date": "2026-12-13",
@@ -8963,6 +9166,32 @@
    "also": [
     {
      "key": "idoll_omiya|2026-12-13",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "idoll_omiya|2026-12-13",
+   "account": "idoll_omiya",
+   "date": "2026-12-13",
+   "title": "ういちゃんのおたんじょうびいわいにこい!!",
+   "venue": "代々木ミューズホール",
+   "open": "11:00",
+   "start": "11:30",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/usamiui_20261213"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2117247860039188855",
+   "thumb": "https://pbs.twimg.com/media/HWAgn2gaIAAfOK-?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HWAgn2gaIAAfOK-?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-12-13",
      "how": "same"
     }
    ]
@@ -9007,5 +9236,5 @@
    "image": "https://pbs.twimg.com/media/HWBAiCIaIAAkD1R?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-04T22:00:38+09:00"
+ "updated": "2026-11-05T08:49:32+09:00"
 }
