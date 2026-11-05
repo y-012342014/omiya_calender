@@ -8728,6 +8728,26 @@
    "image": "https://pbs.twimg.com/media/HWAS-Dma0AAjLHJ?format=jpg&name=medium"
   },
   {
+   "key": "hymel_info|2026-11-07",
+   "account": "hymel_info",
+   "date": "2026-11-07",
+   "title": "遊撃少女",
+   "venue": "池袋 SOUND PEACE",
+   "open": "11:45",
+   "start": "12:05",
+   "stage": "13:10-13:35",
+   "tickets": [
+    "https://tiget.net/events/536236"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2118175721533346093",
+   "thumb": "https://pbs.twimg.com/media/HWVFitebsAAOfdh?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HWVFitebsAAOfdh?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-08",
    "account": "idoll_omiya",
    "date": "2026-11-08",
@@ -9236,5 +9256,5 @@
    "image": "https://pbs.twimg.com/media/HWBAiCIaIAAkD1R?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-05T08:50:18+09:00"
+ "updated": "2026-11-05T12:00:06+09:00"
 }
