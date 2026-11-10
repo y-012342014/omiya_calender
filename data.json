@@ -8919,9 +8919,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2116492657593901255",
-   "thumb": "https://pbs.twimg.com/media/HV9KzPFboAA4hCb?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HV9KzPFboAA4hCb?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2119988421624271113",
+   "thumb": "https://pbs.twimg.com/media/HV9H7A9aUAAG2GX?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HV9H7A9aUAAG2GX?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-11",
@@ -8999,7 +8999,7 @@
    "key": "idoll_omiya|2026-11-16",
    "account": "idoll_omiya",
    "date": "2026-11-16",
-   "title": "超REVIVER -JAPAN SERIES-",
+   "title": "REVIVER",
    "venue": "duo MUSIC EXCHANGE",
    "open": "12:40",
    "start": "13:00",
@@ -9012,7 +9012,7 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2116762870461649365",
+   "post": "https://x.com/idoll_omiya/status/2120023713492156663",
    "thumb": "https://pbs.twimg.com/media/HWBAiCIaIAAkD1R?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HWBAiCIaIAAkD1R?format=jpg&name=medium",
    "also": [
@@ -9290,5 +9290,5 @@
    "image": null
   }
  ],
- "updated": "2026-11-09T22:00:34+09:00"
+ "updated": "2026-11-10T18:00:09+09:00"
 }
