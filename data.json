@@ -9012,7 +9012,7 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2120714169532186885",
+   "post": "https://x.com/idoll_omiya/status/2120858541317931262",
    "thumb": null,
    "image": null,
    "also": [
@@ -9085,6 +9085,26 @@
    "post": "https://x.com/idoll_omiya/status/2116160697843294426",
    "thumb": "https://pbs.twimg.com/media/HV4ak65b0AABwgL?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HV4ak65b0AABwgL?format=jpg&name=medium"
+  },
+  {
+   "key": "idoll_omiya|2026-11-28",
+   "account": "idoll_omiya",
+   "date": "2026-11-28",
+   "title": "アイコレ",
+   "venue": "LUMINE 0",
+   "open": "10:40",
+   "start": "11:00",
+   "stage": "16:15-16:35",
+   "tickets": [
+    "https://tiget.net/events/537396"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2120864198137680005",
+   "thumb": "https://pbs.twimg.com/media/HW7NZPebQAApd9Y?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HW7NZPebQAApd9Y?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-11-29",
@@ -9266,9 +9286,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2120486716540846229",
-   "thumb": "https://pbs.twimg.com/media/HW0owSla8AA6PLR?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HW0owSla8AA6PLR?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2120849086613971301",
+   "thumb": "https://pbs.twimg.com/media/HW0pEc0aAAAFwlh?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HW0pEc0aAAAFwlh?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-12-19",
@@ -9292,9 +9312,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2120486703777333448",
-   "thumb": "https://pbs.twimg.com/media/HW0pmD8bIAAXkSm?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HW0pmD8bIAAXkSm?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2120849099658244418",
+   "thumb": "https://pbs.twimg.com/media/HW0puPNbUAAzFsL?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HW0puPNbUAAzFsL?format=jpg&name=medium",
    "also": [
     {
      "key": "idoll_omiya|2026-12-19",
@@ -9342,5 +9362,5 @@
    "image": null
   }
  ],
- "updated": "2026-11-12T18:00:31+09:00"
+ "updated": "2026-11-12T22:00:27+09:00"
 }
