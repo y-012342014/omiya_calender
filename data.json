@@ -9056,7 +9056,7 @@
    "venue": "浅草VAMPKIN",
    "open": "15:30",
    "start": "16:00",
-   "stage": "18:30-18:55",
+   "stage": "16:50-17:15",
    "tickets": [
     "https://tiget.net/events/538107"
    ],
@@ -9064,9 +9064,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2121513566952104233",
-   "thumb": "https://pbs.twimg.com/media/HXEhSYbbIAAf-RW?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXEhSYbbIAAf-RW?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2121597932462125160",
+   "thumb": "https://pbs.twimg.com/media/HXFtucMbMAAANW2?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXFtucMbMAAANW2?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-21",
@@ -9475,5 +9475,5 @@
    "image": null
   }
  ],
- "updated": "2026-11-14T18:00:15+09:00"
+ "updated": "2026-11-15T08:00:26+09:00"
 }
