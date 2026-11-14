@@ -9049,6 +9049,26 @@
    ]
   },
   {
+   "key": "hymel_info|2026-11-20",
+   "account": "hymel_info",
+   "date": "2026-11-20",
+   "title": "Matsuriアイドルフェス",
+   "venue": "浅草VAMPKIN",
+   "open": "15:30",
+   "start": "16:00",
+   "stage": "18:30-18:55",
+   "tickets": [
+    "https://tiget.net/events/538107"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2121513566952104233",
+   "thumb": "https://pbs.twimg.com/media/HXEhSYbbIAAf-RW?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXEhSYbbIAAf-RW?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-21",
    "account": "idoll_omiya",
    "date": "2026-11-21",
@@ -9165,8 +9185,8 @@
    "date": "2026-11-28",
    "title": "ホットドッグライブ",
    "venue": "アイドル育成型ライブカフェIDOLL",
-   "open": "15:10",
-   "start": "15:30",
+   "open": "12:30",
+   "start": "12:50",
    "stage": null,
    "tickets": [
     "https://tiget.net/events/538847"
@@ -9175,9 +9195,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2121182218022162941",
-   "thumb": "https://pbs.twimg.com/media/HW_z1uObAAE8Tlx?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HW_z1uObAAE8Tlx?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2121437966245798242",
+   "thumb": "https://pbs.twimg.com/media/HW_0I4HbsAA6U_H?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HW_0I4HbsAA6U_H?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-11-29",
@@ -9396,6 +9416,26 @@
    ]
   },
   {
+   "key": "hymel_info|2026-12-20",
+   "account": "hymel_info",
+   "date": "2026-12-20",
+   "title": "さわやか3組主催 ア サ カ ツ!",
+   "venue": "SHIBUYA THE GAME",
+   "open": "10:00",
+   "start": "10:30",
+   "stage": null,
+   "tickets": [
+    "https://livepocket.jp/e/87_zr"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2121510039538336252",
+   "thumb": "https://pbs.twimg.com/media/HXEcjpMbcAAccbV?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXEcjpMbcAAccbV?format=jpg&name=medium"
+  },
+  {
    "key": "hymel_info|2026-12-28",
    "account": "hymel_info",
    "date": "2026-12-28",
@@ -9435,5 +9475,5 @@
    "image": null
   }
  ],
- "updated": "2026-11-14T08:00:27+09:00"
+ "updated": "2026-11-14T18:00:15+09:00"
 }
