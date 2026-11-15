@@ -8959,9 +8959,9 @@
    "status": "scheduled",
    "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2117949985740185971",
-   "thumb": "https://pbs.twimg.com/media/HWQr0zIboAANyVs?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HWQr0zIboAANyVs?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2121755060166164977",
+   "thumb": "https://pbs.twimg.com/media/HWQr7L9bQAAQFNm?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HWQr7L9bQAAQFNm?format=jpg&name=medium",
    "also": [
     {
      "key": "idoll_omiya|2026-11-15",
@@ -8985,9 +8985,9 @@
    "status": "scheduled",
    "sale": "on",
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2117949990370766927",
-   "thumb": "https://pbs.twimg.com/media/HWQrhFzbUAA1VIo?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HWQrhFzbUAA1VIo?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2121755059428184161",
+   "thumb": "https://pbs.twimg.com/media/HWQrmkxasAAUuYR?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HWQrmkxasAAUuYR?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-11-15",
@@ -9259,7 +9259,7 @@
    "venue": "シアターマーキュリー新宿",
    "open": "16:40",
    "start": "17:00",
-   "stage": null,
+   "stage": "18:05-18:25",
    "tickets": [
     "https://tiget.net/events/536751"
    ],
@@ -9267,9 +9267,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2119006956400648484",
-   "thumb": "https://pbs.twimg.com/media/HWb130_aIAA532n?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HWb130_aIAA532n?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2121800355235115406",
+   "thumb": "https://pbs.twimg.com/media/HXEkjqfbAAEWo5H?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXEkjqfbAAEWo5H?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-12-05",
@@ -9431,9 +9431,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2121510039538336252",
-   "thumb": "https://pbs.twimg.com/media/HXEcjpMbcAAccbV?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXEcjpMbcAAccbV?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2121800357881717039",
+   "thumb": "https://pbs.twimg.com/media/HXEemuqaUAAHaft?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXEemuqaUAAHaft?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-12-28",
@@ -9475,5 +9475,5 @@
    "image": null
   }
  ],
- "updated": "2026-11-15T08:00:26+09:00"
+ "updated": "2026-11-15T12:00:20+09:00"
 }
