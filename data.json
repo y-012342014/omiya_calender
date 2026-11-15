@@ -9436,6 +9436,58 @@
    "image": "https://pbs.twimg.com/media/HXEemuqaUAAHaft?format=jpg&name=medium"
   },
   {
+   "key": "idoll_omiya|2026-12-27",
+   "account": "idoll_omiya",
+   "date": "2026-12-27",
+   "title": "冠Fes-カンフェス-年末SP-",
+   "venue": "Zirco Tokyo",
+   "open": "08:45",
+   "start": "08:55",
+   "stage": "14:45-15:05",
+   "tickets": [
+    "https://ticketdive.com/event/kanfes_1227"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2121951359230697763",
+   "thumb": "https://pbs.twimg.com/media/HXKugzybMAAKs0C?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXKugzybMAAKs0C?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "hymel_info|2026-12-27",
+     "how": "same"
+    }
+   ]
+  },
+  {
+   "key": "hymel_info|2026-12-27",
+   "account": "hymel_info",
+   "date": "2026-12-27",
+   "title": "冠Fes-カンフェス-年末SP-",
+   "venue": "Zirco Tokyo",
+   "open": "08:45",
+   "start": "08:55",
+   "stage": "13:00-13:20",
+   "tickets": [
+    "https://ticketdive.com/event/kanfes_1227"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2121951361474724205",
+   "thumb": "https://pbs.twimg.com/media/HXKur8uaQAAbYmv?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXKur8uaQAAbYmv?format=jpg&name=medium",
+   "also": [
+    {
+     "key": "idoll_omiya|2026-12-27",
+     "how": "same"
+    }
+   ]
+  },
+  {
    "key": "hymel_info|2026-12-28",
    "account": "hymel_info",
    "date": "2026-12-28",
@@ -9475,5 +9527,5 @@
    "image": null
   }
  ],
- "updated": "2026-11-15T18:00:13+09:00"
+ "updated": "2026-11-15T22:00:39+09:00"
 }
