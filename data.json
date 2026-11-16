@@ -9160,6 +9160,26 @@
    ]
   },
   {
+   "key": "idoll_omiya|2026-11-26",
+   "account": "idoll_omiya",
+   "date": "2026-11-26",
+   "title": "FUTURE: SUPER LIVE",
+   "venue": "大塚FUTURE",
+   "open": "15:15",
+   "start": "15:30",
+   "stage": "19:20-19:40",
+   "tickets": [
+    "https://tiget.net/events/539257"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2122201750220443687",
+   "thumb": "https://pbs.twimg.com/media/HXOSSUTaEAAEOf4?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXOSSUTaEAAEOf4?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-11-28",
    "account": "idoll_omiya",
    "date": "2026-11-28",
@@ -9516,16 +9536,22 @@
    "stage": null,
    "tickets": [
     "https://event.tiget.net/omiya-i-doll-oneman-live",
-    "https://tiget.net/events/532444"
+    "https://tiget.net/events/532444",
+    "https://tiget.net/events/538712",
+    "https://tiget.net/events/538327",
+    "https://tiget.net/events/538719",
+    "https://tiget.net/events/538728",
+    "https://tiget.net/events/538735",
+    "https://tiget.net/events/538742"
    ],
    "type": "live",
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-11-09",
-   "post": "https://x.com/idoll_omiya/status/2122152971559661815",
+   "post": "https://x.com/idoll_omiya/status/2122200511881585022",
    "thumb": null,
    "image": null
   }
  ],
- "updated": "2026-11-16T12:00:22+09:00"
+ "updated": "2026-11-16T18:00:30+09:00"
 }
