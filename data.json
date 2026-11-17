@@ -9012,9 +9012,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2122117448296169710",
-   "thumb": "https://pbs.twimg.com/media/HXKsDRxaYAAgeTO?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXKsDRxaYAAgeTO?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2122525135705911611",
+   "thumb": null,
+   "image": null,
    "also": [
     {
      "key": "hymel_info|2026-11-16",
@@ -9085,6 +9085,26 @@
    "post": "https://x.com/idoll_omiya/status/2115643927026106758",
    "thumb": "https://pbs.twimg.com/media/HVxGBWMbwAAcbGk?format=jpg&name=small",
    "image": "https://pbs.twimg.com/media/HVxGBWMbwAAcbGk?format=jpg&name=medium"
+  },
+  {
+   "key": "hymel_info|2026-11-21",
+   "account": "hymel_info",
+   "date": "2026-11-21",
+   "title": "MELORiA!",
+   "venue": "池袋SOUND PEACE",
+   "open": "09:00",
+   "start": "09:15",
+   "stage": "11:30-11:45",
+   "tickets": [
+    "https://livepocket.jp/e/nc5gc"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2122525132245917819",
+   "thumb": "https://pbs.twimg.com/media/HXQusFebMAA-9Dz?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXQusFebMAA-9Dz?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-21|2",
@@ -9548,10 +9568,10 @@
    "status": "scheduled",
    "sale": "before",
    "sale_start": "2026-11-09",
-   "post": "https://x.com/idoll_omiya/status/2122433165163954329",
+   "post": "https://x.com/idoll_omiya/status/2122525135705911611",
    "thumb": null,
    "image": null
   }
  ],
- "updated": "2026-11-17T08:00:35+09:00"
+ "updated": "2026-11-17T12:00:35+09:00"
 }
