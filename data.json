@@ -9102,9 +9102,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2122525132245917819",
-   "thumb": "https://pbs.twimg.com/media/HXQusFebMAA-9Dz?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXQusFebMAA-9Dz?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2122615733352091844",
+   "thumb": "https://pbs.twimg.com/media/HXQuzNIbYAA99Vx?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXQuzNIbYAA99Vx?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-11-21|2",
@@ -9549,7 +9549,7 @@
    "key": "idoll_omiya|2027-03-09",
    "account": "idoll_omiya",
    "date": "2027-03-09",
-   "title": "12th ONE MAN LIVE",
+   "title": "Zeppワンマン",
    "venue": "Zepp Shinjuku",
    "open": null,
    "start": null,
@@ -9566,12 +9566,12 @@
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": "before",
+   "sale": "on",
    "sale_start": "2026-11-09",
-   "post": "https://x.com/idoll_omiya/status/2122525135705911611",
-   "thumb": null,
-   "image": null
+   "post": "https://x.com/idoll_omiya/status/2122676132679946417",
+   "thumb": "https://pbs.twimg.com/media/HXU4X81aEAEn_U9?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXU4X81aEAEn_U9?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-17T12:00:35+09:00"
+ "updated": "2026-11-17T22:00:38+09:00"
 }
