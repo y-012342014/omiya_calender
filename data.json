@@ -9312,6 +9312,26 @@
    "image": "https://pbs.twimg.com/media/HXEkjqfbAAEWo5H?format=jpg&name=medium"
   },
   {
+   "key": "idoll_omiya|2026-11-30",
+   "account": "idoll_omiya",
+   "date": "2026-11-30",
+   "title": "JAPAN IDOL SUPER LIVE",
+   "venue": "新宿ReNY",
+   "open": "11:20",
+   "start": "11:45",
+   "stage": null,
+   "tickets": [
+    "https://ticketdive.com/event/JAPANIDOLSUPERLIVE2026ShinjukuReNY"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2123383488875508012",
+   "thumb": "https://pbs.twimg.com/media/HXfFqXabcAAErvo?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXfFqXabcAAErvo?format=jpg&name=medium"
+  },
+  {
    "key": "hymel_info|2026-12-05",
    "account": "hymel_info",
    "date": "2026-12-05",
@@ -9419,9 +9439,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2122993226600657062",
-   "thumb": "https://pbs.twimg.com/media/HXYLVHLa4AA3t-Y?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXYLVHLa4AA3t-Y?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2123355619013140683",
+   "thumb": "https://pbs.twimg.com/media/HXYLj0FbcAAsyaL?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXYLj0FbcAAsyaL?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-12-19|2",
@@ -9593,5 +9613,5 @@
    "image": "https://pbs.twimg.com/media/HXdQWKZbUAAL3uY?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-19T18:00:23+09:00"
+ "updated": "2026-11-19T22:00:18+09:00"
 }
