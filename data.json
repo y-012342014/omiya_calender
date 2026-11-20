@@ -9638,6 +9638,60 @@
    "image": null
   },
   {
+   "key": "hymel_info|2027-01-23",
+   "account": "hymel_info",
+   "date": "2027-01-23",
+   "title": ">名古屋",
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2123627575042081227",
+   "thumb": "https://pbs.twimg.com/media/HXiesubbYAEuhtB?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXiesubbYAEuhtB?format=jpg&name=medium"
+  },
+  {
+   "key": "hymel_info|2027-01-24",
+   "account": "hymel_info",
+   "date": "2027-01-24",
+   "title": ">大阪",
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2123627575042081227",
+   "thumb": "https://pbs.twimg.com/media/HXiesubbYAEuhtB?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXiesubbYAEuhtB?format=jpg&name=medium"
+  },
+  {
+   "key": "idoll_omiya|2027-02-06",
+   "account": "idoll_omiya",
+   "date": "2027-02-06",
+   "title": "07[sun]",
+   "venue": null,
+   "open": null,
+   "start": null,
+   "stage": null,
+   "tickets": [],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/idoll_omiya/status/2123634945377575324",
+   "thumb": "https://pbs.twimg.com/media/HXigkPjaEAEfunW?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HXigkPjaEAEfunW?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2027-03-09",
    "account": "idoll_omiya",
    "date": "2027-03-09",
@@ -9665,5 +9719,5 @@
    "image": "https://pbs.twimg.com/media/HXdQWKZbUAAL3uY?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-20T12:00:29+09:00"
+ "updated": "2026-11-20T18:00:27+09:00"
 }
