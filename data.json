@@ -9715,7 +9715,7 @@
    "key": "idoll_omiya|2027-03-09",
    "account": "idoll_omiya",
    "date": "2027-03-09",
-   "title": "12th ONE MAN LIVE",
+   "title": "来場証明書",
    "venue": "Zepp Shinjuku",
    "open": null,
    "start": null,
@@ -9732,12 +9732,12 @@
    ],
    "type": "live",
    "status": "scheduled",
-   "sale": "on",
+   "sale": "soldout",
    "sale_start": "2026-11-09",
-   "post": "https://x.com/idoll_omiya/status/2123254185806418330",
-   "thumb": "https://pbs.twimg.com/media/HXdQWKZbUAAL3uY?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXdQWKZbUAAL3uY?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2124866859917095379",
+   "thumb": "https://pbs.twimg.com/media/HX0LJQ6akAAilaP?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HX0LJQ6akAAilaP?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-23T12:00:40+09:00"
+ "updated": "2026-11-24T08:00:09+09:00"
 }
