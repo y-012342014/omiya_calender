@@ -9496,6 +9496,26 @@
    ]
   },
   {
+   "key": "hymel_info|2026-12-14",
+   "account": "hymel_info",
+   "date": "2026-12-14",
+   "title": "Colorium ~Unlimited Live~",
+   "venue": "SHIBUYA RING",
+   "open": "17:10",
+   "start": "17:25",
+   "stage": "19:40-20:05",
+   "tickets": [
+    "https://t-dv.com/cl261214"
+   ],
+   "type": "live",
+   "status": "scheduled",
+   "sale": null,
+   "sale_start": null,
+   "post": "https://x.com/hymel_info/status/2125394034155807209",
+   "thumb": "https://pbs.twimg.com/media/HX5aTbybcAAZ6Wh?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HX5aTbybcAAZ6Wh?format=jpg&name=medium"
+  },
+  {
    "key": "idoll_omiya|2026-12-19",
    "account": "idoll_omiya",
    "date": "2026-12-19",
@@ -9757,5 +9777,5 @@
    "image": "https://pbs.twimg.com/media/HX0LJQ6akAAilaP?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-25T09:51:18+09:00"
+ "updated": "2026-11-25T12:00:17+09:00"
 }
