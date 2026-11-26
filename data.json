@@ -9319,7 +9319,7 @@
    "venue": "新宿ReNY",
    "open": "11:20",
    "start": "11:45",
-   "stage": null,
+   "stage": "14:50-15:10",
    "tickets": [
     "https://ticketdive.com/event/JAPANIDOLSUPERLIVE2026ShinjukuReNY"
    ],
@@ -9327,9 +9327,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2123400914136658106",
-   "thumb": "https://pbs.twimg.com/media/HXfGko7bsAEt3RF?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXfGko7bsAEt3RF?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2125934869268374003",
+   "thumb": "https://pbs.twimg.com/media/HYDUB2GaYAEDD7s?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HYDUB2GaYAEDD7s?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-12-03",
@@ -9339,7 +9339,7 @@
    "venue": "大塚FUTURE",
    "open": "13:50",
    "start": "14:05",
-   "stage": null,
+   "stage": "17:00-17:20",
    "tickets": [
     "https://tiget.net/events/540363"
    ],
@@ -9347,9 +9347,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2123763302572380351",
-   "thumb": "https://pbs.twimg.com/media/HXiDx6JbgAA6nMV?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXiDx6JbgAA6nMV?format=jpg&name=medium",
+   "post": "https://x.com/idoll_omiya/status/2125935032716198024",
+   "thumb": "https://pbs.twimg.com/media/HYDURyxaEAA4L0t?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HYDURyxaEAA4L0t?format=jpg&name=medium",
    "also": [
     {
      "key": "hymel_info|2026-12-03",
@@ -9365,7 +9365,7 @@
    "venue": "大塚FUTURE",
    "open": "13:50",
    "start": "14:05",
-   "stage": null,
+   "stage": "15:35-15:55",
    "tickets": [
     "https://tiget.net/events/540363"
    ],
@@ -9373,9 +9373,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2123763296691990958",
-   "thumb": "https://pbs.twimg.com/media/HXiEJhmaoAAsA1C?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXiEJhmaoAAsA1C?format=jpg&name=medium",
+   "post": "https://x.com/hymel_info/status/2125933872043180231",
+   "thumb": "https://pbs.twimg.com/media/HYDUwazasAA0-u3?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HYDUwazasAA0-u3?format=jpg&name=medium",
    "also": [
     {
      "key": "idoll_omiya|2026-12-03",
@@ -9411,7 +9411,7 @@
    "venue": "GOTANDA G4",
    "open": "09:30",
    "start": "10:00",
-   "stage": null,
+   "stage": "10:00-10:20",
    "tickets": [
     "https://tiget.net/events/540690"
    ],
@@ -9419,9 +9419,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2124337078360285530",
-   "thumb": "https://pbs.twimg.com/media/HXjRPiKaMAAe7Wd?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HXjRPiKaMAAe7Wd?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2125933670490161408",
+   "thumb": "https://pbs.twimg.com/media/HYDVBzya0AAR8l_?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HYDVBzya0AAR8l_?format=jpg&name=medium"
   },
   {
    "key": "idoll_omiya|2026-12-06",
@@ -9778,5 +9778,5 @@
    "image": "https://pbs.twimg.com/media/HX0LJQ6akAAilaP?format=jpg&name=medium"
   }
  ],
- "updated": "2026-11-26T18:00:11+09:00"
+ "updated": "2026-11-27T08:00:34+09:00"
 }
