@@ -9215,9 +9215,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/idoll_omiya/status/2121226586230014302",
-   "thumb": "https://pbs.twimg.com/media/HW_wveVbsAAJuG_?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HW_wveVbsAAJuG_?format=jpg&name=medium"
+   "post": "https://x.com/idoll_omiya/status/2126511410922521039",
+   "thumb": "https://pbs.twimg.com/media/HW_xeLEaMAAtUvK?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HW_xeLEaMAAtUvK?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-11-28",
@@ -9235,9 +9235,9 @@
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2121437966245798242",
-   "thumb": "https://pbs.twimg.com/media/HW_0I4HbsAA6U_H?format=jpg&name=small",
-   "image": "https://pbs.twimg.com/media/HW_0I4HbsAA6U_H?format=jpg&name=medium"
+   "post": "https://x.com/hymel_info/status/2126466103396233644",
+   "thumb": "https://pbs.twimg.com/media/HYDMyDlbYAACDq6?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HYDMyDlbYAACDq6?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2026-11-29",
@@ -9694,19 +9694,21 @@
    "key": "hymel_info|2026-12-28",
    "account": "hymel_info",
    "date": "2026-12-28",
-   "title": "1周年記念単独ライブ",
+   "title": "パチパチパーティー",
    "venue": "代々木ミューズホール",
-   "open": null,
-   "start": null,
-   "stage": null,
-   "tickets": [],
+   "open": "19:00",
+   "start": "19:20",
+   "stage": "19:20-20:20",
+   "tickets": [
+    "https://ticketdive.com/event/pachipachiparty261228"
+   ],
    "type": "live",
    "status": "scheduled",
    "sale": null,
    "sale_start": null,
-   "post": "https://x.com/hymel_info/status/2126303860566433934",
-   "thumb": null,
-   "image": null
+   "post": "https://x.com/hymel_info/status/2126579343967334820",
+   "thumb": "https://pbs.twimg.com/media/HYJVqR1aAAA2Jve?format=jpg&name=small",
+   "image": "https://pbs.twimg.com/media/HYJVqR1aAAA2Jve?format=jpg&name=medium"
   },
   {
    "key": "hymel_info|2027-01-23",
@@ -9808,5 +9810,5 @@
    "image": null
   }
  ],
- "updated": "2026-11-28T08:00:24+09:00"
+ "updated": "2026-11-28T18:03:50+09:00"
 }
